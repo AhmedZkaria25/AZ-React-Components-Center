@@ -1,0 +1,61 @@
+/* [project]/src/components/TemplatesCards.module.css [client] (css) */
+.TemplatesCards-module__RtTiLq__container {
+  color: #282c34;
+}
+
+.TemplatesCards-module__RtTiLq__grid {
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr !important;
+}
+
+.TemplatesCards-module__RtTiLq__card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.TemplatesCards-module__RtTiLq__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.TemplatesCards-module__RtTiLq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.TemplatesCards-module__RtTiLq__body {
+  padding: 20px;
+}
+
+.TemplatesCards-module__RtTiLq__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.TemplatesCards-module__RtTiLq__titleSmall {
+  background-color: #282c34;
+  border-radius: 4px;
+  margin: 8px 0 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b9caec !important;
+  width: fit-content !important;
+  padding: 2px 6px !important;
+}
+
+/*# sourceMappingURL=src_components_TemplatesCards_module_css_65f1660e._.single.css.map*/

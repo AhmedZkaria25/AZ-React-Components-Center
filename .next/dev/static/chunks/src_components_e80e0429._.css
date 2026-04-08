@@ -1,0 +1,618 @@
+/* [project]/src/components/PopupModal.module.css [client] (css) */
+.PopupModal-module__H8slma__overlay {
+  z-index: 1000;
+  background-color: #f5f7fbe6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.PopupModal-module__H8slma__modal {
+  background-color: #fff;
+  border: 1px solid #282c3429;
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 16px 40px #282c341f;
+}
+
+.PopupModal-module__H8slma__header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.PopupModal-module__H8slma__close {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.PopupModal-module__H8slma__tabs {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  padding: 0 30px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__tab {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #0000;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__activeTab {
+  color: #282c34;
+  cursor: pointer;
+  background: #61dafb;
+  border: none;
+  border-bottom: 3px solid #282c34;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__body {
+  color: #282c34;
+  background-color: #f7f7f7;
+  padding: 30px;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+.PopupModal-module__H8slma__pre {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.PopupModal-module__H8slma__code {
+  color: #282c34;
+}
+
+/* [project]/src/components/GridCards.module.css [client] (css) */
+.GridCards-module__kcEjmq__container {
+  color: #282c34;
+}
+
+.GridCards-module__kcEjmq__grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media screen and (max-width: 1100px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.GridCards-module__kcEjmq__card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.GridCards-module__kcEjmq__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.GridCards-module__kcEjmq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.GridCards-module__kcEjmq__body {
+  padding: 20px;
+}
+
+.GridCards-module__kcEjmq__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* [project]/src/components/TemplatesCards.module.css [client] (css) */
+.TemplatesCards-module__RtTiLq__container {
+  color: #282c34;
+}
+
+.TemplatesCards-module__RtTiLq__grid {
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr !important;
+}
+
+.TemplatesCards-module__RtTiLq__card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.TemplatesCards-module__RtTiLq__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.TemplatesCards-module__RtTiLq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.TemplatesCards-module__RtTiLq__body {
+  padding: 20px;
+}
+
+.TemplatesCards-module__RtTiLq__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.TemplatesCards-module__RtTiLq__titleSmall {
+  background-color: #282c34;
+  border-radius: 4px;
+  margin: 8px 0 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b9caec !important;
+  width: fit-content !important;
+  padding: 2px 6px !important;
+}
+
+/* [project]/src/components/#1 Todo List 2/styles/Todo.module.css [client] (css) */
+.Todo-module__CalMZG__no1_Todo_List_2 {
+  background-color: #4a536b;
+  border-radius: 1rem;
+  margin: 2.5rem;
+  overflow: auto;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2h1 {
+  color: #ff9a8d;
+  text-align: center;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert {
+  background-color: #aed6dc;
+  border-radius: .5rem;
+  margin: 0 3.5rem .5rem;
+  padding: 1rem;
+  position: relative;
+  overflow: auto;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div {
+  float: left;
+  display: inline-block;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div:first-of-type {
+  margin-right: .5rem;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div p {
+  color: #4a536b;
+  margin: .4rem 0;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div input {
+  border: none;
+  padding: .2rem;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert button {
+  float: right;
+  color: #ff9a8d;
+  clear: none;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  margin: 1.7rem 0;
+  font-weight: 900;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert .Todo-module__CalMZG__TodoInsert__span {
+  color: #4a536b;
+  cursor: default;
+  background-color: #eee;
+  border-radius: .5rem;
+  height: 1.4rem;
+  padding: .5rem;
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: .8rem;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert .Todo-module__CalMZG__TodoInsert__span button {
+  cursor: pointer;
+  margin: -.1rem 0 0 .3rem;
+  padding: 0 .5rem;
+  font-size: 1em;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems {
+  background-color: #aed6dc;
+  border-radius: .5rem;
+  margin: 0 4rem .8rem;
+  padding: .4rem 1rem;
+  overflow: auto;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems div {
+  float: left;
+  width: 82%;
+  display: inline-block;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems div h1 {
+  text-align: left;
+  margin: .5rem 0;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems div p {
+  margin: .25rem 0;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button {
+  float: right;
+  background-color: #0000;
+  border: none;
+  margin: 2.7rem .5rem;
+  padding: .8rem;
+  font-size: medium;
+  position: relative;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button:before {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  top: .3rem;
+  left: .38rem;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__dlt {
+  color: red;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__dlt:before {
+  content: "";
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__comp {
+  color: green;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__comp:before {
+  content: "";
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__und {
+  color: orange;
+}
+
+.Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button.Todo-module__CalMZG__und:before {
+  content: "";
+}
+
+@media (max-width: 768px) {
+  .Todo-module__CalMZG__no1_Todo_List_2 {
+    margin: 2.5rem 1rem;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert {
+    background-color: #0000;
+    margin: 0 0 .5rem;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div {
+    float: none;
+    display: block;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div:first-of-type {
+    margin-right: 0;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div p {
+    float: left;
+    clear: left;
+    color: #aed6dc;
+    margin-right: 1%;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div input {
+    float: right;
+    width: 78%;
+    margin-top: .2rem;
+    padding: .3rem .2rem;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert div input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert button {
+    clear: both;
+    cursor: pointer;
+    background-color: #aed6dc;
+    border-radius: .5rem;
+    margin: .2rem 0;
+    padding: .5rem 1rem;
+    display: block;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert .Todo-module__CalMZG__TodoInsert__span {
+    width: 90%;
+    height: 2rem;
+    padding: 3.5% 1.5%;
+    top: 1rem;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2#Todo-module__CalMZG__TodoInsert .Todo-module__CalMZG__TodoInsert__span button {
+    background-color: #0000;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems {
+    margin: 0 2rem .8rem;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems div {
+    width: 100%;
+  }
+
+  .Todo-module__CalMZG__no1_Todo_List_2.Todo-module__CalMZG__TodoItems button {
+    margin: .5rem;
+  }
+}
+
+/* [project]/src/components/TabsPage.module.css [client] (css) */
+.TabsPage-module__EdIkqa__page {
+  background-color: #f5f7fb;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.TabsPage-module__EdIkqa__h1 {
+  color: #282c34;
+  text-align: center;
+  text-shadow: 1px 1px 4px #61dafba6;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+}
+
+.TabsPage-module__EdIkqa__nav {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__navButton {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: 1px solid #282c3429;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+  transition: background .2s, border-color .2s;
+}
+
+.TabsPage-module__EdIkqa__navButton:hover {
+  background: #61dafb2e;
+}
+
+.TabsPage-module__EdIkqa__activeNavButton {
+  cursor: pointer;
+  color: #282c34;
+  background: #61dafb;
+  border: 1px solid #282c3433;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.TabsPage-module__EdIkqa__section {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 10px 24px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__sectionTitle {
+  color: #282c34;
+  margin: 0 0 18px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__form {
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__fieldGroup {
+  gap: 8px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__label {
+  color: #333;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__input, .TabsPage-module__EdIkqa__textarea {
+  color: #282c34;
+  background: #f8fafc;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.TabsPage-module__EdIkqa__textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.TabsPage-module__EdIkqa__actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__primaryButton, .TabsPage-module__EdIkqa__secondaryButton {
+  cursor: pointer;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__primaryButton {
+  color: #282c34;
+  background: #61dafb;
+}
+
+.TabsPage-module__EdIkqa__secondaryButton {
+  color: #282c34;
+  background: none;
+}
+
+.TabsPage-module__EdIkqa__subSection {
+  margin-top: 32px;
+}
+
+.TabsPage-module__EdIkqa__subTitle {
+  color: #282c34;
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.TabsPage-module__EdIkqa__listItem {
+  color: #282c34;
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+}
+
+.TabsPage-module__EdIkqa__cardsGrid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__cardBox {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 12px 28px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__cardTitle {
+  color: #282c34;
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__cardText {
+  color: #282c34cc;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=src_components_e80e0429._.css.map*/

@@ -1,0 +1,48 @@
+/* [project]/src/components/GridCards.module.css [client] (css) */
+.GridCards-module__kcEjmq__container {
+  color: #282c34;
+}
+
+.GridCards-module__kcEjmq__grid {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.GridCards-module__kcEjmq__card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.GridCards-module__kcEjmq__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.GridCards-module__kcEjmq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.GridCards-module__kcEjmq__body {
+  padding: 20px;
+}
+
+.GridCards-module__kcEjmq__title {
+  color: #282c34;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_components_GridCards_module_ff733eba.css.map*/

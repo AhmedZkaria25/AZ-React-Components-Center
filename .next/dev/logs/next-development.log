@@ -1,0 +1,990 @@
+[00:00:17.768] Server  LOG     ✓ Ready in 13.7s
+[00:02:15.772] Server  LOG     ○ Compiling / ...
+[00:09:50.995] Server  LOG     ✓ Compiled in 9s
+[00:12:31.172] Server  LOG     ✓ Compiled in 4.5s
+[00:18:24.333] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.339] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.345] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.352] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.358] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.365] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.370] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.374] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.379] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.385] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.390] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.396] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.399] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.455] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.459] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.508] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.515] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.520] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.526] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.532] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:1:1
+Module not found: Can't resolve '../components/'
+> 1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+  3 |
+  4 |
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.550] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.556] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.563] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.570] Server  ERROR   ⨯ ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.580] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.584] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.588] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.592] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:4:1
+Module not found: Can't resolve './'
+  2 | import { Card, TodoItems_1 } from '../data/dummyData';
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+> 4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.596] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.599] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.603] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.606] Server  ERROR   ⨯ ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:24.609] Server  LOG     ✓ Compiled in 6.1s
+[00:18:25.384] Browser ERROR   ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:25.384] Browser ERROR   ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:59.374] Browser ERROR   ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:59.374] Browser ERROR   ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:00.383] Browser ERROR   ./src/data/TemplatesCardsData.ts:2:1
+Module not found: Can't resolve '../components/'
+  1 | import TodoHeader_1 from '../components/#1 Todo List 2/components/TodoHeader';
+> 2 | import TodoItem_1 from '../components/#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 |
+  5 | export let TemplatesCardsData = [
+
+Import traces:
+  Browser:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/data/TemplatesCardsData.ts
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:00.383] Browser ERROR   ./src/components/TemplatesCards.tsx:5:1
+Module not found: Can't resolve './'
+  3 | import { TemplatesCardsData } from 'data/TemplatesCardsData';
+  4 | import TodoHeader_1 from './#1 Todo List 2/components/TodoHeader';
+> 5 | import TodoItem_1 from './#1 Todo List 2/components/TodoItem';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import PopupModal from './PopupModal';
+  7 | import styles from './TemplatesCards.module.css';
+  8 | import { fetchComponents, fetchStyles } from '../helpers/helpers';
+
+Import traces:
+  Browser:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+  SSR:
+    ./src/components/TemplatesCards.tsx
+    ./src/components/TabsPage.tsx
+    ./src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:52.062] Server  LOG     ✓ Compiled in 4.7s
+[00:19:53.368] Browser ERROR   unhandledRejection: TypeError: Cannot set properties of undefined (setting 'undefined')
+[00:19:53.368] Browser ERROR   unhandledRejection: TypeError: Cannot set properties of undefined (setting 'undefined')
+[00:19:53.369] Browser ERROR   unhandledRejection: TypeError: Cannot set properties of undefined (setting 'undefined')
+[00:19:53.369] Browser ERROR   unhandledRejection: TypeError: Cannot set properties of undefined (setting 'undefined')
+[00:20:19.493] Server  LOG     ✓ Compiled in 17ms
+[00:22:14.709] Server  LOG     ✓ Compiled in 6ms
+[00:41:54.761] Server  LOG     ✓ Compiled in 8ms
+[00:53:11.124] Server  LOG     ✓ Compiled in 23ms
+[01:01:47.029] Server  LOG     ✓ Compiled in 10ms

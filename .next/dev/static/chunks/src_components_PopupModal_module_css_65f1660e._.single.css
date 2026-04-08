@@ -1,0 +1,96 @@
+/* [project]/src/components/PopupModal.module.css [client] (css) */
+.PopupModal-module__H8slma__overlay {
+  z-index: 1000;
+  background-color: #f5f7fbe6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.PopupModal-module__H8slma__modal {
+  background-color: #fff;
+  border: 1px solid #282c3429;
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 16px 40px #282c341f;
+}
+
+.PopupModal-module__H8slma__header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.PopupModal-module__H8slma__close {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.PopupModal-module__H8slma__tabs {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  padding: 0 30px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__tab {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #0000;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__activeTab {
+  color: #282c34;
+  cursor: pointer;
+  background: #61dafb;
+  border: none;
+  border-bottom: 3px solid #282c34;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__body {
+  color: #282c34;
+  background-color: #f7f7f7;
+  padding: 30px;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+.PopupModal-module__H8slma__pre {
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.PopupModal-module__H8slma__code {
+  color: #282c34;
+}
+
+/*# sourceMappingURL=src_components_PopupModal_module_css_65f1660e._.single.css.map*/

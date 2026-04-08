@@ -1,0 +1,173 @@
+/* [project]/src/components/TabsPage.module.css [client] (css) */
+.TabsPage-module__EdIkqa__page {
+  background-color: #f5f7fb;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.TabsPage-module__EdIkqa__h1 {
+  color: #282c34;
+  text-align: center;
+  text-shadow: 1px 1px 4px #61dafba6;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+}
+
+.TabsPage-module__EdIkqa__nav {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__navButton {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: 1px solid #282c3429;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+  transition: background .2s, border-color .2s;
+}
+
+.TabsPage-module__EdIkqa__navButton:hover {
+  background: #61dafb2e;
+}
+
+.TabsPage-module__EdIkqa__activeNavButton {
+  cursor: pointer;
+  color: #282c34;
+  background: #61dafb;
+  border: 1px solid #282c3433;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.TabsPage-module__EdIkqa__section {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 10px 24px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__sectionTitle {
+  color: #282c34;
+  margin: 0 0 18px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__form {
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__fieldGroup {
+  gap: 8px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__label {
+  color: #333;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__input, .TabsPage-module__EdIkqa__textarea {
+  color: #282c34;
+  background: #f8fafc;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.TabsPage-module__EdIkqa__textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.TabsPage-module__EdIkqa__actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__primaryButton, .TabsPage-module__EdIkqa__secondaryButton {
+  cursor: pointer;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__primaryButton {
+  color: #282c34;
+  background: #61dafb;
+}
+
+.TabsPage-module__EdIkqa__secondaryButton {
+  color: #282c34;
+  background: none;
+}
+
+.TabsPage-module__EdIkqa__subSection {
+  margin-top: 32px;
+}
+
+.TabsPage-module__EdIkqa__subTitle {
+  color: #282c34;
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.TabsPage-module__EdIkqa__listItem {
+  color: #282c34;
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+}
+
+.TabsPage-module__EdIkqa__cardsGrid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__cardBox {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 12px 28px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__cardTitle {
+  color: #282c34;
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__cardText {
+  color: #282c34cc;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/*# sourceMappingURL=src_components_TabsPage_module_css_65f1660e._.single.css.map*/

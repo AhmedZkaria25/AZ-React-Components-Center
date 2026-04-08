@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/Developer/React/Projects/A-Liberary/AZ-React-Components-Center/src/pages/index.tsx"],"sourcesContent":["import React from 'react'\r\n\r\ninterface Props {\r\n    \r\n}\r\n\r\nconst Page = (props: Props) => {\r\n    return <h1>Hello, Next.js!</h1>\r\n}\r\n\r\nexport default Page\r\n"],"names":[],"mappings":";;;;;;AAMA,MAAM,OAAO,CAAC;IACV,qBAAO,qKAAC;kBAAG;;;;;;AACf;uCAEe"}}]
+}
