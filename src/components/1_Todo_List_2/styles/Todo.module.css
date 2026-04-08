@@ -1,0 +1,191 @@
+@charset "UTF-8";
+.no1_Todo_List_2{
+  background-color: #4a536b;
+  margin: 2.5rem;
+  overflow: auto;
+  border-radius: 1rem;
+}
+.no1_Todo_List_2h1 {
+  color: #ff9a8d;
+  text-align: center;
+}
+.no1_Todo_List_2#TodoInsert {
+  overflow: auto;
+  padding: 1rem;
+  margin: 0rem 3.5rem 0.5rem;
+  background-color: #aed6dc;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.no1_Todo_List_2#TodoInsert div {
+  float: left;
+  display: inline-block;
+}
+.no1_Todo_List_2#TodoInsert div:first-of-type {
+  margin-right: 0.5rem;
+}
+.no1_Todo_List_2#TodoInsert div p {
+  margin: 0.4rem 0rem;
+  color: #4a536b;
+}
+.no1_Todo_List_2#TodoInsert div input {
+  border: none;
+  padding: 0.2rem;
+}
+.no1_Todo_List_2#TodoInsert div input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+.no1_Todo_List_2#TodoInsert button {
+  float: right;
+  margin: 1.7rem 0rem;
+  color: #ff9a8d;
+  font-weight: 900;
+  background-color: transparent;
+  border: none;
+  clear: none;
+  cursor: pointer;
+}
+.no1_Todo_List_2#TodoInsert .TodoInsert__span {
+  position: absolute;
+  top: 3rem;
+  left: 0.8rem;
+  background-color: #eee;
+  color: #4a536b;
+  height: 1.4rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: none;
+  cursor: default;
+}
+.no1_Todo_List_2#TodoInsert .TodoInsert__span button {
+  margin: 0;
+  padding: 0rem 0.5rem;
+  margin-top: -0.1rem;
+  margin-left: 0.3rem;
+  font-size: 1em;
+  cursor: pointer;
+}
+.no1_Todo_List_2.TodoItems {
+  overflow: auto;
+  padding: 0.4rem 1rem;
+  margin: 0rem 4rem 0.8rem;
+  background-color: #aed6dc;
+  border-radius: 0.5rem;
+}
+.no1_Todo_List_2.TodoItems div {
+  float: left;
+  display: inline-block;
+  width: 82%;
+}
+.no1_Todo_List_2.TodoItems div h1 {
+  text-align: left;
+  margin: 0.5rem 0rem;
+}
+.no1_Todo_List_2.TodoItems div p {
+  margin: 0.25rem 0rem;
+}
+.no1_Todo_List_2.TodoItems button {
+  float: right;
+  margin: 2.7rem 0.5rem;
+  font-size: medium;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  padding: 0.8rem;
+}
+.no1_Todo_List_2.TodoItems button::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  -webkit-font-feature-settings: normal;
+          font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.38rem;
+}
+.no1_Todo_List_2.TodoItems button.dlt {
+  color: red;
+}
+.no1_Todo_List_2.TodoItems button.dlt::before {
+  content: "";
+}
+.no1_Todo_List_2.TodoItems button.comp {
+  color: green;
+}
+.no1_Todo_List_2.TodoItems button.comp::before {
+  content: "";
+}
+.no1_Todo_List_2.TodoItems button.und {
+  color: orange;
+}
+.no1_Todo_List_2.TodoItems button.und::before {
+  content: "";
+}
+
+@media (max-width: 768px) {
+  .no1_Todo_List_2{
+    margin: 2.5rem 1rem;
+  }
+  .no1_Todo_List_2#TodoInsert {
+    margin: 0rem 0rem 0.5rem;
+    background-color: transparent;
+  }
+  .no1_Todo_List_2#TodoInsert div {
+    display: block;
+    float: none;
+  }
+  .no1_Todo_List_2#TodoInsert div:first-of-type {
+    margin-right: 0rem;
+  }
+  .no1_Todo_List_2#TodoInsert div p {
+    float: left;
+    margin-right: 1%;
+    clear: left;
+    color: #aed6dc;
+  }
+  .no1_Todo_List_2#TodoInsert div input {
+    padding: 0.3rem 0.2rem;
+    margin-top: 0.2rem;
+    width: 78%;
+    float: right;
+  }
+  .no1_Todo_List_2#TodoInsert div input:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+  }
+  .no1_Todo_List_2#TodoInsert button {
+    display: block;
+    clear: both;
+    margin: 0.2rem 0rem;
+    background-color: #aed6dc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .no1_Todo_List_2#TodoInsert .TodoInsert__span {
+    top: 1rem;
+    height: 2rem;
+    padding: 3.5% 1.5%;
+    width: 90%;
+  }
+  .no1_Todo_List_2#TodoInsert .TodoInsert__span button {
+    background-color: transparent;
+  }
+  .no1_Todo_List_2.TodoItems {
+    margin: 0rem 2rem 0.8rem;
+  }
+  .no1_Todo_List_2.TodoItems div {
+    width: 100%;
+  }
+  .no1_Todo_List_2.TodoItems button {
+    margin: 0.5rem 0.5rem;
+  }
+}
