@@ -1,0 +1,172 @@
+.page {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f7fb;
+}
+
+.h1 {
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
+  color: #282c34;
+  text-align: center;
+  text-shadow: 1px 1px 4px #61dafba6;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.navButton {
+  padding: 12px 18px;
+  background: transparent;
+  border: 1px solid rgba(40, 44, 52, 0.16);
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #282c34;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.navButton:hover {
+  background: rgba(97, 218, 251, 0.18);
+}
+
+.activeNavButton {
+  padding: 12px 18px;
+  background: #61dafb;
+  border: 1px solid rgba(40, 44, 52, 0.2);
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #282c34;
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section {
+  background: #ffffff;
+  border: 1px solid rgba(40, 44, 52, 0.12);
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 10px 24px rgba(40, 44, 52, 0.06);
+}
+
+.sectionTitle {
+  margin: 0 0 18px 0;
+  font-size: 22px;
+  color: #282c34;
+  font-weight: 600;
+}
+
+.form {
+  display: grid;
+  gap: 18px;
+}
+
+.fieldGroup {
+  display: grid;
+  gap: 8px;
+}
+
+.label {
+  font-weight: 600;
+  color: #333;
+}
+
+.input,
+.textarea {
+  padding: 12px 14px;
+  border: 1px solid rgba(40, 44, 52, 0.16);
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #282c34;
+  width: 100%;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 12px 22px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid rgba(40, 44, 52, 0.16);
+  cursor: pointer;
+}
+
+.primaryButton {
+  background: #61dafb;
+  color: #282c34;
+}
+
+.secondaryButton {
+  background: transparent;
+  color: #282c34;
+}
+
+.subSection {
+  margin-top: 32px;
+}
+
+.subTitle {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  color: #282c34;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  padding: 14px 18px;
+  border: 1px solid rgba(40, 44, 52, 0.12);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #282c34;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.cardBox {
+  padding: 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(40, 44, 52, 0.12);
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(40, 44, 52, 0.06);
+}
+
+.cardTitle {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #282c34;
+}
+
+.cardText {
+  margin: 0;
+  color: rgba(40, 44, 52, 0.8);
+  line-height: 1.4;
+}
