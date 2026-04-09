@@ -1,0 +1,13 @@
+/* [project]/src/components/2_React_Firebase/components/Item List/itemList.css [client] (css) */
+.item-list {
+  width: 70%;
+  margin: 3rem auto 0;
+}
+
+@media (max-width: 786px) {
+  .item-list {
+    width: 88%;
+  }
+}
+
+/*# sourceMappingURL=src_components_2_React_Firebase_components_Item%20List_itemList_css_65f1660e._.single.css.map*/

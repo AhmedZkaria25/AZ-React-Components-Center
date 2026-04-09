@@ -1,0 +1,22 @@
+/* [project]/src/components/2_React_Firebase/components/Navbar/navbar.css [client] (css) */
+#nav {
+  background-color: #82eac6;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: .5rem 1.5rem;
+  display: flex;
+}
+
+#nav a {
+  color: #333;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
+#nav h2 {
+  margin-right: 30rem;
+}
+
+/*# sourceMappingURL=src_components_2_React_Firebase_components_Navbar_navbar_css_65f1660e._.single.css.map*/

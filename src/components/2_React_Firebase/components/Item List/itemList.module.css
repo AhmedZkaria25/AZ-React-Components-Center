@@ -1,0 +1,9 @@
+.item-list {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 70%;
+}
+
+@media (max-width: 786px){
+    .item-list{ width: 88%; }
+}

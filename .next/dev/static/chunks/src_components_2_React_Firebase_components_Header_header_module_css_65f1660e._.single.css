@@ -1,0 +1,45 @@
+/* [project]/src/components/2_React_Firebase/components/Header/header.module.css [client] (css) */
+.header-module__T0Tnia__header {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.header-module__T0Tnia__header__title {
+  letter-spacing: 2px;
+}
+
+.header-module__T0Tnia__header__title h1 {
+  position: relative;
+}
+
+.header-module__T0Tnia__header__title h1 span {
+  font-size: 42%;
+  position: absolute;
+  bottom: -.8rem;
+  left: .1rem;
+}
+
+.header-module__T0Tnia__header__balance {
+  background-color: var(--grey);
+  color: var(--light);
+  border-radius: 15px;
+  align-self: flex-start;
+  padding: .7rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .header-module__T0Tnia__header__title h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-module__T0Tnia__header__balance {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_2_React_Firebase_components_Header_header_module_css_65f1660e._.single.css.map*/

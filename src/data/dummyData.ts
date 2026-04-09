@@ -19,6 +19,13 @@ export interface TodoItem_1 {
   desc: string;
 }
 
+export interface BudgetTrackerItem_2 {
+  title: string;
+  type: string;
+  amount: string;
+  date: string;
+}
+
 export const FormCards: Card[] = [
   {
     id: 1,
@@ -39,3 +46,55 @@ export const TodoItems_1: TodoItem_1[] = [{
   name: 'TodoItems-1',
   desc: 'loram ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 }];
+
+export const BudgetTrackerItems_2: BudgetTrackerItem_2[] = [
+  {
+    title: "Bus",
+    type: "expense",
+    amount: "-150",
+    date: "2021-06-02"
+  },
+  {
+    title: "Personal Co",
+    type: "expense",
+    amount: "-1500",
+    date: "2021-06-02"
+  },
+  {
+    title: "Food",
+    type: "expense",
+    amount: "-1200",
+    date: "2021-06-02"
+  },
+  {
+    title: "Clothes",
+    type: "expense",
+    amount: "-800",
+    date: "2021-06-03"
+  },
+  {
+    title: "car",
+    type: "expense",
+    amount: "-100",
+    date: "2021-06-09"
+  },
+  {
+    title: "Car Gas",
+    type: "expense",
+    amount: "-300",
+    date: "2021-06-29"
+  },
+  {
+    title: "salary",
+    type: "income",
+    amount: "4500",
+    date: "2022-10-10"
+  },
+  {
+    title: "coffee",
+    type: "expense",
+    amount: "-50",
+    date: "2022-10-11"
+  }
+];
+

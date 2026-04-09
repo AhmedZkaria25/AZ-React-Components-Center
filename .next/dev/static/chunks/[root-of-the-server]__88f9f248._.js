@@ -466,6 +466,8 @@ function triggerUpdate(msg) {
 "use strict";
 
 __turbopack_context__.s([
+    "BudgetTrackerItems_2",
+    ()=>BudgetTrackerItems_2,
     "FormCards",
     ()=>FormCards,
     "TodoItems_1",
@@ -489,6 +491,56 @@ const TodoItems_1 = [
     {
         name: 'TodoItems-1',
         desc: 'loram ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    }
+];
+const BudgetTrackerItems_2 = [
+    {
+        title: "Bus",
+        type: "expense",
+        amount: "-150",
+        date: "2021-06-02"
+    },
+    {
+        title: "Personal Co",
+        type: "expense",
+        amount: "-1500",
+        date: "2021-06-02"
+    },
+    {
+        title: "Food",
+        type: "expense",
+        amount: "-1200",
+        date: "2021-06-02"
+    },
+    {
+        title: "Clothes",
+        type: "expense",
+        amount: "-800",
+        date: "2021-06-03"
+    },
+    {
+        title: "car",
+        type: "expense",
+        amount: "-100",
+        date: "2021-06-09"
+    },
+    {
+        title: "Car Gas",
+        type: "expense",
+        amount: "-300",
+        date: "2021-06-29"
+    },
+    {
+        title: "salary",
+        type: "income",
+        amount: "4500",
+        date: "2022-10-10"
+    },
+    {
+        title: "coffee",
+        type: "expense",
+        amount: "-50",
+        date: "2022-10-11"
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -1151,14 +1203,14 @@ __turbopack_context__.s([
     ()=>fetchStyles
 ]);
 const fetchComponents = async (projectName, componentFile, arrayModify, indexModify, propertyModify)=>{
-    const url = `https://raw.githubusercontent.com/AhmedZkaria22/AZ-React-Components-Center/refs/heads/main/src/components/${projectName}/components/${componentFile}`;
+    const url = `https://raw.githubusercontent.com/AhmedZkaria25/AZ-React-Components-Center/refs/heads/main/src/components/${projectName}/components/${componentFile}`;
     await fetch(url).then((res)=>res.text()).then((content)=>{
         arrayModify[indexModify][`${propertyModify}`] = content;
         return content;
     });
 };
 const fetchStyles = async (projectName, styleFile, arrayModify, indexModify, propertyModify)=>{
-    const url = `https://raw.githubusercontent.com/AhmedZkaria22/AZ-React-Components-Center/refs/heads/main/src/components/${projectName}/styles/${styleFile}`;
+    const url = `https://raw.githubusercontent.com/AhmedZkaria25/AZ-React-Components-Center/refs/heads/main/src/components/${projectName}/styles/${styleFile}`;
     await fetch(url).then((res)=>res.text()).then((content)=>{
         arrayModify[indexModify][`${propertyModify}`] = content;
         return content;
