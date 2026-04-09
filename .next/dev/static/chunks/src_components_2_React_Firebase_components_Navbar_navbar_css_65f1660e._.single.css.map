@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/2_React_Firebase/components/Navbar/navbar.css"],"sourcesContent":["#nav{\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n    background-color: #82eac6;\r\n    margin-bottom: 1.5rem;\r\n    padding: 0.5rem 1.5rem;        \r\n}\r\n\r\n#nav a{ margin-right: 1.5rem;  text-decoration: none; color: #333; }\r\n#nav h2{ margin-right: 30rem; }"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;;AACA"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/2_React_Firebase/components/Header/header.css"],"sourcesContent":[".header {    \r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-around;\r\n    margin-top: 2rem;\r\n    margin-bottom: 2rem;\r\n}\r\n  \r\n.header__title {\r\n    letter-spacing: 2px;\r\n}\r\n\r\n.header__title h1{\r\n    position: relative;\r\n}\r\n\r\n.header__title h1 span{\r\n    position: absolute;\r\n    bottom: -0.8rem;\r\n    left: 0.1rem;\r\n    font-size: 42%;\r\n}\r\n\r\n.header__balance {\r\n    font-size: 2rem;\r\n    font-weight: 400;\r\n    padding: 0.7rem 2rem;\r\n    background-color: var(--grey);\r\n    color: var(--light);\r\n    border-radius: 15px;\r\n    align-self: flex-start;\r\n}\r\n\r\n@media (max-width: 576px){\r\n    .header__title h1{ font-size: 1.8rem; }\r\n    .header__balance{ font-size: 1.5rem; }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;AAIA;;;;AAIA;;;;;;;AAOA;;;;;;;;;;AAUA;EACI;;;;EACA"}}]
+}

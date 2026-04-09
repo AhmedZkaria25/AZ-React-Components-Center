@@ -1,0 +1,65 @@
+/* [project]/src/components/2_React_Firebase/components/Item/item.module.css [client] (css) */
+.item-module__ZSD2Xq__item {
+  border-bottom: 2px solid var(--grey);
+  justify-content: space-between;
+  width: 100%;
+  padding: .8rem 5rem;
+  display: flex;
+  position: relative;
+}
+
+.item-module__ZSD2Xq__item .item-module__ZSD2Xq__income {
+  color: green;
+}
+
+.item-module__ZSD2Xq__item .item-module__ZSD2Xq__expense {
+  color: red;
+}
+
+.item-module__ZSD2Xq__item__info {
+  align-items: center;
+  display: flex;
+}
+
+.item-module__ZSD2Xq__item__info p {
+  padding-right: 3rem;
+  font-size: 1.1rem;
+}
+
+.item-module__ZSD2Xq__item__title {
+  font-size: 1.2rem;
+}
+
+.item-module__ZSD2Xq__item__delete {
+  color: var(--alert);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .9rem;
+  transition: all .4s;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 786px) {
+  .item-module__ZSD2Xq__item {
+    padding: .6rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-module__ZSD2Xq__item__title {
+    font-size: 1.1rem;
+  }
+
+  .item-module__ZSD2Xq__item__info p {
+    font-size: 1rem;
+  }
+
+  .item-module__ZSD2Xq__item__delete {
+    font-size: .8rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_2_React_Firebase_components_Item_item_module_css_65f1660e._.single.css.map*/

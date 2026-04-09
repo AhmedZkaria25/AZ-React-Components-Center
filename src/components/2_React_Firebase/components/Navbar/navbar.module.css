@@ -1,0 +1,12 @@
+#nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #82eac6;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1.5rem;        
+}
+
+#nav a{ margin-right: 1.5rem;  text-decoration: none; color: #333; }
+#nav h2{ margin-right: 30rem; }

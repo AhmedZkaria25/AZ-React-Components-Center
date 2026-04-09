@@ -1,0 +1,59 @@
+/* [project]/src/components/2_React_Firebase/components/Photo Grid/photoGrid.module.css [client] (css) */
+:root {
+  --light: #fffffc;
+  --dark: #202c59;
+  --grey: #4c5b5c;
+  --primary: #ff7f11;
+  --alert: #ff1e2d;
+}
+
+.photoGrid-module__wjNG-G__App {
+  text-align: center;
+}
+
+.photoGrid-module__wjNG-G__App-header {
+  align-items: center;
+  justify-content: baseline;
+  min-height: 100vh;
+  color: var(--dark);
+  flex-flow: column wrap;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.photoGrid-module__wjNG-G__App-header h1 {
+  position: relative;
+}
+
+.photoGrid-module__wjNG-G__App-header h1 span {
+  font-size: 40%;
+  position: absolute;
+  bottom: -.8rem;
+  left: .2rem;
+}
+
+.photoGrid-module__wjNG-G__App-header progress {
+  border-radius: 21rem;
+  margin: .5rem 0;
+}
+
+.photoGrid-module__wjNG-G__App-header .photoGrid-module__wjNG-G__chooserBox {
+  align-items: center;
+  margin: .35rem 0 1.5rem;
+  display: flex;
+}
+
+.photoGrid-module__wjNG-G__App-header .photoGrid-module__wjNG-G__photo-grid {
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+  width: 90%;
+  display: grid;
+}
+
+.photoGrid-module__wjNG-G__App-header img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=b1a17_components_2_React_Firebase_components_Photo%20Grid_photoGrid_module_css_65f1660e._.single.css.map*/
