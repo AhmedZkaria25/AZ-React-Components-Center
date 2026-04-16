@@ -1177,9 +1177,9 @@ const AuthProvider = ({ children })=>{
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(true);
     (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
         const unSubscribe = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$2_React_Firebase$2f$Firebase$2f$Firebase$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["auth"].onAuthStateChanged((user)=>{
-            setUser(user);
+            setUser(user ?? null);
             setLoading(false);
-            console.log(user);
+            console.log(user ?? null);
         });
         return unSubscribe;
     }, []);
@@ -1195,7 +1195,7 @@ const AuthProvider = ({ children })=>{
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(AuthContext.Provider, {
         value: {
-            user
+            user: user ?? null
         },
         children: children
     }, void 0, false, {
@@ -1256,7 +1256,7 @@ const UserAuth = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
                         children: [
                             "Welcome ",
-                            user.email
+                            user?.email
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/2_React_Firebase/components/Auth/UserAuth.js",

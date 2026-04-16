@@ -1,5 +1,5 @@
 import React  from 'react';
-import '../styles/Todo.module.css';
+import styles from '../styles/Todo.module.css';
 import '../../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 function TodoItem({items})  {
@@ -49,17 +49,17 @@ function TodoItem({items})  {
     // console.log( items );
 
     return(
-        <div className="no1_Todo_List_2">
+        <div className={styles['no1_Todo_List_2']}>
         {
             items.map((item, index) => {
                 return (
-                    <section className="TodoItems" key={index} style={{maxWidth: '500px'}}>
+                    <section className={styles['TodoItems']} key={index} style={{maxWidth: '500px'}}>
                         <div>
-                            <h1 className={'TodoItems__name'}>{item.name}</h1>
-                            <p className={'TodoItems__desc'}>{item.desc}</p>
+                            <h1 className={styles['TodoItems__name']}>{item.name}</h1>
+                            <p className={styles['TodoItems__desc']}>{item.desc}</p>
                         </div>
-                        <button type="button" className={"dlt"} title="remove" onClick={ handelDelete}> Remove </button>
-                        <button type="button" className={"comp"} title="Complete" onClick={ handelComplete}> Complete </button>
+                        <button type="button" className={styles['dlt']} title="remove" onClick={ handelDelete}> Remove </button>
+                        <button type="button" className={styles['comp']} title="Complete" onClick={ handelComplete}> Complete </button>
                     </section>  
                 );
             })

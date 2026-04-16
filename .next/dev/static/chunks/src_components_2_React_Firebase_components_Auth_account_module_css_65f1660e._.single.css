@@ -1,5 +1,5 @@
 /* [project]/src/components/2_React_Firebase/components/Auth/account.module.css [client] (css) */
-#account-module__5DbHFW__account {
+.account-module__5DbHFW__account_2 {
   color: #1d1d1d;
   place-content: center;
   height: 100vh;
@@ -8,12 +8,12 @@
   display: grid;
 }
 
-#account-module__5DbHFW__account h1 {
+.account-module__5DbHFW__account_2 h1 {
   margin-bottom: .8rem;
   position: relative;
 }
 
-#account-module__5DbHFW__account h1 span {
+.account-module__5DbHFW__account_2 h1 span {
   font-size: 42%;
   position: absolute;
   bottom: -.5rem;
@@ -29,7 +29,7 @@
   padding: 3rem;
 }
 
-#account-module__5DbHFW__account button {
+.account-module__5DbHFW__account_2 button {
   margin-top: 2rem;
 }
 
@@ -42,21 +42,21 @@
   padding: 3rem;
 }
 
-#account-module__5DbHFW__account form {
+.account-module__5DbHFW__account_2 form {
   flex-direction: column;
   display: flex;
 }
 
-#account-module__5DbHFW__account form label {
+.account-module__5DbHFW__account_2 form label {
   text-align: left;
 }
 
-#account-module__5DbHFW__account form input {
+.account-module__5DbHFW__account_2 form input {
   border: 1px solid #333;
   margin-bottom: 1rem;
 }
 
-#account-module__5DbHFW__account .account-module__5DbHFW__form__error {
+.account-module__5DbHFW__account_2 .account-module__5DbHFW__form__error {
   color: red;
   font-size: .8rem;
   font-weight: 300;

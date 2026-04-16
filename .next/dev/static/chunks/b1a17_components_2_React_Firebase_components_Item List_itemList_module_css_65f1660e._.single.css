@@ -1,7 +1,9 @@
 /* [project]/src/components/2_React_Firebase/components/Item List/itemList.module.css [client] (css) */
 .itemList-module__a_ZrOG__item-list {
-  width: 70%;
+  width: 90%;
+  height: inherit;
   margin: 3rem auto 0;
+  overflow: auto;
 }
 
 @media (max-width: 786px) {

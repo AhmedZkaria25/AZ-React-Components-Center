@@ -40,7 +40,7 @@ const PopupModal: React.FC<Props> = ({ isOpen, card, activeTab, onTabChange, onC
           </button>
         </div>
 
-        <div className={styles.body}>
+        <div className={`${styles.body} ${activeTab === 'code' ? styles.jsCode : styles.cssCode}`}>
           <pre className={styles.pre}>
             <code className={styles.code}>{activeTab === 'code' ? card.code : card.style}</code>
           </pre>

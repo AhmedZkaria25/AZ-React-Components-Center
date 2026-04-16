@@ -1,0 +1,9504 @@
+/* [project]/src/components/PopupModal.module.css [client] (css) */
+.PopupModal-module__H8slma__overlay {
+  z-index: 1000;
+  background-color: #f5f7fbe6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.PopupModal-module__H8slma__modal {
+  background-color: #fff;
+  border: 1px solid #282c3429;
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 16px 40px #282c341f;
+}
+
+.PopupModal-module__H8slma__header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.PopupModal-module__H8slma__close {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.PopupModal-module__H8slma__tabs {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  padding: 0 30px;
+  display: flex;
+}
+
+.PopupModal-module__H8slma__tab {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #0000;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__activeTab {
+  color: #282c34;
+  cursor: pointer;
+  background: #61dafb;
+  border: none;
+  border-bottom: 3px solid #282c34;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.PopupModal-module__H8slma__body {
+  background-color: #0d1117;
+  padding: 30px;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+.PopupModal-module__H8slma__pre {
+  white-space: pre-wrap;
+  border-radius: 6px 12px 12px 6px;
+  margin: 0;
+  padding: 5px;
+}
+
+.PopupModal-module__H8slma__code {
+  font-family: sans-serif;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__jsCode .PopupModal-module__H8slma__code {
+  color: #cbcb41;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__cssCode .PopupModal-module__H8slma__code {
+  color: #cf1666;
+}
+
+/* [project]/src/components/GridCards.module.css [client] (css) */
+.GridCards-module__kcEjmq__container {
+  color: #282c34;
+}
+
+.GridCards-module__kcEjmq__grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media screen and (max-width: 1100px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .GridCards-module__kcEjmq__grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.GridCards-module__kcEjmq__card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.GridCards-module__kcEjmq__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.GridCards-module__kcEjmq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.GridCards-module__kcEjmq__body {
+  padding: 20px;
+}
+
+.GridCards-module__kcEjmq__title {
+  color: #282c34;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* [project]/src/components/TabsPage.module.css [client] (css) */
+.TabsPage-module__EdIkqa__page {
+  background-color: #f5f7fb;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.TabsPage-module__EdIkqa__h1 {
+  color: #282c34;
+  text-align: center;
+  text-shadow: 1px 1px 4px #61dafba6;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+}
+
+.TabsPage-module__EdIkqa__nav {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__navButton {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: 1px solid #282c3429;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+  transition: background .2s, border-color .2s;
+}
+
+.TabsPage-module__EdIkqa__navButton:hover {
+  background: #61dafb2e;
+}
+
+.TabsPage-module__EdIkqa__activeNavButton {
+  cursor: pointer;
+  color: #282c34;
+  background: #61dafb;
+  border: 1px solid #282c3433;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.TabsPage-module__EdIkqa__section {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 10px 24px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__sectionTitle {
+  color: #282c34;
+  margin: 0 0 18px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__form {
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__fieldGroup {
+  gap: 8px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__label {
+  color: #333;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__input, .TabsPage-module__EdIkqa__textarea {
+  color: #282c34;
+  background: #f8fafc;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.TabsPage-module__EdIkqa__textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.TabsPage-module__EdIkqa__actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.TabsPage-module__EdIkqa__primaryButton, .TabsPage-module__EdIkqa__secondaryButton {
+  cursor: pointer;
+  border: 1px solid #282c3429;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__primaryButton {
+  color: #282c34;
+  background: #61dafb;
+}
+
+.TabsPage-module__EdIkqa__secondaryButton {
+  color: #282c34;
+  background: none;
+}
+
+.TabsPage-module__EdIkqa__subSection {
+  margin-top: 32px;
+}
+
+.TabsPage-module__EdIkqa__subTitle {
+  color: #282c34;
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.TabsPage-module__EdIkqa__listItem {
+  color: #282c34;
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+}
+
+.TabsPage-module__EdIkqa__cardsGrid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 18px;
+  display: grid;
+}
+
+.TabsPage-module__EdIkqa__cardBox {
+  background: #fff;
+  border: 1px solid #282c341f;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 12px 28px #282c340f;
+}
+
+.TabsPage-module__EdIkqa__cardTitle {
+  color: #282c34;
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.TabsPage-module__EdIkqa__cardText {
+  color: #282c34cc;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* [project]/src/components/1_Todo_List_2/styles/Todo.module.css [client] (css) */
+.Todo-module__oGceqG__no1_Todo_List_2 h1 {
+  color: #ff9a8d;
+  text-align: center;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert {
+  background-color: #aed6dc;
+  border-radius: .5rem;
+  margin: 0 3.5rem .5rem;
+  padding: 1rem;
+  position: relative;
+  overflow: auto;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div {
+  float: left;
+  display: inline-block;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div:first-of-type {
+  margin-right: .5rem;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div p {
+  color: #4a536b;
+  margin: .4rem 0;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input {
+  border: none;
+  padding: .2rem;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert button {
+  float: right;
+  color: #ff9a8d;
+  clear: none;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  margin: 1.7rem 0;
+  font-weight: 900;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
+  color: #4a536b;
+  cursor: default;
+  background-color: #eee;
+  border-radius: .5rem;
+  height: 1.4rem;
+  padding: .5rem;
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: .8rem;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
+  cursor: pointer;
+  margin: -.1rem 0 0 .3rem;
+  padding: 0 .5rem;
+  font-size: 1em;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems {
+  background-color: #aed6dc;
+  border-radius: .5rem;
+  margin: 0 4rem .8rem;
+  padding: .4rem 1rem;
+  overflow: auto;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div {
+  float: left;
+  width: 82%;
+  display: inline-block;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div h1 {
+  text-align: left;
+  margin: .5rem 0;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div p {
+  margin: .25rem 0;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button {
+  float: right;
+  background-color: #0000;
+  border: none;
+  margin: 2.7rem .5rem;
+  padding: .8rem;
+  font-size: medium;
+  position: relative;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button:before {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  top: .3rem;
+  left: .38rem;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt {
+  color: red;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt:before {
+  content: "";
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp {
+  color: green;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp:before {
+  content: "";
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und {
+  color: orange;
+}
+
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und:before {
+  content: "";
+}
+
+@media (max-width: 768px) {
+  .Todo-module__oGceqG__no1_Todo_List_2 {
+    margin: 2.5rem 1rem;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert {
+    background-color: #0000;
+    margin: 0 0 .5rem;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div {
+    float: none;
+    display: block;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div:first-of-type {
+    margin-right: 0;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div p {
+    float: left;
+    clear: left;
+    color: #aed6dc;
+    margin-right: 1%;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input {
+    float: right;
+    width: 78%;
+    margin-top: .2rem;
+    padding: .3rem .2rem;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert button {
+    clear: both;
+    cursor: pointer;
+    background-color: #aed6dc;
+    border-radius: .5rem;
+    margin: .2rem 0;
+    padding: .5rem 1rem;
+    display: block;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
+    width: 90%;
+    height: 2rem;
+    padding: 3.5% 1.5%;
+    top: 1rem;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
+    background-color: #0000;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems {
+    margin: 0 2rem .8rem;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div {
+    width: 100%;
+  }
+
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button {
+    margin: .5rem;
+  }
+}
+
+/* [project]/node_modules/@fortawesome/fontawesome-free/css/all.css [client] (css) */
+.fa-solid, .fa-regular, .fa-brands, .fa-classic, .fas, .far, .fab, .fa {
+  --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Free"));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: var(--fa-display, inline-block);
+  font-family: var(--_fa-family);
+  font-feature-settings: normal;
+  font-synthesis: none;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: var(--fa-style, 900);
+  text-align: center;
+  text-rendering: auto;
+  width: var(--fa-width, 1.25em);
+  line-height: 1;
+}
+
+:is(.fas, .far, .fab, .fa-solid, .fa-regular, .fa-brands, .fa-classic, .fa):before {
+  content: var(--fa) / "";
+}
+
+@supports not (content: ""/"") {
+  :is(.fas, .far, .fab, .fa-solid, .fa-regular, .fa-brands, .fa-classic, .fa):before {
+    content: var(--fa);
+  }
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  vertical-align: .225em;
+  font-size: .625em;
+  line-height: .1em;
+}
+
+.fa-xs {
+  vertical-align: .125em;
+  font-size: .75em;
+  line-height: .0833333em;
+}
+
+.fa-sm {
+  vertical-align: .0535715em;
+  font-size: .875em;
+  line-height: .0714286em;
+}
+
+.fa-lg {
+  vertical-align: -.075em;
+  font-size: 1.25em;
+  line-height: .05em;
+}
+
+.fa-xl {
+  vertical-align: -.125em;
+  font-size: 1.5em;
+  line-height: .0416667em;
+}
+
+.fa-2xl {
+  vertical-align: -.1875em;
+  font-size: 2em;
+  line-height: .03125em;
+}
+
+.fa-width-auto {
+  --fa-width: auto;
+}
+
+.fa-fw, .fa-width-fixed {
+  --fa-width: 1.25em;
+}
+
+.fa-ul {
+  margin-inline-start: var(--fa-li-margin, 2.5em);
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+  position: absolute;
+  inset-inline-start: calc(-1 * var(--fa-li-width, 2em));
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, .1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, .0625em);
+  box-sizing: var(--fa-border-box-sizing, content-box);
+  padding: var(--fa-border-padding, .1875em .25em);
+}
+
+.fa-pull-left, .fa-pull-start {
+  float: inline-start;
+  margin-inline-end: var(--fa-pull-margin, .3em);
+}
+
+.fa-pull-right, .fa-pull-end {
+  float: inline-end;
+  margin-inline-start: var(--fa-pull-margin, .3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(.28, .84, .42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse, .fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat, .fa-bounce, .fa-fade, .fa-beat-fade, .fa-flip, .fa-pulse, .fa-shake, .fa-spin, .fa-spin-pulse {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1)translateY(0);
+  }
+
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0);
+  }
+
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em));
+  }
+
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0);
+  }
+
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em));
+  }
+
+  64% {
+    transform: scale(1)translateY(0);
+  }
+
+  100% {
+    transform: scale(1)translateY(0);
+  }
+}
+
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, .4);
+  }
+}
+
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, .4);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  4% {
+    transform: rotate(15deg);
+  }
+
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+
+  16% {
+    transform: rotate(-22deg);
+  }
+
+  20% {
+    transform: rotate(22deg);
+  }
+
+  32% {
+    transform: rotate(-12deg);
+  }
+
+  36% {
+    transform: rotate(12deg);
+  }
+
+  40%, 100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  vertical-align: middle;
+  width: 2.5em;
+  height: 2em;
+  line-height: 2em;
+  display: inline-block;
+  position: relative;
+}
+
+.fa-stack-1x, .fa-stack-2x {
+  --fa-width: 100%;
+  text-align: center;
+  width: var(--fa-width);
+  z-index: var(--fa-stack-z-index, auto);
+  position: absolute;
+  inset: 0;
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.fa-0 {
+  --fa: "0";
+}
+
+.fa-1 {
+  --fa: "1";
+}
+
+.fa-2 {
+  --fa: "2";
+}
+
+.fa-3 {
+  --fa: "3";
+}
+
+.fa-4 {
+  --fa: "4";
+}
+
+.fa-5 {
+  --fa: "5";
+}
+
+.fa-6 {
+  --fa: "6";
+}
+
+.fa-7 {
+  --fa: "7";
+}
+
+.fa-8 {
+  --fa: "8";
+}
+
+.fa-9 {
+  --fa: "9";
+}
+
+.fa-exclamation {
+  --fa: "!";
+}
+
+.fa-hashtag {
+  --fa: "#";
+}
+
+.fa-dollar-sign, .fa-dollar, .fa-usd {
+  --fa: "$";
+}
+
+.fa-percent, .fa-percentage {
+  --fa: "%";
+}
+
+.fa-asterisk {
+  --fa: "*";
+}
+
+.fa-plus, .fa-add {
+  --fa: "+";
+}
+
+.fa-less-than {
+  --fa: "<";
+}
+
+.fa-equals {
+  --fa: "=";
+}
+
+.fa-greater-than {
+  --fa: ">";
+}
+
+.fa-question {
+  --fa: "?";
+}
+
+.fa-at {
+  --fa: "@";
+}
+
+.fa-a {
+  --fa: "A";
+}
+
+.fa-b {
+  --fa: "B";
+}
+
+.fa-c {
+  --fa: "C";
+}
+
+.fa-d {
+  --fa: "D";
+}
+
+.fa-e {
+  --fa: "E";
+}
+
+.fa-f {
+  --fa: "F";
+}
+
+.fa-g {
+  --fa: "G";
+}
+
+.fa-h {
+  --fa: "H";
+}
+
+.fa-i {
+  --fa: "I";
+}
+
+.fa-j {
+  --fa: "J";
+}
+
+.fa-k {
+  --fa: "K";
+}
+
+.fa-l {
+  --fa: "L";
+}
+
+.fa-m {
+  --fa: "M";
+}
+
+.fa-n {
+  --fa: "N";
+}
+
+.fa-o {
+  --fa: "O";
+}
+
+.fa-p {
+  --fa: "P";
+}
+
+.fa-q {
+  --fa: "Q";
+}
+
+.fa-r {
+  --fa: "R";
+}
+
+.fa-s {
+  --fa: "S";
+}
+
+.fa-t {
+  --fa: "T";
+}
+
+.fa-u {
+  --fa: "U";
+}
+
+.fa-v {
+  --fa: "V";
+}
+
+.fa-w {
+  --fa: "W";
+}
+
+.fa-x {
+  --fa: "X";
+}
+
+.fa-y {
+  --fa: "Y";
+}
+
+.fa-z {
+  --fa: "Z";
+}
+
+.fa-faucet {
+  --fa: "";
+}
+
+.fa-faucet-drip {
+  --fa: "";
+}
+
+.fa-house-chimney-window {
+  --fa: "";
+}
+
+.fa-house-signal {
+  --fa: "";
+}
+
+.fa-temperature-arrow-down, .fa-temperature-down {
+  --fa: "";
+}
+
+.fa-temperature-arrow-up, .fa-temperature-up {
+  --fa: "";
+}
+
+.fa-trailer {
+  --fa: "";
+}
+
+.fa-bacteria {
+  --fa: "";
+}
+
+.fa-bacterium {
+  --fa: "";
+}
+
+.fa-box-tissue {
+  --fa: "";
+}
+
+.fa-hand-holding-medical {
+  --fa: "";
+}
+
+.fa-hand-sparkles {
+  --fa: "";
+}
+
+.fa-hands-bubbles, .fa-hands-wash {
+  --fa: "";
+}
+
+.fa-handshake-slash, .fa-handshake-alt-slash, .fa-handshake-simple-slash {
+  --fa: "";
+}
+
+.fa-head-side-cough {
+  --fa: "";
+}
+
+.fa-head-side-cough-slash {
+  --fa: "";
+}
+
+.fa-head-side-mask {
+  --fa: "";
+}
+
+.fa-head-side-virus {
+  --fa: "";
+}
+
+.fa-house-chimney-user {
+  --fa: "";
+}
+
+.fa-house-laptop, .fa-laptop-house {
+  --fa: "";
+}
+
+.fa-lungs-virus {
+  --fa: "";
+}
+
+.fa-people-arrows, .fa-people-arrows-left-right {
+  --fa: "";
+}
+
+.fa-plane-slash {
+  --fa: "";
+}
+
+.fa-pump-medical {
+  --fa: "";
+}
+
+.fa-pump-soap {
+  --fa: "";
+}
+
+.fa-shield-virus {
+  --fa: "";
+}
+
+.fa-sink {
+  --fa: "";
+}
+
+.fa-soap {
+  --fa: "";
+}
+
+.fa-stopwatch-20 {
+  --fa: "";
+}
+
+.fa-shop-slash, .fa-store-alt-slash {
+  --fa: "";
+}
+
+.fa-store-slash {
+  --fa: "";
+}
+
+.fa-toilet-paper-slash {
+  --fa: "";
+}
+
+.fa-users-slash {
+  --fa: "";
+}
+
+.fa-virus {
+  --fa: "";
+}
+
+.fa-virus-slash {
+  --fa: "";
+}
+
+.fa-viruses {
+  --fa: "";
+}
+
+.fa-vest {
+  --fa: "";
+}
+
+.fa-vest-patches {
+  --fa: "";
+}
+
+.fa-arrow-trend-down {
+  --fa: "";
+}
+
+.fa-arrow-trend-up {
+  --fa: "";
+}
+
+.fa-arrow-up-from-bracket {
+  --fa: "";
+}
+
+.fa-austral-sign {
+  --fa: "";
+}
+
+.fa-baht-sign {
+  --fa: "";
+}
+
+.fa-bitcoin-sign {
+  --fa: "";
+}
+
+.fa-bolt-lightning {
+  --fa: "";
+}
+
+.fa-book-bookmark {
+  --fa: "";
+}
+
+.fa-camera-rotate {
+  --fa: "";
+}
+
+.fa-cedi-sign {
+  --fa: "";
+}
+
+.fa-chart-column {
+  --fa: "";
+}
+
+.fa-chart-gantt {
+  --fa: "";
+}
+
+.fa-clapperboard {
+  --fa: "";
+}
+
+.fa-closed-captioning-slash {
+  --fa: "";
+}
+
+.fa-clover {
+  --fa: "";
+}
+
+.fa-code-compare {
+  --fa: "";
+}
+
+.fa-code-fork {
+  --fa: "";
+}
+
+.fa-code-pull-request {
+  --fa: "";
+}
+
+.fa-colon-sign {
+  --fa: "";
+}
+
+.fa-cruzeiro-sign {
+  --fa: "";
+}
+
+.fa-display {
+  --fa: "";
+}
+
+.fa-dong-sign {
+  --fa: "";
+}
+
+.fa-elevator {
+  --fa: "";
+}
+
+.fa-filter-circle-xmark {
+  --fa: "";
+}
+
+.fa-florin-sign {
+  --fa: "";
+}
+
+.fa-folder-closed {
+  --fa: "";
+}
+
+.fa-franc-sign {
+  --fa: "";
+}
+
+.fa-guarani-sign {
+  --fa: "";
+}
+
+.fa-gun {
+  --fa: "";
+}
+
+.fa-hands-clapping {
+  --fa: "";
+}
+
+.fa-house-user, .fa-home-user {
+  --fa: "";
+}
+
+.fa-indian-rupee-sign, .fa-indian-rupee, .fa-inr {
+  --fa: "";
+}
+
+.fa-kip-sign {
+  --fa: "";
+}
+
+.fa-lari-sign {
+  --fa: "";
+}
+
+.fa-litecoin-sign {
+  --fa: "";
+}
+
+.fa-manat-sign {
+  --fa: "";
+}
+
+.fa-mask-face {
+  --fa: "";
+}
+
+.fa-mill-sign {
+  --fa: "";
+}
+
+.fa-money-bills {
+  --fa: "";
+}
+
+.fa-naira-sign {
+  --fa: "";
+}
+
+.fa-notdef {
+  --fa: "";
+}
+
+.fa-panorama {
+  --fa: "";
+}
+
+.fa-peseta-sign {
+  --fa: "";
+}
+
+.fa-peso-sign {
+  --fa: "";
+}
+
+.fa-plane-up {
+  --fa: "";
+}
+
+.fa-rupiah-sign {
+  --fa: "";
+}
+
+.fa-stairs {
+  --fa: "";
+}
+
+.fa-timeline {
+  --fa: "";
+}
+
+.fa-truck-front {
+  --fa: "";
+}
+
+.fa-turkish-lira-sign, .fa-try, .fa-turkish-lira {
+  --fa: "";
+}
+
+.fa-vault {
+  --fa: "";
+}
+
+.fa-wand-magic-sparkles, .fa-magic-wand-sparkles {
+  --fa: "";
+}
+
+.fa-wheat-awn, .fa-wheat-alt {
+  --fa: "";
+}
+
+.fa-wheelchair-move, .fa-wheelchair-alt {
+  --fa: "";
+}
+
+.fa-bangladeshi-taka-sign {
+  --fa: "";
+}
+
+.fa-bowl-rice {
+  --fa: "";
+}
+
+.fa-person-pregnant {
+  --fa: "";
+}
+
+.fa-house-chimney, .fa-home-lg {
+  --fa: "";
+}
+
+.fa-house-crack {
+  --fa: "";
+}
+
+.fa-house-medical {
+  --fa: "";
+}
+
+.fa-cent-sign {
+  --fa: "";
+}
+
+.fa-plus-minus {
+  --fa: "";
+}
+
+.fa-sailboat {
+  --fa: "";
+}
+
+.fa-section {
+  --fa: "";
+}
+
+.fa-shrimp {
+  --fa: "";
+}
+
+.fa-brazilian-real-sign {
+  --fa: "";
+}
+
+.fa-chart-simple {
+  --fa: "";
+}
+
+.fa-diagram-next {
+  --fa: "";
+}
+
+.fa-diagram-predecessor {
+  --fa: "";
+}
+
+.fa-diagram-successor {
+  --fa: "";
+}
+
+.fa-earth-oceania, .fa-globe-oceania {
+  --fa: "";
+}
+
+.fa-bug-slash {
+  --fa: "";
+}
+
+.fa-file-circle-plus {
+  --fa: "";
+}
+
+.fa-shop-lock {
+  --fa: "";
+}
+
+.fa-virus-covid {
+  --fa: "";
+}
+
+.fa-virus-covid-slash {
+  --fa: "";
+}
+
+.fa-anchor-circle-check {
+  --fa: "";
+}
+
+.fa-anchor-circle-exclamation {
+  --fa: "";
+}
+
+.fa-anchor-circle-xmark {
+  --fa: "";
+}
+
+.fa-anchor-lock {
+  --fa: "";
+}
+
+.fa-arrow-down-up-across-line {
+  --fa: "";
+}
+
+.fa-arrow-down-up-lock {
+  --fa: "";
+}
+
+.fa-arrow-right-to-city {
+  --fa: "";
+}
+
+.fa-arrow-up-from-ground-water {
+  --fa: "";
+}
+
+.fa-arrow-up-from-water-pump {
+  --fa: "";
+}
+
+.fa-arrow-up-right-dots {
+  --fa: "";
+}
+
+.fa-arrows-down-to-line {
+  --fa: "";
+}
+
+.fa-arrows-down-to-people {
+  --fa: "";
+}
+
+.fa-arrows-left-right-to-line {
+  --fa: "";
+}
+
+.fa-arrows-spin {
+  --fa: "";
+}
+
+.fa-arrows-split-up-and-left {
+  --fa: "";
+}
+
+.fa-arrows-to-circle {
+  --fa: "";
+}
+
+.fa-arrows-to-dot {
+  --fa: "";
+}
+
+.fa-arrows-to-eye {
+  --fa: "";
+}
+
+.fa-arrows-turn-right {
+  --fa: "";
+}
+
+.fa-arrows-turn-to-dots {
+  --fa: "";
+}
+
+.fa-arrows-up-to-line {
+  --fa: "";
+}
+
+.fa-bore-hole {
+  --fa: "";
+}
+
+.fa-bottle-droplet {
+  --fa: "";
+}
+
+.fa-bottle-water {
+  --fa: "";
+}
+
+.fa-bowl-food {
+  --fa: "";
+}
+
+.fa-boxes-packing {
+  --fa: "";
+}
+
+.fa-bridge {
+  --fa: "";
+}
+
+.fa-bridge-circle-check {
+  --fa: "";
+}
+
+.fa-bridge-circle-exclamation {
+  --fa: "";
+}
+
+.fa-bridge-circle-xmark {
+  --fa: "";
+}
+
+.fa-bridge-lock {
+  --fa: "";
+}
+
+.fa-bridge-water {
+  --fa: "";
+}
+
+.fa-bucket {
+  --fa: "";
+}
+
+.fa-bugs {
+  --fa: "";
+}
+
+.fa-building-circle-arrow-right {
+  --fa: "";
+}
+
+.fa-building-circle-check {
+  --fa: "";
+}
+
+.fa-building-circle-exclamation {
+  --fa: "";
+}
+
+.fa-building-circle-xmark {
+  --fa: "";
+}
+
+.fa-building-flag {
+  --fa: "";
+}
+
+.fa-building-lock {
+  --fa: "";
+}
+
+.fa-building-ngo {
+  --fa: "";
+}
+
+.fa-building-shield {
+  --fa: "";
+}
+
+.fa-building-un {
+  --fa: "";
+}
+
+.fa-building-user {
+  --fa: "";
+}
+
+.fa-building-wheat {
+  --fa: "";
+}
+
+.fa-burst {
+  --fa: "";
+}
+
+.fa-car-on {
+  --fa: "";
+}
+
+.fa-car-tunnel {
+  --fa: "";
+}
+
+.fa-child-combatant, .fa-child-rifle {
+  --fa: "";
+}
+
+.fa-children {
+  --fa: "";
+}
+
+.fa-circle-nodes {
+  --fa: "";
+}
+
+.fa-clipboard-question {
+  --fa: "";
+}
+
+.fa-cloud-showers-water {
+  --fa: "";
+}
+
+.fa-computer {
+  --fa: "";
+}
+
+.fa-cubes-stacked {
+  --fa: "";
+}
+
+.fa-envelope-circle-check {
+  --fa: "";
+}
+
+.fa-explosion {
+  --fa: "";
+}
+
+.fa-ferry {
+  --fa: "";
+}
+
+.fa-file-circle-exclamation {
+  --fa: "";
+}
+
+.fa-file-circle-minus {
+  --fa: "";
+}
+
+.fa-file-circle-question {
+  --fa: "";
+}
+
+.fa-file-shield {
+  --fa: "";
+}
+
+.fa-fire-burner {
+  --fa: "";
+}
+
+.fa-fish-fins {
+  --fa: "";
+}
+
+.fa-flask-vial {
+  --fa: "";
+}
+
+.fa-glass-water {
+  --fa: "";
+}
+
+.fa-glass-water-droplet {
+  --fa: "";
+}
+
+.fa-group-arrows-rotate {
+  --fa: "";
+}
+
+.fa-hand-holding-hand {
+  --fa: "";
+}
+
+.fa-handcuffs {
+  --fa: "";
+}
+
+.fa-hands-bound {
+  --fa: "";
+}
+
+.fa-hands-holding-child {
+  --fa: "";
+}
+
+.fa-hands-holding-circle {
+  --fa: "";
+}
+
+.fa-heart-circle-bolt {
+  --fa: "";
+}
+
+.fa-heart-circle-check {
+  --fa: "";
+}
+
+.fa-heart-circle-exclamation {
+  --fa: "";
+}
+
+.fa-heart-circle-minus {
+  --fa: "";
+}
+
+.fa-heart-circle-plus {
+  --fa: "";
+}
+
+.fa-heart-circle-xmark {
+  --fa: "";
+}
+
+.fa-helicopter-symbol {
+  --fa: "";
+}
+
+.fa-helmet-un {
+  --fa: "";
+}
+
+.fa-hill-avalanche {
+  --fa: "";
+}
+
+.fa-hill-rockslide {
+  --fa: "";
+}
+
+.fa-house-circle-check {
+  --fa: "";
+}
+
+.fa-house-circle-exclamation {
+  --fa: "";
+}
+
+.fa-house-circle-xmark {
+  --fa: "";
+}
+
+.fa-house-fire {
+  --fa: "";
+}
+
+.fa-house-flag {
+  --fa: "";
+}
+
+.fa-house-flood-water {
+  --fa: "";
+}
+
+.fa-house-flood-water-circle-arrow-right {
+  --fa: "";
+}
+
+.fa-house-lock {
+  --fa: "";
+}
+
+.fa-house-medical-circle-check {
+  --fa: "";
+}
+
+.fa-house-medical-circle-exclamation {
+  --fa: "";
+}
+
+.fa-house-medical-circle-xmark {
+  --fa: "";
+}
+
+.fa-house-medical-flag {
+  --fa: "";
+}
+
+.fa-house-tsunami {
+  --fa: "";
+}
+
+.fa-jar {
+  --fa: "";
+}
+
+.fa-jar-wheat {
+  --fa: "";
+}
+
+.fa-jet-fighter-up {
+  --fa: "";
+}
+
+.fa-jug-detergent {
+  --fa: "";
+}
+
+.fa-kitchen-set {
+  --fa: "";
+}
+
+.fa-land-mine-on {
+  --fa: "";
+}
+
+.fa-landmark-flag {
+  --fa: "";
+}
+
+.fa-laptop-file {
+  --fa: "";
+}
+
+.fa-lines-leaning {
+  --fa: "";
+}
+
+.fa-location-pin-lock {
+  --fa: "";
+}
+
+.fa-locust {
+  --fa: "";
+}
+
+.fa-magnifying-glass-arrow-right {
+  --fa: "";
+}
+
+.fa-magnifying-glass-chart {
+  --fa: "";
+}
+
+.fa-mars-and-venus-burst {
+  --fa: "";
+}
+
+.fa-mask-ventilator {
+  --fa: "";
+}
+
+.fa-mattress-pillow {
+  --fa: "";
+}
+
+.fa-mobile-retro {
+  --fa: "";
+}
+
+.fa-money-bill-transfer {
+  --fa: "";
+}
+
+.fa-money-bill-trend-up {
+  --fa: "";
+}
+
+.fa-money-bill-wheat {
+  --fa: "";
+}
+
+.fa-mosquito {
+  --fa: "";
+}
+
+.fa-mosquito-net {
+  --fa: "";
+}
+
+.fa-mound {
+  --fa: "";
+}
+
+.fa-mountain-city {
+  --fa: "";
+}
+
+.fa-mountain-sun {
+  --fa: "";
+}
+
+.fa-oil-well {
+  --fa: "";
+}
+
+.fa-people-group {
+  --fa: "";
+}
+
+.fa-people-line {
+  --fa: "";
+}
+
+.fa-people-pulling {
+  --fa: "";
+}
+
+.fa-people-robbery {
+  --fa: "";
+}
+
+.fa-people-roof {
+  --fa: "";
+}
+
+.fa-person-arrow-down-to-line {
+  --fa: "";
+}
+
+.fa-person-arrow-up-from-line {
+  --fa: "";
+}
+
+.fa-person-breastfeeding {
+  --fa: "";
+}
+
+.fa-person-burst {
+  --fa: "";
+}
+
+.fa-person-cane {
+  --fa: "";
+}
+
+.fa-person-chalkboard {
+  --fa: "";
+}
+
+.fa-person-circle-check {
+  --fa: "";
+}
+
+.fa-person-circle-exclamation {
+  --fa: "";
+}
+
+.fa-person-circle-minus {
+  --fa: "";
+}
+
+.fa-person-circle-plus {
+  --fa: "";
+}
+
+.fa-person-circle-question {
+  --fa: "";
+}
+
+.fa-person-circle-xmark {
+  --fa: "";
+}
+
+.fa-person-dress-burst {
+  --fa: "";
+}
+
+.fa-person-drowning {
+  --fa: "";
+}
+
+.fa-person-falling {
+  --fa: "";
+}
+
+.fa-person-falling-burst {
+  --fa: "";
+}
+
+.fa-person-half-dress {
+  --fa: "";
+}
+
+.fa-person-harassing {
+  --fa: "";
+}
+
+.fa-person-military-pointing {
+  --fa: "";
+}
+
+.fa-person-military-rifle {
+  --fa: "";
+}
+
+.fa-person-military-to-person {
+  --fa: "";
+}
+
+.fa-person-rays {
+  --fa: "";
+}
+
+.fa-person-rifle {
+  --fa: "";
+}
+
+.fa-person-shelter {
+  --fa: "";
+}
+
+.fa-person-walking-arrow-loop-left {
+  --fa: "";
+}
+
+.fa-person-walking-arrow-right {
+  --fa: "";
+}
+
+.fa-person-walking-dashed-line-arrow-right {
+  --fa: "";
+}
+
+.fa-person-walking-luggage {
+  --fa: "";
+}
+
+.fa-plane-circle-check {
+  --fa: "";
+}
+
+.fa-plane-circle-exclamation {
+  --fa: "";
+}
+
+.fa-plane-circle-xmark {
+  --fa: "";
+}
+
+.fa-plane-lock {
+  --fa: "";
+}
+
+.fa-plate-wheat {
+  --fa: "";
+}
+
+.fa-plug-circle-bolt {
+  --fa: "";
+}
+
+.fa-plug-circle-check {
+  --fa: "";
+}
+
+.fa-plug-circle-exclamation {
+  --fa: "";
+}
+
+.fa-plug-circle-minus {
+  --fa: "";
+}
+
+.fa-plug-circle-plus {
+  --fa: "";
+}
+
+.fa-plug-circle-xmark {
+  --fa: "";
+}
+
+.fa-ranking-star {
+  --fa: "";
+}
+
+.fa-road-barrier {
+  --fa: "";
+}
+
+.fa-road-bridge {
+  --fa: "";
+}
+
+.fa-road-circle-check {
+  --fa: "";
+}
+
+.fa-road-circle-exclamation {
+  --fa: "";
+}
+
+.fa-road-circle-xmark {
+  --fa: "";
+}
+
+.fa-road-lock {
+  --fa: "";
+}
+
+.fa-road-spikes {
+  --fa: "";
+}
+
+.fa-rug {
+  --fa: "";
+}
+
+.fa-sack-xmark {
+  --fa: "";
+}
+
+.fa-school-circle-check {
+  --fa: "";
+}
+
+.fa-school-circle-exclamation {
+  --fa: "";
+}
+
+.fa-school-circle-xmark {
+  --fa: "";
+}
+
+.fa-school-flag {
+  --fa: "";
+}
+
+.fa-school-lock {
+  --fa: "";
+}
+
+.fa-sheet-plastic {
+  --fa: "";
+}
+
+.fa-shield-cat {
+  --fa: "";
+}
+
+.fa-shield-dog {
+  --fa: "";
+}
+
+.fa-shield-heart {
+  --fa: "";
+}
+
+.fa-square-nfi {
+  --fa: "";
+}
+
+.fa-square-person-confined {
+  --fa: "";
+}
+
+.fa-square-virus {
+  --fa: "";
+}
+
+.fa-staff-snake, .fa-rod-asclepius, .fa-rod-snake, .fa-staff-aesculapius {
+  --fa: "";
+}
+
+.fa-sun-plant-wilt {
+  --fa: "";
+}
+
+.fa-tarp {
+  --fa: "";
+}
+
+.fa-tarp-droplet {
+  --fa: "";
+}
+
+.fa-tent {
+  --fa: "";
+}
+
+.fa-tent-arrow-down-to-line {
+  --fa: "";
+}
+
+.fa-tent-arrow-left-right {
+  --fa: "";
+}
+
+.fa-tent-arrow-turn-left {
+  --fa: "";
+}
+
+.fa-tent-arrows-down {
+  --fa: "";
+}
+
+.fa-tents {
+  --fa: "";
+}
+
+.fa-toilet-portable {
+  --fa: "";
+}
+
+.fa-toilets-portable {
+  --fa: "";
+}
+
+.fa-tower-cell {
+  --fa: "";
+}
+
+.fa-tower-observation {
+  --fa: "";
+}
+
+.fa-tree-city {
+  --fa: "";
+}
+
+.fa-trowel {
+  --fa: "";
+}
+
+.fa-trowel-bricks {
+  --fa: "";
+}
+
+.fa-truck-arrow-right {
+  --fa: "";
+}
+
+.fa-truck-droplet {
+  --fa: "";
+}
+
+.fa-truck-field {
+  --fa: "";
+}
+
+.fa-truck-field-un {
+  --fa: "";
+}
+
+.fa-truck-plane {
+  --fa: "";
+}
+
+.fa-users-between-lines {
+  --fa: "";
+}
+
+.fa-users-line {
+  --fa: "";
+}
+
+.fa-users-rays {
+  --fa: "";
+}
+
+.fa-users-rectangle {
+  --fa: "";
+}
+
+.fa-users-viewfinder {
+  --fa: "";
+}
+
+.fa-vial-circle-check {
+  --fa: "";
+}
+
+.fa-vial-virus {
+  --fa: "";
+}
+
+.fa-wheat-awn-circle-exclamation {
+  --fa: "";
+}
+
+.fa-worm {
+  --fa: "";
+}
+
+.fa-xmarks-lines {
+  --fa: "";
+}
+
+.fa-child-dress {
+  --fa: "";
+}
+
+.fa-child-reaching {
+  --fa: "";
+}
+
+.fa-file-circle-check {
+  --fa: "";
+}
+
+.fa-file-circle-xmark {
+  --fa: "";
+}
+
+.fa-person-through-window {
+  --fa: "";
+}
+
+.fa-plant-wilt {
+  --fa: "";
+}
+
+.fa-stapler {
+  --fa: "";
+}
+
+.fa-train-tram {
+  --fa: "";
+}
+
+.fa-table-cells-column-lock {
+  --fa: "";
+}
+
+.fa-table-cells-row-lock {
+  --fa: "";
+}
+
+.fa-thumbtack-slash, .fa-thumb-tack-slash {
+  --fa: "";
+}
+
+.fa-table-cells-row-unlock {
+  --fa: "";
+}
+
+.fa-chart-diagram {
+  --fa: "";
+}
+
+.fa-comment-nodes {
+  --fa: "";
+}
+
+.fa-file-fragment {
+  --fa: "";
+}
+
+.fa-file-half-dashed {
+  --fa: "";
+}
+
+.fa-hexagon-nodes {
+  --fa: "";
+}
+
+.fa-hexagon-nodes-bolt {
+  --fa: "";
+}
+
+.fa-square-binary {
+  --fa: "";
+}
+
+.fa-pentagon {
+  --fa: "";
+}
+
+.fa-non-binary {
+  --fa: "";
+}
+
+.fa-spiral {
+  --fa: "";
+}
+
+.fa-picture-in-picture {
+  --fa: "";
+}
+
+.fa-mobile-vibrate {
+  --fa: "";
+}
+
+.fa-single-quote-left {
+  --fa: "";
+}
+
+.fa-single-quote-right {
+  --fa: "";
+}
+
+.fa-bus-side {
+  --fa: "";
+}
+
+.fa-septagon, .fa-heptagon {
+  --fa: "";
+}
+
+.fa-aquarius {
+  --fa: "";
+}
+
+.fa-aries {
+  --fa: "";
+}
+
+.fa-cancer {
+  --fa: "";
+}
+
+.fa-capricorn {
+  --fa: "";
+}
+
+.fa-gemini {
+  --fa: "";
+}
+
+.fa-leo {
+  --fa: "";
+}
+
+.fa-libra {
+  --fa: "";
+}
+
+.fa-pisces {
+  --fa: "";
+}
+
+.fa-sagittarius {
+  --fa: "";
+}
+
+.fa-scorpio {
+  --fa: "";
+}
+
+.fa-taurus {
+  --fa: "";
+}
+
+.fa-virgo {
+  --fa: "";
+}
+
+.fa-martini-glass-empty, .fa-glass-martini {
+  --fa: "";
+}
+
+.fa-music {
+  --fa: "";
+}
+
+.fa-magnifying-glass, .fa-search {
+  --fa: "";
+}
+
+.fa-heart {
+  --fa: "";
+}
+
+.fa-star {
+  --fa: "";
+}
+
+.fa-user, .fa-user-alt, .fa-user-large {
+  --fa: "";
+}
+
+.fa-film, .fa-film-alt, .fa-film-simple {
+  --fa: "";
+}
+
+.fa-table-cells-large, .fa-th-large {
+  --fa: "";
+}
+
+.fa-table-cells, .fa-th {
+  --fa: "";
+}
+
+.fa-table-list, .fa-th-list {
+  --fa: "";
+}
+
+.fa-check {
+  --fa: "";
+}
+
+.fa-xmark, .fa-close, .fa-multiply, .fa-remove, .fa-times {
+  --fa: "";
+}
+
+.fa-magnifying-glass-plus, .fa-search-plus {
+  --fa: "";
+}
+
+.fa-magnifying-glass-minus, .fa-search-minus {
+  --fa: "";
+}
+
+.fa-power-off {
+  --fa: "";
+}
+
+.fa-signal, .fa-signal-5, .fa-signal-perfect {
+  --fa: "";
+}
+
+.fa-gear, .fa-cog {
+  --fa: "";
+}
+
+.fa-house, .fa-home, .fa-home-alt, .fa-home-lg-alt {
+  --fa: "";
+}
+
+.fa-clock, .fa-clock-four {
+  --fa: "";
+}
+
+.fa-road {
+  --fa: "";
+}
+
+.fa-download {
+  --fa: "";
+}
+
+.fa-inbox {
+  --fa: "";
+}
+
+.fa-arrow-rotate-right, .fa-arrow-right-rotate, .fa-arrow-rotate-forward, .fa-redo {
+  --fa: "";
+}
+
+.fa-arrows-rotate, .fa-refresh, .fa-sync {
+  --fa: "";
+}
+
+.fa-rectangle-list, .fa-list-alt {
+  --fa: "";
+}
+
+.fa-lock {
+  --fa: "";
+}
+
+.fa-flag {
+  --fa: "";
+}
+
+.fa-headphones, .fa-headphones-alt, .fa-headphones-simple {
+  --fa: "";
+}
+
+.fa-volume-off {
+  --fa: "";
+}
+
+.fa-volume-low, .fa-volume-down {
+  --fa: "";
+}
+
+.fa-volume-high, .fa-volume-up {
+  --fa: "";
+}
+
+.fa-qrcode {
+  --fa: "";
+}
+
+.fa-barcode {
+  --fa: "";
+}
+
+.fa-tag {
+  --fa: "";
+}
+
+.fa-tags {
+  --fa: "";
+}
+
+.fa-book {
+  --fa: "";
+}
+
+.fa-bookmark {
+  --fa: "";
+}
+
+.fa-print {
+  --fa: "";
+}
+
+.fa-camera, .fa-camera-alt {
+  --fa: "";
+}
+
+.fa-font {
+  --fa: "";
+}
+
+.fa-bold {
+  --fa: "";
+}
+
+.fa-italic {
+  --fa: "";
+}
+
+.fa-text-height {
+  --fa: "";
+}
+
+.fa-text-width {
+  --fa: "";
+}
+
+.fa-align-left {
+  --fa: "";
+}
+
+.fa-align-center {
+  --fa: "";
+}
+
+.fa-align-right {
+  --fa: "";
+}
+
+.fa-align-justify {
+  --fa: "";
+}
+
+.fa-list, .fa-list-squares {
+  --fa: "";
+}
+
+.fa-outdent, .fa-dedent {
+  --fa: "";
+}
+
+.fa-indent {
+  --fa: "";
+}
+
+.fa-video, .fa-video-camera {
+  --fa: "";
+}
+
+.fa-image {
+  --fa: "";
+}
+
+.fa-location-pin, .fa-map-marker {
+  --fa: "";
+}
+
+.fa-circle-half-stroke, .fa-adjust {
+  --fa: "";
+}
+
+.fa-droplet, .fa-tint {
+  --fa: "";
+}
+
+.fa-pen-to-square, .fa-edit {
+  --fa: "";
+}
+
+.fa-arrows-up-down-left-right, .fa-arrows {
+  --fa: "";
+}
+
+.fa-backward-step, .fa-step-backward {
+  --fa: "";
+}
+
+.fa-backward-fast, .fa-fast-backward {
+  --fa: "";
+}
+
+.fa-backward {
+  --fa: "";
+}
+
+.fa-play {
+  --fa: "";
+}
+
+.fa-pause {
+  --fa: "";
+}
+
+.fa-stop {
+  --fa: "";
+}
+
+.fa-forward {
+  --fa: "";
+}
+
+.fa-forward-fast, .fa-fast-forward {
+  --fa: "";
+}
+
+.fa-forward-step, .fa-step-forward {
+  --fa: "";
+}
+
+.fa-eject {
+  --fa: "";
+}
+
+.fa-chevron-left {
+  --fa: "";
+}
+
+.fa-chevron-right {
+  --fa: "";
+}
+
+.fa-circle-plus, .fa-plus-circle {
+  --fa: "";
+}
+
+.fa-circle-minus, .fa-minus-circle {
+  --fa: "";
+}
+
+.fa-circle-xmark, .fa-times-circle, .fa-xmark-circle {
+  --fa: "";
+}
+
+.fa-circle-check, .fa-check-circle {
+  --fa: "";
+}
+
+.fa-circle-question, .fa-question-circle {
+  --fa: "";
+}
+
+.fa-circle-info, .fa-info-circle {
+  --fa: "";
+}
+
+.fa-crosshairs {
+  --fa: "";
+}
+
+.fa-ban, .fa-cancel {
+  --fa: "";
+}
+
+.fa-arrow-left {
+  --fa: "";
+}
+
+.fa-arrow-right {
+  --fa: "";
+}
+
+.fa-arrow-up {
+  --fa: "";
+}
+
+.fa-arrow-down {
+  --fa: "";
+}
+
+.fa-share, .fa-mail-forward {
+  --fa: "";
+}
+
+.fa-expand {
+  --fa: "";
+}
+
+.fa-compress {
+  --fa: "";
+}
+
+.fa-minus, .fa-subtract {
+  --fa: "";
+}
+
+.fa-circle-exclamation, .fa-exclamation-circle {
+  --fa: "";
+}
+
+.fa-gift {
+  --fa: "";
+}
+
+.fa-leaf {
+  --fa: "";
+}
+
+.fa-fire {
+  --fa: "";
+}
+
+.fa-eye {
+  --fa: "";
+}
+
+.fa-eye-slash {
+  --fa: "";
+}
+
+.fa-triangle-exclamation, .fa-exclamation-triangle, .fa-warning {
+  --fa: "";
+}
+
+.fa-plane {
+  --fa: "";
+}
+
+.fa-calendar-days, .fa-calendar-alt {
+  --fa: "";
+}
+
+.fa-shuffle, .fa-random {
+  --fa: "";
+}
+
+.fa-comment {
+  --fa: "";
+}
+
+.fa-magnet {
+  --fa: "";
+}
+
+.fa-chevron-up {
+  --fa: "";
+}
+
+.fa-chevron-down {
+  --fa: "";
+}
+
+.fa-retweet {
+  --fa: "";
+}
+
+.fa-cart-shopping, .fa-shopping-cart {
+  --fa: "";
+}
+
+.fa-folder, .fa-folder-blank {
+  --fa: "";
+}
+
+.fa-folder-open {
+  --fa: "";
+}
+
+.fa-arrows-up-down, .fa-arrows-v {
+  --fa: "";
+}
+
+.fa-arrows-left-right, .fa-arrows-h {
+  --fa: "";
+}
+
+.fa-chart-bar, .fa-bar-chart {
+  --fa: "";
+}
+
+.fa-camera-retro {
+  --fa: "";
+}
+
+.fa-key {
+  --fa: "";
+}
+
+.fa-gears, .fa-cogs {
+  --fa: "";
+}
+
+.fa-comments {
+  --fa: "";
+}
+
+.fa-star-half {
+  --fa: "";
+}
+
+.fa-arrow-right-from-bracket, .fa-sign-out {
+  --fa: "";
+}
+
+.fa-thumbtack, .fa-thumb-tack {
+  --fa: "";
+}
+
+.fa-arrow-up-right-from-square, .fa-external-link {
+  --fa: "";
+}
+
+.fa-arrow-right-to-bracket, .fa-sign-in {
+  --fa: "";
+}
+
+.fa-trophy {
+  --fa: "";
+}
+
+.fa-upload {
+  --fa: "";
+}
+
+.fa-lemon {
+  --fa: "";
+}
+
+.fa-phone {
+  --fa: "";
+}
+
+.fa-square-phone, .fa-phone-square {
+  --fa: "";
+}
+
+.fa-unlock {
+  --fa: "";
+}
+
+.fa-credit-card, .fa-credit-card-alt {
+  --fa: "";
+}
+
+.fa-rss, .fa-feed {
+  --fa: "";
+}
+
+.fa-hard-drive, .fa-hdd {
+  --fa: "";
+}
+
+.fa-bullhorn {
+  --fa: "";
+}
+
+.fa-certificate {
+  --fa: "";
+}
+
+.fa-hand-point-right {
+  --fa: "";
+}
+
+.fa-hand-point-left {
+  --fa: "";
+}
+
+.fa-hand-point-up {
+  --fa: "";
+}
+
+.fa-hand-point-down {
+  --fa: "";
+}
+
+.fa-circle-arrow-left, .fa-arrow-circle-left {
+  --fa: "";
+}
+
+.fa-circle-arrow-right, .fa-arrow-circle-right {
+  --fa: "";
+}
+
+.fa-circle-arrow-up, .fa-arrow-circle-up {
+  --fa: "";
+}
+
+.fa-circle-arrow-down, .fa-arrow-circle-down {
+  --fa: "";
+}
+
+.fa-globe {
+  --fa: "";
+}
+
+.fa-wrench {
+  --fa: "";
+}
+
+.fa-list-check, .fa-tasks {
+  --fa: "";
+}
+
+.fa-filter {
+  --fa: "";
+}
+
+.fa-briefcase {
+  --fa: "";
+}
+
+.fa-up-down-left-right, .fa-arrows-alt {
+  --fa: "";
+}
+
+.fa-users {
+  --fa: "";
+}
+
+.fa-link, .fa-chain {
+  --fa: "";
+}
+
+.fa-cloud {
+  --fa: "";
+}
+
+.fa-flask {
+  --fa: "";
+}
+
+.fa-scissors, .fa-cut {
+  --fa: "";
+}
+
+.fa-copy {
+  --fa: "";
+}
+
+.fa-paperclip {
+  --fa: "";
+}
+
+.fa-floppy-disk, .fa-save {
+  --fa: "";
+}
+
+.fa-square {
+  --fa: "";
+}
+
+.fa-bars, .fa-navicon {
+  --fa: "";
+}
+
+.fa-list-ul, .fa-list-dots {
+  --fa: "";
+}
+
+.fa-list-ol, .fa-list-1-2, .fa-list-numeric {
+  --fa: "";
+}
+
+.fa-strikethrough {
+  --fa: "";
+}
+
+.fa-underline {
+  --fa: "";
+}
+
+.fa-table {
+  --fa: "";
+}
+
+.fa-wand-magic, .fa-magic {
+  --fa: "";
+}
+
+.fa-truck {
+  --fa: "";
+}
+
+.fa-money-bill {
+  --fa: "";
+}
+
+.fa-caret-down {
+  --fa: "";
+}
+
+.fa-caret-up {
+  --fa: "";
+}
+
+.fa-caret-left {
+  --fa: "";
+}
+
+.fa-caret-right {
+  --fa: "";
+}
+
+.fa-table-columns, .fa-columns {
+  --fa: "";
+}
+
+.fa-sort, .fa-unsorted {
+  --fa: "";
+}
+
+.fa-sort-down, .fa-sort-desc {
+  --fa: "";
+}
+
+.fa-sort-up, .fa-sort-asc {
+  --fa: "";
+}
+
+.fa-envelope {
+  --fa: "";
+}
+
+.fa-arrow-rotate-left, .fa-arrow-left-rotate, .fa-arrow-rotate-back, .fa-arrow-rotate-backward, .fa-undo {
+  --fa: "";
+}
+
+.fa-gavel, .fa-legal {
+  --fa: "";
+}
+
+.fa-bolt, .fa-zap {
+  --fa: "";
+}
+
+.fa-sitemap {
+  --fa: "";
+}
+
+.fa-umbrella {
+  --fa: "";
+}
+
+.fa-paste, .fa-file-clipboard {
+  --fa: "";
+}
+
+.fa-lightbulb {
+  --fa: "";
+}
+
+.fa-arrow-right-arrow-left, .fa-exchange {
+  --fa: "";
+}
+
+.fa-cloud-arrow-down, .fa-cloud-download, .fa-cloud-download-alt {
+  --fa: "";
+}
+
+.fa-cloud-arrow-up, .fa-cloud-upload, .fa-cloud-upload-alt {
+  --fa: "";
+}
+
+.fa-user-doctor, .fa-user-md {
+  --fa: "";
+}
+
+.fa-stethoscope {
+  --fa: "";
+}
+
+.fa-suitcase {
+  --fa: "";
+}
+
+.fa-bell {
+  --fa: "";
+}
+
+.fa-mug-saucer, .fa-coffee {
+  --fa: "";
+}
+
+.fa-hospital, .fa-hospital-alt, .fa-hospital-wide {
+  --fa: "";
+}
+
+.fa-truck-medical, .fa-ambulance {
+  --fa: "";
+}
+
+.fa-suitcase-medical, .fa-medkit {
+  --fa: "";
+}
+
+.fa-jet-fighter, .fa-fighter-jet {
+  --fa: "";
+}
+
+.fa-beer-mug-empty, .fa-beer {
+  --fa: "";
+}
+
+.fa-square-h, .fa-h-square {
+  --fa: "";
+}
+
+.fa-square-plus, .fa-plus-square {
+  --fa: "";
+}
+
+.fa-angles-left, .fa-angle-double-left {
+  --fa: "";
+}
+
+.fa-angles-right, .fa-angle-double-right {
+  --fa: "";
+}
+
+.fa-angles-up, .fa-angle-double-up {
+  --fa: "";
+}
+
+.fa-angles-down, .fa-angle-double-down {
+  --fa: "";
+}
+
+.fa-angle-left {
+  --fa: "";
+}
+
+.fa-angle-right {
+  --fa: "";
+}
+
+.fa-angle-up {
+  --fa: "";
+}
+
+.fa-angle-down {
+  --fa: "";
+}
+
+.fa-laptop {
+  --fa: "";
+}
+
+.fa-tablet-button {
+  --fa: "";
+}
+
+.fa-mobile-button {
+  --fa: "";
+}
+
+.fa-quote-left, .fa-quote-left-alt {
+  --fa: "";
+}
+
+.fa-quote-right, .fa-quote-right-alt {
+  --fa: "";
+}
+
+.fa-spinner {
+  --fa: "";
+}
+
+.fa-circle {
+  --fa: "";
+}
+
+.fa-face-smile, .fa-smile {
+  --fa: "";
+}
+
+.fa-face-frown, .fa-frown {
+  --fa: "";
+}
+
+.fa-face-meh, .fa-meh {
+  --fa: "";
+}
+
+.fa-gamepad {
+  --fa: "";
+}
+
+.fa-keyboard {
+  --fa: "";
+}
+
+.fa-flag-checkered {
+  --fa: "";
+}
+
+.fa-terminal {
+  --fa: "";
+}
+
+.fa-code {
+  --fa: "";
+}
+
+.fa-reply-all, .fa-mail-reply-all {
+  --fa: "";
+}
+
+.fa-location-arrow {
+  --fa: "";
+}
+
+.fa-crop {
+  --fa: "";
+}
+
+.fa-code-branch {
+  --fa: "";
+}
+
+.fa-link-slash, .fa-chain-broken, .fa-chain-slash, .fa-unlink {
+  --fa: "";
+}
+
+.fa-info {
+  --fa: "";
+}
+
+.fa-superscript {
+  --fa: "";
+}
+
+.fa-subscript {
+  --fa: "";
+}
+
+.fa-eraser {
+  --fa: "";
+}
+
+.fa-puzzle-piece {
+  --fa: "";
+}
+
+.fa-microphone {
+  --fa: "";
+}
+
+.fa-microphone-slash {
+  --fa: "";
+}
+
+.fa-shield, .fa-shield-blank {
+  --fa: "";
+}
+
+.fa-calendar {
+  --fa: "";
+}
+
+.fa-fire-extinguisher {
+  --fa: "";
+}
+
+.fa-rocket {
+  --fa: "";
+}
+
+.fa-circle-chevron-left, .fa-chevron-circle-left {
+  --fa: "";
+}
+
+.fa-circle-chevron-right, .fa-chevron-circle-right {
+  --fa: "";
+}
+
+.fa-circle-chevron-up, .fa-chevron-circle-up {
+  --fa: "";
+}
+
+.fa-circle-chevron-down, .fa-chevron-circle-down {
+  --fa: "";
+}
+
+.fa-anchor {
+  --fa: "";
+}
+
+.fa-unlock-keyhole, .fa-unlock-alt {
+  --fa: "";
+}
+
+.fa-bullseye {
+  --fa: "";
+}
+
+.fa-ellipsis, .fa-ellipsis-h {
+  --fa: "";
+}
+
+.fa-ellipsis-vertical, .fa-ellipsis-v {
+  --fa: "";
+}
+
+.fa-square-rss, .fa-rss-square {
+  --fa: "";
+}
+
+.fa-circle-play, .fa-play-circle {
+  --fa: "";
+}
+
+.fa-ticket {
+  --fa: "";
+}
+
+.fa-square-minus, .fa-minus-square {
+  --fa: "";
+}
+
+.fa-arrow-turn-up, .fa-level-up {
+  --fa: "";
+}
+
+.fa-arrow-turn-down, .fa-level-down {
+  --fa: "";
+}
+
+.fa-square-check, .fa-check-square {
+  --fa: "";
+}
+
+.fa-square-pen, .fa-pen-square, .fa-pencil-square {
+  --fa: "";
+}
+
+.fa-square-arrow-up-right, .fa-external-link-square {
+  --fa: "";
+}
+
+.fa-share-from-square, .fa-share-square {
+  --fa: "";
+}
+
+.fa-compass {
+  --fa: "";
+}
+
+.fa-square-caret-down, .fa-caret-square-down {
+  --fa: "";
+}
+
+.fa-square-caret-up, .fa-caret-square-up {
+  --fa: "";
+}
+
+.fa-square-caret-right, .fa-caret-square-right {
+  --fa: "";
+}
+
+.fa-euro-sign, .fa-eur, .fa-euro {
+  --fa: "";
+}
+
+.fa-sterling-sign, .fa-gbp, .fa-pound-sign {
+  --fa: "";
+}
+
+.fa-rupee-sign, .fa-rupee {
+  --fa: "";
+}
+
+.fa-yen-sign, .fa-cny, .fa-jpy, .fa-rmb, .fa-yen {
+  --fa: "";
+}
+
+.fa-ruble-sign, .fa-rouble, .fa-rub, .fa-ruble {
+  --fa: "";
+}
+
+.fa-won-sign, .fa-krw, .fa-won {
+  --fa: "";
+}
+
+.fa-file {
+  --fa: "";
+}
+
+.fa-file-lines, .fa-file-alt, .fa-file-text {
+  --fa: "";
+}
+
+.fa-arrow-down-a-z, .fa-sort-alpha-asc, .fa-sort-alpha-down {
+  --fa: "";
+}
+
+.fa-arrow-up-a-z, .fa-sort-alpha-up {
+  --fa: "";
+}
+
+.fa-arrow-down-wide-short, .fa-sort-amount-asc, .fa-sort-amount-down {
+  --fa: "";
+}
+
+.fa-arrow-up-wide-short, .fa-sort-amount-up {
+  --fa: "";
+}
+
+.fa-arrow-down-1-9, .fa-sort-numeric-asc, .fa-sort-numeric-down {
+  --fa: "";
+}
+
+.fa-arrow-up-1-9, .fa-sort-numeric-up {
+  --fa: "";
+}
+
+.fa-thumbs-up {
+  --fa: "";
+}
+
+.fa-thumbs-down {
+  --fa: "";
+}
+
+.fa-arrow-down-long, .fa-long-arrow-down {
+  --fa: "";
+}
+
+.fa-arrow-up-long, .fa-long-arrow-up {
+  --fa: "";
+}
+
+.fa-arrow-left-long, .fa-long-arrow-left {
+  --fa: "";
+}
+
+.fa-arrow-right-long, .fa-long-arrow-right {
+  --fa: "";
+}
+
+.fa-person-dress, .fa-female {
+  --fa: "";
+}
+
+.fa-person, .fa-male {
+  --fa: "";
+}
+
+.fa-sun {
+  --fa: "";
+}
+
+.fa-moon {
+  --fa: "";
+}
+
+.fa-box-archive, .fa-archive {
+  --fa: "";
+}
+
+.fa-bug {
+  --fa: "";
+}
+
+.fa-square-caret-left, .fa-caret-square-left {
+  --fa: "";
+}
+
+.fa-circle-dot, .fa-dot-circle {
+  --fa: "";
+}
+
+.fa-wheelchair {
+  --fa: "";
+}
+
+.fa-lira-sign {
+  --fa: "";
+}
+
+.fa-shuttle-space, .fa-space-shuttle {
+  --fa: "";
+}
+
+.fa-square-envelope, .fa-envelope-square {
+  --fa: "";
+}
+
+.fa-building-columns, .fa-bank, .fa-institution, .fa-museum, .fa-university {
+  --fa: "";
+}
+
+.fa-graduation-cap, .fa-mortar-board {
+  --fa: "";
+}
+
+.fa-language {
+  --fa: "";
+}
+
+.fa-fax {
+  --fa: "";
+}
+
+.fa-building {
+  --fa: "";
+}
+
+.fa-child {
+  --fa: "";
+}
+
+.fa-paw {
+  --fa: "";
+}
+
+.fa-cube {
+  --fa: "";
+}
+
+.fa-cubes {
+  --fa: "";
+}
+
+.fa-recycle {
+  --fa: "";
+}
+
+.fa-car, .fa-automobile {
+  --fa: "";
+}
+
+.fa-taxi, .fa-cab {
+  --fa: "";
+}
+
+.fa-tree {
+  --fa: "";
+}
+
+.fa-database {
+  --fa: "";
+}
+
+.fa-file-pdf {
+  --fa: "";
+}
+
+.fa-file-word {
+  --fa: "";
+}
+
+.fa-file-excel {
+  --fa: "";
+}
+
+.fa-file-powerpoint {
+  --fa: "";
+}
+
+.fa-file-image {
+  --fa: "";
+}
+
+.fa-file-zipper, .fa-file-archive {
+  --fa: "";
+}
+
+.fa-file-audio {
+  --fa: "";
+}
+
+.fa-file-video {
+  --fa: "";
+}
+
+.fa-file-code {
+  --fa: "";
+}
+
+.fa-life-ring {
+  --fa: "";
+}
+
+.fa-circle-notch {
+  --fa: "";
+}
+
+.fa-paper-plane {
+  --fa: "";
+}
+
+.fa-clock-rotate-left, .fa-history {
+  --fa: "";
+}
+
+.fa-heading, .fa-header {
+  --fa: "";
+}
+
+.fa-paragraph {
+  --fa: "";
+}
+
+.fa-sliders, .fa-sliders-h {
+  --fa: "";
+}
+
+.fa-share-nodes, .fa-share-alt {
+  --fa: "";
+}
+
+.fa-square-share-nodes, .fa-share-alt-square {
+  --fa: "";
+}
+
+.fa-bomb {
+  --fa: "";
+}
+
+.fa-futbol, .fa-futbol-ball, .fa-soccer-ball {
+  --fa: "";
+}
+
+.fa-tty, .fa-teletype {
+  --fa: "";
+}
+
+.fa-binoculars {
+  --fa: "";
+}
+
+.fa-plug {
+  --fa: "";
+}
+
+.fa-newspaper {
+  --fa: "";
+}
+
+.fa-wifi, .fa-wifi-3, .fa-wifi-strong {
+  --fa: "";
+}
+
+.fa-calculator {
+  --fa: "";
+}
+
+.fa-bell-slash {
+  --fa: "";
+}
+
+.fa-trash {
+  --fa: "";
+}
+
+.fa-copyright {
+  --fa: "";
+}
+
+.fa-eye-dropper, .fa-eye-dropper-empty, .fa-eyedropper {
+  --fa: "";
+}
+
+.fa-paintbrush, .fa-paint-brush {
+  --fa: "";
+}
+
+.fa-cake-candles, .fa-birthday-cake, .fa-cake {
+  --fa: "";
+}
+
+.fa-chart-area, .fa-area-chart {
+  --fa: "";
+}
+
+.fa-chart-pie, .fa-pie-chart {
+  --fa: "";
+}
+
+.fa-chart-line, .fa-line-chart {
+  --fa: "";
+}
+
+.fa-toggle-off {
+  --fa: "";
+}
+
+.fa-toggle-on {
+  --fa: "";
+}
+
+.fa-bicycle {
+  --fa: "";
+}
+
+.fa-bus {
+  --fa: "";
+}
+
+.fa-closed-captioning {
+  --fa: "";
+}
+
+.fa-shekel-sign, .fa-ils, .fa-shekel, .fa-sheqel, .fa-sheqel-sign {
+  --fa: "";
+}
+
+.fa-cart-plus {
+  --fa: "";
+}
+
+.fa-cart-arrow-down {
+  --fa: "";
+}
+
+.fa-diamond {
+  --fa: "";
+}
+
+.fa-ship {
+  --fa: "";
+}
+
+.fa-user-secret {
+  --fa: "";
+}
+
+.fa-motorcycle {
+  --fa: "";
+}
+
+.fa-street-view {
+  --fa: "";
+}
+
+.fa-heart-pulse, .fa-heartbeat {
+  --fa: "";
+}
+
+.fa-venus {
+  --fa: "";
+}
+
+.fa-mars {
+  --fa: "";
+}
+
+.fa-mercury {
+  --fa: "";
+}
+
+.fa-mars-and-venus {
+  --fa: "";
+}
+
+.fa-transgender, .fa-transgender-alt {
+  --fa: "";
+}
+
+.fa-venus-double {
+  --fa: "";
+}
+
+.fa-mars-double {
+  --fa: "";
+}
+
+.fa-venus-mars {
+  --fa: "";
+}
+
+.fa-mars-stroke {
+  --fa: "";
+}
+
+.fa-mars-stroke-up, .fa-mars-stroke-v {
+  --fa: "";
+}
+
+.fa-mars-stroke-right, .fa-mars-stroke-h {
+  --fa: "";
+}
+
+.fa-neuter {
+  --fa: "";
+}
+
+.fa-genderless {
+  --fa: "";
+}
+
+.fa-server {
+  --fa: "";
+}
+
+.fa-user-plus {
+  --fa: "";
+}
+
+.fa-user-xmark, .fa-user-times {
+  --fa: "";
+}
+
+.fa-bed {
+  --fa: "";
+}
+
+.fa-train {
+  --fa: "";
+}
+
+.fa-train-subway, .fa-subway {
+  --fa: "";
+}
+
+.fa-battery-full, .fa-battery, .fa-battery-5 {
+  --fa: "";
+}
+
+.fa-battery-three-quarters, .fa-battery-4 {
+  --fa: "";
+}
+
+.fa-battery-half, .fa-battery-3 {
+  --fa: "";
+}
+
+.fa-battery-quarter, .fa-battery-2 {
+  --fa: "";
+}
+
+.fa-battery-empty, .fa-battery-0 {
+  --fa: "";
+}
+
+.fa-arrow-pointer, .fa-mouse-pointer {
+  --fa: "";
+}
+
+.fa-i-cursor {
+  --fa: "";
+}
+
+.fa-object-group {
+  --fa: "";
+}
+
+.fa-object-ungroup {
+  --fa: "";
+}
+
+.fa-note-sticky, .fa-sticky-note {
+  --fa: "";
+}
+
+.fa-clone {
+  --fa: "";
+}
+
+.fa-scale-balanced, .fa-balance-scale {
+  --fa: "";
+}
+
+.fa-hourglass-start, .fa-hourglass-1 {
+  --fa: "";
+}
+
+.fa-hourglass-half, .fa-hourglass-2 {
+  --fa: "";
+}
+
+.fa-hourglass-end, .fa-hourglass-3 {
+  --fa: "";
+}
+
+.fa-hourglass, .fa-hourglass-empty {
+  --fa: "";
+}
+
+.fa-hand-back-fist, .fa-hand-rock {
+  --fa: "";
+}
+
+.fa-hand, .fa-hand-paper {
+  --fa: "";
+}
+
+.fa-hand-scissors {
+  --fa: "";
+}
+
+.fa-hand-lizard {
+  --fa: "";
+}
+
+.fa-hand-spock {
+  --fa: "";
+}
+
+.fa-hand-pointer {
+  --fa: "";
+}
+
+.fa-hand-peace {
+  --fa: "";
+}
+
+.fa-trademark {
+  --fa: "";
+}
+
+.fa-registered {
+  --fa: "";
+}
+
+.fa-tv, .fa-television, .fa-tv-alt {
+  --fa: "";
+}
+
+.fa-calendar-plus {
+  --fa: "";
+}
+
+.fa-calendar-minus {
+  --fa: "";
+}
+
+.fa-calendar-xmark, .fa-calendar-times {
+  --fa: "";
+}
+
+.fa-calendar-check {
+  --fa: "";
+}
+
+.fa-industry {
+  --fa: "";
+}
+
+.fa-map-pin {
+  --fa: "";
+}
+
+.fa-signs-post, .fa-map-signs {
+  --fa: "";
+}
+
+.fa-map {
+  --fa: "";
+}
+
+.fa-message, .fa-comment-alt {
+  --fa: "";
+}
+
+.fa-circle-pause, .fa-pause-circle {
+  --fa: "";
+}
+
+.fa-circle-stop, .fa-stop-circle {
+  --fa: "";
+}
+
+.fa-bag-shopping, .fa-shopping-bag {
+  --fa: "";
+}
+
+.fa-basket-shopping, .fa-shopping-basket {
+  --fa: "";
+}
+
+.fa-universal-access {
+  --fa: "";
+}
+
+.fa-person-walking-with-cane, .fa-blind {
+  --fa: "";
+}
+
+.fa-audio-description {
+  --fa: "";
+}
+
+.fa-phone-volume, .fa-volume-control-phone {
+  --fa: "";
+}
+
+.fa-braille {
+  --fa: "";
+}
+
+.fa-ear-listen, .fa-assistive-listening-systems {
+  --fa: "";
+}
+
+.fa-hands-asl-interpreting, .fa-american-sign-language-interpreting, .fa-asl-interpreting, .fa-hands-american-sign-language-interpreting {
+  --fa: "";
+}
+
+.fa-ear-deaf, .fa-deaf, .fa-deafness, .fa-hard-of-hearing {
+  --fa: "";
+}
+
+.fa-hands, .fa-sign-language, .fa-signing {
+  --fa: "";
+}
+
+.fa-eye-low-vision, .fa-low-vision {
+  --fa: "";
+}
+
+.fa-font-awesome, .fa-font-awesome-flag, .fa-font-awesome-logo-full {
+  --fa: "";
+}
+
+.fa-handshake, .fa-handshake-alt, .fa-handshake-simple {
+  --fa: "";
+}
+
+.fa-envelope-open {
+  --fa: "";
+}
+
+.fa-address-book, .fa-contact-book {
+  --fa: "";
+}
+
+.fa-address-card, .fa-contact-card, .fa-vcard {
+  --fa: "";
+}
+
+.fa-circle-user, .fa-user-circle {
+  --fa: "";
+}
+
+.fa-id-badge {
+  --fa: "";
+}
+
+.fa-id-card, .fa-drivers-license {
+  --fa: "";
+}
+
+.fa-temperature-full, .fa-temperature-4, .fa-thermometer-4, .fa-thermometer-full {
+  --fa: "";
+}
+
+.fa-temperature-three-quarters, .fa-temperature-3, .fa-thermometer-3, .fa-thermometer-three-quarters {
+  --fa: "";
+}
+
+.fa-temperature-half, .fa-temperature-2, .fa-thermometer-2, .fa-thermometer-half {
+  --fa: "";
+}
+
+.fa-temperature-quarter, .fa-temperature-1, .fa-thermometer-1, .fa-thermometer-quarter {
+  --fa: "";
+}
+
+.fa-temperature-empty, .fa-temperature-0, .fa-thermometer-0, .fa-thermometer-empty {
+  --fa: "";
+}
+
+.fa-shower {
+  --fa: "";
+}
+
+.fa-bath, .fa-bathtub {
+  --fa: "";
+}
+
+.fa-podcast {
+  --fa: "";
+}
+
+.fa-window-maximize {
+  --fa: "";
+}
+
+.fa-window-minimize {
+  --fa: "";
+}
+
+.fa-window-restore {
+  --fa: "";
+}
+
+.fa-square-xmark, .fa-times-square, .fa-xmark-square {
+  --fa: "";
+}
+
+.fa-microchip {
+  --fa: "";
+}
+
+.fa-snowflake {
+  --fa: "";
+}
+
+.fa-spoon, .fa-utensil-spoon {
+  --fa: "";
+}
+
+.fa-utensils, .fa-cutlery {
+  --fa: "";
+}
+
+.fa-rotate-left, .fa-rotate-back, .fa-rotate-backward, .fa-undo-alt {
+  --fa: "";
+}
+
+.fa-trash-can, .fa-trash-alt {
+  --fa: "";
+}
+
+.fa-rotate, .fa-sync-alt {
+  --fa: "";
+}
+
+.fa-stopwatch {
+  --fa: "";
+}
+
+.fa-right-from-bracket, .fa-sign-out-alt {
+  --fa: "";
+}
+
+.fa-right-to-bracket, .fa-sign-in-alt {
+  --fa: "";
+}
+
+.fa-rotate-right, .fa-redo-alt, .fa-rotate-forward {
+  --fa: "";
+}
+
+.fa-poo {
+  --fa: "";
+}
+
+.fa-images {
+  --fa: "";
+}
+
+.fa-pencil, .fa-pencil-alt {
+  --fa: "";
+}
+
+.fa-pen {
+  --fa: "";
+}
+
+.fa-pen-clip, .fa-pen-alt {
+  --fa: "";
+}
+
+.fa-octagon {
+  --fa: "";
+}
+
+.fa-down-long, .fa-long-arrow-alt-down {
+  --fa: "";
+}
+
+.fa-left-long, .fa-long-arrow-alt-left {
+  --fa: "";
+}
+
+.fa-right-long, .fa-long-arrow-alt-right {
+  --fa: "";
+}
+
+.fa-up-long, .fa-long-arrow-alt-up {
+  --fa: "";
+}
+
+.fa-hexagon {
+  --fa: "";
+}
+
+.fa-file-pen, .fa-file-edit {
+  --fa: "";
+}
+
+.fa-maximize, .fa-expand-arrows-alt {
+  --fa: "";
+}
+
+.fa-clipboard {
+  --fa: "";
+}
+
+.fa-left-right, .fa-arrows-alt-h {
+  --fa: "";
+}
+
+.fa-up-down, .fa-arrows-alt-v {
+  --fa: "";
+}
+
+.fa-alarm-clock {
+  --fa: "";
+}
+
+.fa-circle-down, .fa-arrow-alt-circle-down {
+  --fa: "";
+}
+
+.fa-circle-left, .fa-arrow-alt-circle-left {
+  --fa: "";
+}
+
+.fa-circle-right, .fa-arrow-alt-circle-right {
+  --fa: "";
+}
+
+.fa-circle-up, .fa-arrow-alt-circle-up {
+  --fa: "";
+}
+
+.fa-up-right-from-square, .fa-external-link-alt {
+  --fa: "";
+}
+
+.fa-square-up-right, .fa-external-link-square-alt {
+  --fa: "";
+}
+
+.fa-right-left, .fa-exchange-alt {
+  --fa: "";
+}
+
+.fa-repeat {
+  --fa: "";
+}
+
+.fa-code-commit {
+  --fa: "";
+}
+
+.fa-code-merge {
+  --fa: "";
+}
+
+.fa-desktop, .fa-desktop-alt {
+  --fa: "";
+}
+
+.fa-gem {
+  --fa: "";
+}
+
+.fa-turn-down, .fa-level-down-alt {
+  --fa: "";
+}
+
+.fa-turn-up, .fa-level-up-alt {
+  --fa: "";
+}
+
+.fa-lock-open {
+  --fa: "";
+}
+
+.fa-location-dot, .fa-map-marker-alt {
+  --fa: "";
+}
+
+.fa-microphone-lines, .fa-microphone-alt {
+  --fa: "";
+}
+
+.fa-mobile-screen-button, .fa-mobile-alt {
+  --fa: "";
+}
+
+.fa-mobile, .fa-mobile-android, .fa-mobile-phone {
+  --fa: "";
+}
+
+.fa-mobile-screen, .fa-mobile-android-alt {
+  --fa: "";
+}
+
+.fa-money-bill-1, .fa-money-bill-alt {
+  --fa: "";
+}
+
+.fa-phone-slash {
+  --fa: "";
+}
+
+.fa-image-portrait, .fa-portrait {
+  --fa: "";
+}
+
+.fa-reply, .fa-mail-reply {
+  --fa: "";
+}
+
+.fa-shield-halved, .fa-shield-alt {
+  --fa: "";
+}
+
+.fa-tablet-screen-button, .fa-tablet-alt {
+  --fa: "";
+}
+
+.fa-tablet, .fa-tablet-android {
+  --fa: "";
+}
+
+.fa-ticket-simple, .fa-ticket-alt {
+  --fa: "";
+}
+
+.fa-rectangle-xmark, .fa-rectangle-times, .fa-times-rectangle, .fa-window-close {
+  --fa: "";
+}
+
+.fa-down-left-and-up-right-to-center, .fa-compress-alt {
+  --fa: "";
+}
+
+.fa-up-right-and-down-left-from-center, .fa-expand-alt {
+  --fa: "";
+}
+
+.fa-baseball-bat-ball {
+  --fa: "";
+}
+
+.fa-baseball, .fa-baseball-ball {
+  --fa: "";
+}
+
+.fa-basketball, .fa-basketball-ball {
+  --fa: "";
+}
+
+.fa-bowling-ball {
+  --fa: "";
+}
+
+.fa-chess {
+  --fa: "";
+}
+
+.fa-chess-bishop {
+  --fa: "";
+}
+
+.fa-chess-board {
+  --fa: "";
+}
+
+.fa-chess-king {
+  --fa: "";
+}
+
+.fa-chess-knight {
+  --fa: "";
+}
+
+.fa-chess-pawn {
+  --fa: "";
+}
+
+.fa-chess-queen {
+  --fa: "";
+}
+
+.fa-chess-rook {
+  --fa: "";
+}
+
+.fa-dumbbell {
+  --fa: "";
+}
+
+.fa-football, .fa-football-ball {
+  --fa: "";
+}
+
+.fa-golf-ball-tee, .fa-golf-ball {
+  --fa: "";
+}
+
+.fa-hockey-puck {
+  --fa: "";
+}
+
+.fa-broom-ball, .fa-quidditch, .fa-quidditch-broom-ball {
+  --fa: "";
+}
+
+.fa-square-full {
+  --fa: "";
+}
+
+.fa-table-tennis-paddle-ball, .fa-ping-pong-paddle-ball, .fa-table-tennis {
+  --fa: "";
+}
+
+.fa-volleyball, .fa-volleyball-ball {
+  --fa: "";
+}
+
+.fa-hand-dots, .fa-allergies {
+  --fa: "";
+}
+
+.fa-bandage, .fa-band-aid {
+  --fa: "";
+}
+
+.fa-box {
+  --fa: "";
+}
+
+.fa-boxes-stacked, .fa-boxes, .fa-boxes-alt {
+  --fa: "";
+}
+
+.fa-briefcase-medical {
+  --fa: "";
+}
+
+.fa-fire-flame-simple, .fa-burn {
+  --fa: "";
+}
+
+.fa-capsules {
+  --fa: "";
+}
+
+.fa-clipboard-check {
+  --fa: "";
+}
+
+.fa-clipboard-list {
+  --fa: "";
+}
+
+.fa-person-dots-from-line, .fa-diagnoses {
+  --fa: "";
+}
+
+.fa-dna {
+  --fa: "";
+}
+
+.fa-dolly, .fa-dolly-box {
+  --fa: "";
+}
+
+.fa-cart-flatbed, .fa-dolly-flatbed {
+  --fa: "";
+}
+
+.fa-file-medical {
+  --fa: "";
+}
+
+.fa-file-waveform, .fa-file-medical-alt {
+  --fa: "";
+}
+
+.fa-kit-medical, .fa-first-aid {
+  --fa: "";
+}
+
+.fa-circle-h, .fa-hospital-symbol {
+  --fa: "";
+}
+
+.fa-id-card-clip, .fa-id-card-alt {
+  --fa: "";
+}
+
+.fa-notes-medical {
+  --fa: "";
+}
+
+.fa-pallet {
+  --fa: "";
+}
+
+.fa-pills {
+  --fa: "";
+}
+
+.fa-prescription-bottle {
+  --fa: "";
+}
+
+.fa-prescription-bottle-medical, .fa-prescription-bottle-alt {
+  --fa: "";
+}
+
+.fa-bed-pulse, .fa-procedures {
+  --fa: "";
+}
+
+.fa-truck-fast, .fa-shipping-fast {
+  --fa: "";
+}
+
+.fa-smoking {
+  --fa: "";
+}
+
+.fa-syringe {
+  --fa: "";
+}
+
+.fa-tablets {
+  --fa: "";
+}
+
+.fa-thermometer {
+  --fa: "";
+}
+
+.fa-vial {
+  --fa: "";
+}
+
+.fa-vials {
+  --fa: "";
+}
+
+.fa-warehouse {
+  --fa: "";
+}
+
+.fa-weight-scale, .fa-weight {
+  --fa: "";
+}
+
+.fa-x-ray {
+  --fa: "";
+}
+
+.fa-box-open {
+  --fa: "";
+}
+
+.fa-comment-dots, .fa-commenting {
+  --fa: "";
+}
+
+.fa-comment-slash {
+  --fa: "";
+}
+
+.fa-couch {
+  --fa: "";
+}
+
+.fa-circle-dollar-to-slot, .fa-donate {
+  --fa: "";
+}
+
+.fa-dove {
+  --fa: "";
+}
+
+.fa-hand-holding {
+  --fa: "";
+}
+
+.fa-hand-holding-heart {
+  --fa: "";
+}
+
+.fa-hand-holding-dollar, .fa-hand-holding-usd {
+  --fa: "";
+}
+
+.fa-hand-holding-droplet, .fa-hand-holding-water {
+  --fa: "";
+}
+
+.fa-hands-holding {
+  --fa: "";
+}
+
+.fa-handshake-angle, .fa-hands-helping {
+  --fa: "";
+}
+
+.fa-parachute-box {
+  --fa: "";
+}
+
+.fa-people-carry-box, .fa-people-carry {
+  --fa: "";
+}
+
+.fa-piggy-bank {
+  --fa: "";
+}
+
+.fa-ribbon {
+  --fa: "";
+}
+
+.fa-route {
+  --fa: "";
+}
+
+.fa-seedling, .fa-sprout {
+  --fa: "";
+}
+
+.fa-sign-hanging, .fa-sign {
+  --fa: "";
+}
+
+.fa-face-smile-wink, .fa-smile-wink {
+  --fa: "";
+}
+
+.fa-tape {
+  --fa: "";
+}
+
+.fa-truck-ramp-box, .fa-truck-loading {
+  --fa: "";
+}
+
+.fa-truck-moving {
+  --fa: "";
+}
+
+.fa-video-slash {
+  --fa: "";
+}
+
+.fa-wine-glass {
+  --fa: "";
+}
+
+.fa-user-astronaut {
+  --fa: "";
+}
+
+.fa-user-check {
+  --fa: "";
+}
+
+.fa-user-clock {
+  --fa: "";
+}
+
+.fa-user-gear, .fa-user-cog {
+  --fa: "";
+}
+
+.fa-user-pen, .fa-user-edit {
+  --fa: "";
+}
+
+.fa-user-group, .fa-user-friends {
+  --fa: "";
+}
+
+.fa-user-graduate {
+  --fa: "";
+}
+
+.fa-user-lock {
+  --fa: "";
+}
+
+.fa-user-minus {
+  --fa: "";
+}
+
+.fa-user-ninja {
+  --fa: "";
+}
+
+.fa-user-shield {
+  --fa: "";
+}
+
+.fa-user-slash, .fa-user-alt-slash, .fa-user-large-slash {
+  --fa: "";
+}
+
+.fa-user-tag {
+  --fa: "";
+}
+
+.fa-user-tie {
+  --fa: "";
+}
+
+.fa-users-gear, .fa-users-cog {
+  --fa: "";
+}
+
+.fa-scale-unbalanced, .fa-balance-scale-left {
+  --fa: "";
+}
+
+.fa-scale-unbalanced-flip, .fa-balance-scale-right {
+  --fa: "";
+}
+
+.fa-blender {
+  --fa: "";
+}
+
+.fa-book-open {
+  --fa: "";
+}
+
+.fa-tower-broadcast, .fa-broadcast-tower {
+  --fa: "";
+}
+
+.fa-broom {
+  --fa: "";
+}
+
+.fa-chalkboard, .fa-blackboard {
+  --fa: "";
+}
+
+.fa-chalkboard-user, .fa-chalkboard-teacher {
+  --fa: "";
+}
+
+.fa-church {
+  --fa: "";
+}
+
+.fa-coins {
+  --fa: "";
+}
+
+.fa-compact-disc {
+  --fa: "";
+}
+
+.fa-crow {
+  --fa: "";
+}
+
+.fa-crown {
+  --fa: "";
+}
+
+.fa-dice {
+  --fa: "";
+}
+
+.fa-dice-five {
+  --fa: "";
+}
+
+.fa-dice-four {
+  --fa: "";
+}
+
+.fa-dice-one {
+  --fa: "";
+}
+
+.fa-dice-six {
+  --fa: "";
+}
+
+.fa-dice-three {
+  --fa: "";
+}
+
+.fa-dice-two {
+  --fa: "";
+}
+
+.fa-divide {
+  --fa: "";
+}
+
+.fa-door-closed {
+  --fa: "";
+}
+
+.fa-door-open {
+  --fa: "";
+}
+
+.fa-feather {
+  --fa: "";
+}
+
+.fa-frog {
+  --fa: "";
+}
+
+.fa-gas-pump {
+  --fa: "";
+}
+
+.fa-glasses {
+  --fa: "";
+}
+
+.fa-greater-than-equal {
+  --fa: "";
+}
+
+.fa-helicopter {
+  --fa: "";
+}
+
+.fa-infinity {
+  --fa: "";
+}
+
+.fa-kiwi-bird {
+  --fa: "";
+}
+
+.fa-less-than-equal {
+  --fa: "";
+}
+
+.fa-memory {
+  --fa: "";
+}
+
+.fa-microphone-lines-slash, .fa-microphone-alt-slash {
+  --fa: "";
+}
+
+.fa-money-bill-wave {
+  --fa: "";
+}
+
+.fa-money-bill-1-wave, .fa-money-bill-wave-alt {
+  --fa: "";
+}
+
+.fa-money-check {
+  --fa: "";
+}
+
+.fa-money-check-dollar, .fa-money-check-alt {
+  --fa: "";
+}
+
+.fa-not-equal {
+  --fa: "";
+}
+
+.fa-palette {
+  --fa: "";
+}
+
+.fa-square-parking, .fa-parking {
+  --fa: "";
+}
+
+.fa-diagram-project, .fa-project-diagram {
+  --fa: "";
+}
+
+.fa-receipt {
+  --fa: "";
+}
+
+.fa-robot {
+  --fa: "";
+}
+
+.fa-ruler {
+  --fa: "";
+}
+
+.fa-ruler-combined {
+  --fa: "";
+}
+
+.fa-ruler-horizontal {
+  --fa: "";
+}
+
+.fa-ruler-vertical {
+  --fa: "";
+}
+
+.fa-school {
+  --fa: "";
+}
+
+.fa-screwdriver {
+  --fa: "";
+}
+
+.fa-shoe-prints {
+  --fa: "";
+}
+
+.fa-skull {
+  --fa: "";
+}
+
+.fa-ban-smoking, .fa-smoking-ban {
+  --fa: "";
+}
+
+.fa-store {
+  --fa: "";
+}
+
+.fa-shop, .fa-store-alt {
+  --fa: "";
+}
+
+.fa-bars-staggered, .fa-reorder, .fa-stream {
+  --fa: "";
+}
+
+.fa-stroopwafel {
+  --fa: "";
+}
+
+.fa-toolbox {
+  --fa: "";
+}
+
+.fa-shirt, .fa-t-shirt, .fa-tshirt {
+  --fa: "";
+}
+
+.fa-person-walking, .fa-walking {
+  --fa: "";
+}
+
+.fa-wallet {
+  --fa: "";
+}
+
+.fa-face-angry, .fa-angry {
+  --fa: "";
+}
+
+.fa-archway {
+  --fa: "";
+}
+
+.fa-book-atlas, .fa-atlas {
+  --fa: "";
+}
+
+.fa-award {
+  --fa: "";
+}
+
+.fa-delete-left, .fa-backspace {
+  --fa: "";
+}
+
+.fa-bezier-curve {
+  --fa: "";
+}
+
+.fa-bong {
+  --fa: "";
+}
+
+.fa-brush {
+  --fa: "";
+}
+
+.fa-bus-simple, .fa-bus-alt {
+  --fa: "";
+}
+
+.fa-cannabis {
+  --fa: "";
+}
+
+.fa-check-double {
+  --fa: "";
+}
+
+.fa-martini-glass-citrus, .fa-cocktail {
+  --fa: "";
+}
+
+.fa-bell-concierge, .fa-concierge-bell {
+  --fa: "";
+}
+
+.fa-cookie {
+  --fa: "";
+}
+
+.fa-cookie-bite {
+  --fa: "";
+}
+
+.fa-crop-simple, .fa-crop-alt {
+  --fa: "";
+}
+
+.fa-tachograph-digital, .fa-digital-tachograph {
+  --fa: "";
+}
+
+.fa-face-dizzy, .fa-dizzy {
+  --fa: "";
+}
+
+.fa-compass-drafting, .fa-drafting-compass {
+  --fa: "";
+}
+
+.fa-drum {
+  --fa: "";
+}
+
+.fa-drum-steelpan {
+  --fa: "";
+}
+
+.fa-feather-pointed, .fa-feather-alt {
+  --fa: "";
+}
+
+.fa-file-contract {
+  --fa: "";
+}
+
+.fa-file-arrow-down, .fa-file-download {
+  --fa: "";
+}
+
+.fa-file-export, .fa-arrow-right-from-file {
+  --fa: "";
+}
+
+.fa-file-import, .fa-arrow-right-to-file {
+  --fa: "";
+}
+
+.fa-file-invoice {
+  --fa: "";
+}
+
+.fa-file-invoice-dollar {
+  --fa: "";
+}
+
+.fa-file-prescription {
+  --fa: "";
+}
+
+.fa-file-signature {
+  --fa: "";
+}
+
+.fa-file-arrow-up, .fa-file-upload {
+  --fa: "";
+}
+
+.fa-fill {
+  --fa: "";
+}
+
+.fa-fill-drip {
+  --fa: "";
+}
+
+.fa-fingerprint {
+  --fa: "";
+}
+
+.fa-fish {
+  --fa: "";
+}
+
+.fa-face-flushed, .fa-flushed {
+  --fa: "";
+}
+
+.fa-face-frown-open, .fa-frown-open {
+  --fa: "";
+}
+
+.fa-martini-glass, .fa-glass-martini-alt {
+  --fa: "";
+}
+
+.fa-earth-africa, .fa-globe-africa {
+  --fa: "";
+}
+
+.fa-earth-americas, .fa-earth, .fa-earth-america, .fa-globe-americas {
+  --fa: "";
+}
+
+.fa-earth-asia, .fa-globe-asia {
+  --fa: "";
+}
+
+.fa-face-grimace, .fa-grimace {
+  --fa: "";
+}
+
+.fa-face-grin, .fa-grin {
+  --fa: "";
+}
+
+.fa-face-grin-wide, .fa-grin-alt {
+  --fa: "";
+}
+
+.fa-face-grin-beam, .fa-grin-beam {
+  --fa: "";
+}
+
+.fa-face-grin-beam-sweat, .fa-grin-beam-sweat {
+  --fa: "";
+}
+
+.fa-face-grin-hearts, .fa-grin-hearts {
+  --fa: "";
+}
+
+.fa-face-grin-squint, .fa-grin-squint {
+  --fa: "";
+}
+
+.fa-face-grin-squint-tears, .fa-grin-squint-tears {
+  --fa: "";
+}
+
+.fa-face-grin-stars, .fa-grin-stars {
+  --fa: "";
+}
+
+.fa-face-grin-tears, .fa-grin-tears {
+  --fa: "";
+}
+
+.fa-face-grin-tongue, .fa-grin-tongue {
+  --fa: "";
+}
+
+.fa-face-grin-tongue-squint, .fa-grin-tongue-squint {
+  --fa: "";
+}
+
+.fa-face-grin-tongue-wink, .fa-grin-tongue-wink {
+  --fa: "";
+}
+
+.fa-face-grin-wink, .fa-grin-wink {
+  --fa: "";
+}
+
+.fa-grip, .fa-grid-horizontal, .fa-grip-horizontal {
+  --fa: "";
+}
+
+.fa-grip-vertical, .fa-grid-vertical {
+  --fa: "";
+}
+
+.fa-headset {
+  --fa: "";
+}
+
+.fa-highlighter {
+  --fa: "";
+}
+
+.fa-hot-tub-person, .fa-hot-tub {
+  --fa: "";
+}
+
+.fa-hotel {
+  --fa: "";
+}
+
+.fa-joint {
+  --fa: "";
+}
+
+.fa-face-kiss, .fa-kiss {
+  --fa: "";
+}
+
+.fa-face-kiss-beam, .fa-kiss-beam {
+  --fa: "";
+}
+
+.fa-face-kiss-wink-heart, .fa-kiss-wink-heart {
+  --fa: "";
+}
+
+.fa-face-laugh, .fa-laugh {
+  --fa: "";
+}
+
+.fa-face-laugh-beam, .fa-laugh-beam {
+  --fa: "";
+}
+
+.fa-face-laugh-squint, .fa-laugh-squint {
+  --fa: "";
+}
+
+.fa-face-laugh-wink, .fa-laugh-wink {
+  --fa: "";
+}
+
+.fa-cart-flatbed-suitcase, .fa-luggage-cart {
+  --fa: "";
+}
+
+.fa-map-location, .fa-map-marked {
+  --fa: "";
+}
+
+.fa-map-location-dot, .fa-map-marked-alt {
+  --fa: "";
+}
+
+.fa-marker {
+  --fa: "";
+}
+
+.fa-medal {
+  --fa: "";
+}
+
+.fa-face-meh-blank, .fa-meh-blank {
+  --fa: "";
+}
+
+.fa-face-rolling-eyes, .fa-meh-rolling-eyes {
+  --fa: "";
+}
+
+.fa-monument {
+  --fa: "";
+}
+
+.fa-mortar-pestle {
+  --fa: "";
+}
+
+.fa-paint-roller {
+  --fa: "";
+}
+
+.fa-passport {
+  --fa: "";
+}
+
+.fa-pen-fancy {
+  --fa: "";
+}
+
+.fa-pen-nib {
+  --fa: "";
+}
+
+.fa-pen-ruler, .fa-pencil-ruler {
+  --fa: "";
+}
+
+.fa-plane-arrival {
+  --fa: "";
+}
+
+.fa-plane-departure {
+  --fa: "";
+}
+
+.fa-prescription {
+  --fa: "";
+}
+
+.fa-face-sad-cry, .fa-sad-cry {
+  --fa: "";
+}
+
+.fa-face-sad-tear, .fa-sad-tear {
+  --fa: "";
+}
+
+.fa-van-shuttle, .fa-shuttle-van {
+  --fa: "";
+}
+
+.fa-signature {
+  --fa: "";
+}
+
+.fa-face-smile-beam, .fa-smile-beam {
+  --fa: "";
+}
+
+.fa-solar-panel {
+  --fa: "";
+}
+
+.fa-spa {
+  --fa: "";
+}
+
+.fa-splotch {
+  --fa: "";
+}
+
+.fa-spray-can {
+  --fa: "";
+}
+
+.fa-stamp {
+  --fa: "";
+}
+
+.fa-star-half-stroke, .fa-star-half-alt {
+  --fa: "";
+}
+
+.fa-suitcase-rolling {
+  --fa: "";
+}
+
+.fa-face-surprise, .fa-surprise {
+  --fa: "";
+}
+
+.fa-swatchbook {
+  --fa: "";
+}
+
+.fa-person-swimming, .fa-swimmer {
+  --fa: "";
+}
+
+.fa-water-ladder, .fa-ladder-water, .fa-swimming-pool {
+  --fa: "";
+}
+
+.fa-droplet-slash, .fa-tint-slash {
+  --fa: "";
+}
+
+.fa-face-tired, .fa-tired {
+  --fa: "";
+}
+
+.fa-tooth {
+  --fa: "";
+}
+
+.fa-umbrella-beach {
+  --fa: "";
+}
+
+.fa-weight-hanging {
+  --fa: "";
+}
+
+.fa-wine-glass-empty, .fa-wine-glass-alt {
+  --fa: "";
+}
+
+.fa-spray-can-sparkles, .fa-air-freshener {
+  --fa: "";
+}
+
+.fa-apple-whole, .fa-apple-alt {
+  --fa: "";
+}
+
+.fa-atom {
+  --fa: "";
+}
+
+.fa-bone {
+  --fa: "";
+}
+
+.fa-book-open-reader, .fa-book-reader {
+  --fa: "";
+}
+
+.fa-brain {
+  --fa: "";
+}
+
+.fa-car-rear, .fa-car-alt {
+  --fa: "";
+}
+
+.fa-car-battery, .fa-battery-car {
+  --fa: "";
+}
+
+.fa-car-burst, .fa-car-crash {
+  --fa: "";
+}
+
+.fa-car-side {
+  --fa: "";
+}
+
+.fa-charging-station {
+  --fa: "";
+}
+
+.fa-diamond-turn-right, .fa-directions {
+  --fa: "";
+}
+
+.fa-draw-polygon, .fa-vector-polygon {
+  --fa: "";
+}
+
+.fa-laptop-code {
+  --fa: "";
+}
+
+.fa-layer-group {
+  --fa: "";
+}
+
+.fa-location-crosshairs, .fa-location {
+  --fa: "";
+}
+
+.fa-lungs {
+  --fa: "";
+}
+
+.fa-microscope {
+  --fa: "";
+}
+
+.fa-oil-can {
+  --fa: "";
+}
+
+.fa-poop {
+  --fa: "";
+}
+
+.fa-shapes, .fa-triangle-circle-square {
+  --fa: "";
+}
+
+.fa-star-of-life {
+  --fa: "";
+}
+
+.fa-gauge, .fa-dashboard, .fa-gauge-med, .fa-tachometer-alt-average {
+  --fa: "";
+}
+
+.fa-gauge-high, .fa-tachometer-alt, .fa-tachometer-alt-fast {
+  --fa: "";
+}
+
+.fa-gauge-simple, .fa-gauge-simple-med, .fa-tachometer-average {
+  --fa: "";
+}
+
+.fa-gauge-simple-high, .fa-tachometer, .fa-tachometer-fast {
+  --fa: "";
+}
+
+.fa-teeth {
+  --fa: "";
+}
+
+.fa-teeth-open {
+  --fa: "";
+}
+
+.fa-masks-theater, .fa-theater-masks {
+  --fa: "";
+}
+
+.fa-traffic-light {
+  --fa: "";
+}
+
+.fa-truck-monster {
+  --fa: "";
+}
+
+.fa-truck-pickup {
+  --fa: "";
+}
+
+.fa-rectangle-ad, .fa-ad {
+  --fa: "";
+}
+
+.fa-ankh {
+  --fa: "";
+}
+
+.fa-book-bible, .fa-bible {
+  --fa: "";
+}
+
+.fa-business-time, .fa-briefcase-clock {
+  --fa: "";
+}
+
+.fa-city {
+  --fa: "";
+}
+
+.fa-comment-dollar {
+  --fa: "";
+}
+
+.fa-comments-dollar {
+  --fa: "";
+}
+
+.fa-cross {
+  --fa: "";
+}
+
+.fa-dharmachakra {
+  --fa: "";
+}
+
+.fa-envelope-open-text {
+  --fa: "";
+}
+
+.fa-folder-minus {
+  --fa: "";
+}
+
+.fa-folder-plus {
+  --fa: "";
+}
+
+.fa-filter-circle-dollar, .fa-funnel-dollar {
+  --fa: "";
+}
+
+.fa-gopuram {
+  --fa: "";
+}
+
+.fa-hamsa {
+  --fa: "";
+}
+
+.fa-bahai, .fa-haykal {
+  --fa: "";
+}
+
+.fa-jedi {
+  --fa: "";
+}
+
+.fa-book-journal-whills, .fa-journal-whills {
+  --fa: "";
+}
+
+.fa-kaaba {
+  --fa: "";
+}
+
+.fa-khanda {
+  --fa: "";
+}
+
+.fa-landmark {
+  --fa: "";
+}
+
+.fa-envelopes-bulk, .fa-mail-bulk {
+  --fa: "";
+}
+
+.fa-menorah {
+  --fa: "";
+}
+
+.fa-mosque {
+  --fa: "";
+}
+
+.fa-om {
+  --fa: "";
+}
+
+.fa-spaghetti-monster-flying, .fa-pastafarianism {
+  --fa: "";
+}
+
+.fa-peace {
+  --fa: "";
+}
+
+.fa-place-of-worship {
+  --fa: "";
+}
+
+.fa-square-poll-vertical, .fa-poll {
+  --fa: "";
+}
+
+.fa-square-poll-horizontal, .fa-poll-h {
+  --fa: "";
+}
+
+.fa-person-praying, .fa-pray {
+  --fa: "";
+}
+
+.fa-hands-praying, .fa-praying-hands {
+  --fa: "";
+}
+
+.fa-book-quran, .fa-quran {
+  --fa: "";
+}
+
+.fa-magnifying-glass-dollar, .fa-search-dollar {
+  --fa: "";
+}
+
+.fa-magnifying-glass-location, .fa-search-location {
+  --fa: "";
+}
+
+.fa-socks {
+  --fa: "";
+}
+
+.fa-square-root-variable, .fa-square-root-alt {
+  --fa: "";
+}
+
+.fa-star-and-crescent {
+  --fa: "";
+}
+
+.fa-star-of-david {
+  --fa: "";
+}
+
+.fa-synagogue {
+  --fa: "";
+}
+
+.fa-scroll-torah, .fa-torah {
+  --fa: "";
+}
+
+.fa-torii-gate {
+  --fa: "";
+}
+
+.fa-vihara {
+  --fa: "";
+}
+
+.fa-volume, .fa-volume-medium {
+  --fa: "";
+}
+
+.fa-volume-xmark, .fa-volume-mute, .fa-volume-times {
+  --fa: "";
+}
+
+.fa-yin-yang {
+  --fa: "";
+}
+
+.fa-blender-phone {
+  --fa: "";
+}
+
+.fa-book-skull, .fa-book-dead {
+  --fa: "";
+}
+
+.fa-campground {
+  --fa: "";
+}
+
+.fa-cat {
+  --fa: "";
+}
+
+.fa-chair {
+  --fa: "";
+}
+
+.fa-cloud-moon {
+  --fa: "";
+}
+
+.fa-cloud-sun {
+  --fa: "";
+}
+
+.fa-cow {
+  --fa: "";
+}
+
+.fa-dice-d20 {
+  --fa: "";
+}
+
+.fa-dice-d6 {
+  --fa: "";
+}
+
+.fa-dog {
+  --fa: "";
+}
+
+.fa-dragon {
+  --fa: "";
+}
+
+.fa-drumstick-bite {
+  --fa: "";
+}
+
+.fa-dungeon {
+  --fa: "";
+}
+
+.fa-file-csv {
+  --fa: "";
+}
+
+.fa-hand-fist, .fa-fist-raised {
+  --fa: "";
+}
+
+.fa-ghost {
+  --fa: "";
+}
+
+.fa-hammer {
+  --fa: "";
+}
+
+.fa-hanukiah {
+  --fa: "";
+}
+
+.fa-hat-wizard {
+  --fa: "";
+}
+
+.fa-person-hiking, .fa-hiking {
+  --fa: "";
+}
+
+.fa-hippo {
+  --fa: "";
+}
+
+.fa-horse {
+  --fa: "";
+}
+
+.fa-house-chimney-crack, .fa-house-damage {
+  --fa: "";
+}
+
+.fa-hryvnia-sign, .fa-hryvnia {
+  --fa: "";
+}
+
+.fa-mask {
+  --fa: "";
+}
+
+.fa-mountain {
+  --fa: "";
+}
+
+.fa-network-wired {
+  --fa: "";
+}
+
+.fa-otter {
+  --fa: "";
+}
+
+.fa-ring {
+  --fa: "";
+}
+
+.fa-person-running, .fa-running {
+  --fa: "";
+}
+
+.fa-scroll {
+  --fa: "";
+}
+
+.fa-skull-crossbones {
+  --fa: "";
+}
+
+.fa-slash {
+  --fa: "";
+}
+
+.fa-spider {
+  --fa: "";
+}
+
+.fa-toilet-paper, .fa-toilet-paper-alt, .fa-toilet-paper-blank {
+  --fa: "";
+}
+
+.fa-tractor {
+  --fa: "";
+}
+
+.fa-user-injured {
+  --fa: "";
+}
+
+.fa-vr-cardboard {
+  --fa: "";
+}
+
+.fa-wand-sparkles {
+  --fa: "";
+}
+
+.fa-wind {
+  --fa: "";
+}
+
+.fa-wine-bottle {
+  --fa: "";
+}
+
+.fa-cloud-meatball {
+  --fa: "";
+}
+
+.fa-cloud-moon-rain {
+  --fa: "";
+}
+
+.fa-cloud-rain {
+  --fa: "";
+}
+
+.fa-cloud-showers-heavy {
+  --fa: "";
+}
+
+.fa-cloud-sun-rain {
+  --fa: "";
+}
+
+.fa-democrat {
+  --fa: "";
+}
+
+.fa-flag-usa {
+  --fa: "";
+}
+
+.fa-hurricane {
+  --fa: "";
+}
+
+.fa-landmark-dome, .fa-landmark-alt {
+  --fa: "";
+}
+
+.fa-meteor {
+  --fa: "";
+}
+
+.fa-person-booth {
+  --fa: "";
+}
+
+.fa-poo-storm, .fa-poo-bolt {
+  --fa: "";
+}
+
+.fa-rainbow {
+  --fa: "";
+}
+
+.fa-republican {
+  --fa: "";
+}
+
+.fa-smog {
+  --fa: "";
+}
+
+.fa-temperature-high {
+  --fa: "";
+}
+
+.fa-temperature-low {
+  --fa: "";
+}
+
+.fa-cloud-bolt, .fa-thunderstorm {
+  --fa: "";
+}
+
+.fa-tornado {
+  --fa: "";
+}
+
+.fa-volcano {
+  --fa: "";
+}
+
+.fa-check-to-slot, .fa-vote-yea {
+  --fa: "";
+}
+
+.fa-water {
+  --fa: "";
+}
+
+.fa-baby {
+  --fa: "";
+}
+
+.fa-baby-carriage, .fa-carriage-baby {
+  --fa: "";
+}
+
+.fa-biohazard {
+  --fa: "";
+}
+
+.fa-blog {
+  --fa: "";
+}
+
+.fa-calendar-day {
+  --fa: "";
+}
+
+.fa-calendar-week {
+  --fa: "";
+}
+
+.fa-candy-cane {
+  --fa: "";
+}
+
+.fa-carrot {
+  --fa: "";
+}
+
+.fa-cash-register {
+  --fa: "";
+}
+
+.fa-minimize, .fa-compress-arrows-alt {
+  --fa: "";
+}
+
+.fa-dumpster {
+  --fa: "";
+}
+
+.fa-dumpster-fire {
+  --fa: "";
+}
+
+.fa-ethernet {
+  --fa: "";
+}
+
+.fa-gifts {
+  --fa: "";
+}
+
+.fa-champagne-glasses, .fa-glass-cheers {
+  --fa: "";
+}
+
+.fa-whiskey-glass, .fa-glass-whiskey {
+  --fa: "";
+}
+
+.fa-earth-europe, .fa-globe-europe {
+  --fa: "";
+}
+
+.fa-grip-lines {
+  --fa: "";
+}
+
+.fa-grip-lines-vertical {
+  --fa: "";
+}
+
+.fa-guitar {
+  --fa: "";
+}
+
+.fa-heart-crack, .fa-heart-broken {
+  --fa: "";
+}
+
+.fa-holly-berry {
+  --fa: "";
+}
+
+.fa-horse-head {
+  --fa: "";
+}
+
+.fa-icicles {
+  --fa: "";
+}
+
+.fa-igloo {
+  --fa: "";
+}
+
+.fa-mitten {
+  --fa: "";
+}
+
+.fa-mug-hot {
+  --fa: "";
+}
+
+.fa-radiation {
+  --fa: "";
+}
+
+.fa-circle-radiation, .fa-radiation-alt {
+  --fa: "";
+}
+
+.fa-restroom {
+  --fa: "";
+}
+
+.fa-satellite {
+  --fa: "";
+}
+
+.fa-satellite-dish {
+  --fa: "";
+}
+
+.fa-sd-card {
+  --fa: "";
+}
+
+.fa-sim-card {
+  --fa: "";
+}
+
+.fa-person-skating, .fa-skating {
+  --fa: "";
+}
+
+.fa-person-skiing, .fa-skiing {
+  --fa: "";
+}
+
+.fa-person-skiing-nordic, .fa-skiing-nordic {
+  --fa: "";
+}
+
+.fa-sleigh {
+  --fa: "";
+}
+
+.fa-comment-sms, .fa-sms {
+  --fa: "";
+}
+
+.fa-person-snowboarding, .fa-snowboarding {
+  --fa: "";
+}
+
+.fa-snowman {
+  --fa: "";
+}
+
+.fa-snowplow {
+  --fa: "";
+}
+
+.fa-tenge-sign, .fa-tenge {
+  --fa: "";
+}
+
+.fa-toilet {
+  --fa: "";
+}
+
+.fa-screwdriver-wrench, .fa-tools {
+  --fa: "";
+}
+
+.fa-cable-car, .fa-tram {
+  --fa: "";
+}
+
+.fa-fire-flame-curved, .fa-fire-alt {
+  --fa: "";
+}
+
+.fa-bacon {
+  --fa: "";
+}
+
+.fa-book-medical {
+  --fa: "";
+}
+
+.fa-bread-slice {
+  --fa: "";
+}
+
+.fa-cheese {
+  --fa: "";
+}
+
+.fa-house-chimney-medical, .fa-clinic-medical {
+  --fa: "";
+}
+
+.fa-clipboard-user {
+  --fa: "";
+}
+
+.fa-comment-medical {
+  --fa: "";
+}
+
+.fa-crutch {
+  --fa: "";
+}
+
+.fa-disease {
+  --fa: "";
+}
+
+.fa-egg {
+  --fa: "";
+}
+
+.fa-folder-tree {
+  --fa: "";
+}
+
+.fa-burger, .fa-hamburger {
+  --fa: "";
+}
+
+.fa-hand-middle-finger {
+  --fa: "";
+}
+
+.fa-helmet-safety, .fa-hard-hat, .fa-hat-hard {
+  --fa: "";
+}
+
+.fa-hospital-user {
+  --fa: "";
+}
+
+.fa-hotdog {
+  --fa: "";
+}
+
+.fa-ice-cream {
+  --fa: "";
+}
+
+.fa-laptop-medical {
+  --fa: "";
+}
+
+.fa-pager {
+  --fa: "";
+}
+
+.fa-pepper-hot {
+  --fa: "";
+}
+
+.fa-pizza-slice {
+  --fa: "";
+}
+
+.fa-sack-dollar {
+  --fa: "";
+}
+
+.fa-book-tanakh, .fa-tanakh {
+  --fa: "";
+}
+
+.fa-bars-progress, .fa-tasks-alt {
+  --fa: "";
+}
+
+.fa-trash-arrow-up, .fa-trash-restore {
+  --fa: "";
+}
+
+.fa-trash-can-arrow-up, .fa-trash-restore-alt {
+  --fa: "";
+}
+
+.fa-user-nurse {
+  --fa: "";
+}
+
+.fa-wave-square {
+  --fa: "";
+}
+
+.fa-person-biking, .fa-biking {
+  --fa: "";
+}
+
+.fa-border-all {
+  --fa: "";
+}
+
+.fa-border-none {
+  --fa: "";
+}
+
+.fa-border-top-left, .fa-border-style {
+  --fa: "";
+}
+
+.fa-person-digging, .fa-digging {
+  --fa: "";
+}
+
+.fa-fan {
+  --fa: "";
+}
+
+.fa-icons, .fa-heart-music-camera-bolt {
+  --fa: "";
+}
+
+.fa-phone-flip, .fa-phone-alt {
+  --fa: "";
+}
+
+.fa-square-phone-flip, .fa-phone-square-alt {
+  --fa: "";
+}
+
+.fa-photo-film, .fa-photo-video {
+  --fa: "";
+}
+
+.fa-text-slash, .fa-remove-format {
+  --fa: "";
+}
+
+.fa-arrow-down-z-a, .fa-sort-alpha-desc, .fa-sort-alpha-down-alt {
+  --fa: "";
+}
+
+.fa-arrow-up-z-a, .fa-sort-alpha-up-alt {
+  --fa: "";
+}
+
+.fa-arrow-down-short-wide, .fa-sort-amount-desc, .fa-sort-amount-down-alt {
+  --fa: "";
+}
+
+.fa-arrow-up-short-wide, .fa-sort-amount-up-alt {
+  --fa: "";
+}
+
+.fa-arrow-down-9-1, .fa-sort-numeric-desc, .fa-sort-numeric-down-alt {
+  --fa: "";
+}
+
+.fa-arrow-up-9-1, .fa-sort-numeric-up-alt {
+  --fa: "";
+}
+
+.fa-spell-check {
+  --fa: "";
+}
+
+.fa-voicemail {
+  --fa: "";
+}
+
+.fa-hat-cowboy {
+  --fa: "";
+}
+
+.fa-hat-cowboy-side {
+  --fa: "";
+}
+
+.fa-computer-mouse, .fa-mouse {
+  --fa: "";
+}
+
+.fa-radio {
+  --fa: "";
+}
+
+.fa-record-vinyl {
+  --fa: "";
+}
+
+.fa-walkie-talkie {
+  --fa: "";
+}
+
+.fa-caravan {
+  --fa: "";
+}
+
+:root, :host {
+  --fa-family-brands: "Font Awesome 7 Brands";
+  --fa-font-brands: normal 400 1em / 1 var(--fa-family-brands);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../media/fa-brands-400.e580dcb3.woff2");
+}
+
+.fab, .fa-brands, .fa-classic.fa-brands {
+  --fa-family: var(--fa-family-brands);
+  --fa-style: 400;
+}
+
+.fa-firefox-browser {
+  --fa: "";
+}
+
+.fa-ideal {
+  --fa: "";
+}
+
+.fa-microblog {
+  --fa: "";
+}
+
+.fa-square-pied-piper, .fa-pied-piper-square {
+  --fa: "";
+}
+
+.fa-unity {
+  --fa: "";
+}
+
+.fa-dailymotion {
+  --fa: "";
+}
+
+.fa-square-instagram, .fa-instagram-square {
+  --fa: "";
+}
+
+.fa-mixer {
+  --fa: "";
+}
+
+.fa-shopify {
+  --fa: "";
+}
+
+.fa-deezer {
+  --fa: "";
+}
+
+.fa-edge-legacy {
+  --fa: "";
+}
+
+.fa-google-pay {
+  --fa: "";
+}
+
+.fa-rust {
+  --fa: "";
+}
+
+.fa-tiktok {
+  --fa: "";
+}
+
+.fa-unsplash {
+  --fa: "";
+}
+
+.fa-cloudflare {
+  --fa: "";
+}
+
+.fa-guilded {
+  --fa: "";
+}
+
+.fa-hive {
+  --fa: "";
+}
+
+.fa-42-group, .fa-innosoft {
+  --fa: "";
+}
+
+.fa-instalod {
+  --fa: "";
+}
+
+.fa-octopus-deploy {
+  --fa: "";
+}
+
+.fa-perbyte {
+  --fa: "";
+}
+
+.fa-uncharted {
+  --fa: "";
+}
+
+.fa-watchman-monitoring {
+  --fa: "";
+}
+
+.fa-wodu {
+  --fa: "";
+}
+
+.fa-wirsindhandwerk, .fa-wsh {
+  --fa: "";
+}
+
+.fa-bots {
+  --fa: "";
+}
+
+.fa-cmplid {
+  --fa: "";
+}
+
+.fa-bilibili {
+  --fa: "";
+}
+
+.fa-golang {
+  --fa: "";
+}
+
+.fa-pix {
+  --fa: "";
+}
+
+.fa-sitrox {
+  --fa: "";
+}
+
+.fa-hashnode {
+  --fa: "";
+}
+
+.fa-meta {
+  --fa: "";
+}
+
+.fa-padlet {
+  --fa: "";
+}
+
+.fa-nfc-directional {
+  --fa: "";
+}
+
+.fa-nfc-symbol {
+  --fa: "";
+}
+
+.fa-screenpal {
+  --fa: "";
+}
+
+.fa-space-awesome {
+  --fa: "";
+}
+
+.fa-square-font-awesome {
+  --fa: "";
+}
+
+.fa-square-gitlab, .fa-gitlab-square {
+  --fa: "";
+}
+
+.fa-odysee {
+  --fa: "";
+}
+
+.fa-stubber {
+  --fa: "";
+}
+
+.fa-debian {
+  --fa: "";
+}
+
+.fa-shoelace {
+  --fa: "";
+}
+
+.fa-threads {
+  --fa: "";
+}
+
+.fa-square-threads {
+  --fa: "";
+}
+
+.fa-square-x-twitter {
+  --fa: "";
+}
+
+.fa-x-twitter {
+  --fa: "";
+}
+
+.fa-opensuse {
+  --fa: "";
+}
+
+.fa-letterboxd {
+  --fa: "";
+}
+
+.fa-square-letterboxd {
+  --fa: "";
+}
+
+.fa-mintbit {
+  --fa: "";
+}
+
+.fa-google-scholar {
+  --fa: "";
+}
+
+.fa-brave {
+  --fa: "";
+}
+
+.fa-brave-reverse {
+  --fa: "";
+}
+
+.fa-pixiv {
+  --fa: "";
+}
+
+.fa-upwork {
+  --fa: "";
+}
+
+.fa-webflow {
+  --fa: "";
+}
+
+.fa-signal-messenger {
+  --fa: "";
+}
+
+.fa-bluesky {
+  --fa: "";
+}
+
+.fa-jxl {
+  --fa: "";
+}
+
+.fa-square-upwork {
+  --fa: "";
+}
+
+.fa-web-awesome {
+  --fa: "";
+}
+
+.fa-square-web-awesome {
+  --fa: "";
+}
+
+.fa-square-web-awesome-stroke {
+  --fa: "";
+}
+
+.fa-dart-lang {
+  --fa: "";
+}
+
+.fa-flutter {
+  --fa: "";
+}
+
+.fa-files-pinwheel {
+  --fa: "";
+}
+
+.fa-css {
+  --fa: "";
+}
+
+.fa-square-bluesky {
+  --fa: "";
+}
+
+.fa-openai {
+  --fa: "";
+}
+
+.fa-square-linkedin {
+  --fa: "";
+}
+
+.fa-cash-app {
+  --fa: "";
+}
+
+.fa-disqus {
+  --fa: "";
+}
+
+.fa-eleventy, .fa-11ty {
+  --fa: "";
+}
+
+.fa-kakao-talk {
+  --fa: "";
+}
+
+.fa-linktree {
+  --fa: "";
+}
+
+.fa-notion {
+  --fa: "";
+}
+
+.fa-pandora {
+  --fa: "";
+}
+
+.fa-pixelfed {
+  --fa: "";
+}
+
+.fa-tidal {
+  --fa: "";
+}
+
+.fa-vsco {
+  --fa: "";
+}
+
+.fa-w3c {
+  --fa: "";
+}
+
+.fa-lumon {
+  --fa: "";
+}
+
+.fa-lumon-drop {
+  --fa: "";
+}
+
+.fa-square-figma {
+  --fa: "";
+}
+
+.fa-tex {
+  --fa: "";
+}
+
+.fa-duolingo {
+  --fa: "";
+}
+
+.fa-supportnow {
+  --fa: "";
+}
+
+.fa-tor-browser {
+  --fa: "";
+}
+
+.fa-typescript {
+  --fa: "";
+}
+
+.fa-square-deskpro {
+  --fa: "";
+}
+
+.fa-circle-zulip {
+  --fa: "";
+}
+
+.fa-julia {
+  --fa: "";
+}
+
+.fa-zulip {
+  --fa: "";
+}
+
+.fa-unison {
+  --fa: "";
+}
+
+.fa-board-game-geek, .fa-bgg {
+  --fa: "";
+}
+
+.fa-ko-fi {
+  --fa: "";
+}
+
+.fa-kubernetes {
+  --fa: "";
+}
+
+.fa-postgresql {
+  --fa: "";
+}
+
+.fa-scaleway {
+  --fa: "";
+}
+
+.fa-venmo {
+  --fa: "";
+}
+
+.fa-venmo-v {
+  --fa: "";
+}
+
+.fa-unreal-engine {
+  --fa: "";
+}
+
+.fa-globaleaks {
+  --fa: "";
+}
+
+.fa-solana {
+  --fa: "";
+}
+
+.fa-threema {
+  --fa: "";
+}
+
+.fa-forgejo {
+  --fa: "";
+}
+
+.fa-claude {
+  --fa: "";
+}
+
+.fa-gitee {
+  --fa: "";
+}
+
+.fa-xmpp {
+  --fa: "";
+}
+
+.fa-fediverse {
+  --fa: "";
+}
+
+.fa-tailwind-css {
+  --fa: "";
+}
+
+.fa-arch-linux {
+  --fa: "";
+}
+
+.fa-svelte {
+  --fa: "";
+}
+
+.fa-hugging-face {
+  --fa: "";
+}
+
+.fa-leetcode {
+  --fa: "";
+}
+
+.fa-openstreetmap {
+  --fa: "";
+}
+
+.fa-ultralytics {
+  --fa: "";
+}
+
+.fa-ultralytics-hub {
+  --fa: "";
+}
+
+.fa-ultralytics-yolo {
+  --fa: "";
+}
+
+.fa-obsidian {
+  --fa: "";
+}
+
+.fa-zoom {
+  --fa: "";
+}
+
+.fa-vim {
+  --fa: "";
+}
+
+.fa-symfonycasts {
+  --fa: "";
+}
+
+.fa-square-twitter, .fa-twitter-square {
+  --fa: "";
+}
+
+.fa-square-facebook, .fa-facebook-square {
+  --fa: "";
+}
+
+.fa-linkedin {
+  --fa: "";
+}
+
+.fa-square-github, .fa-github-square {
+  --fa: "";
+}
+
+.fa-twitter {
+  --fa: "";
+}
+
+.fa-facebook {
+  --fa: "";
+}
+
+.fa-github {
+  --fa: "";
+}
+
+.fa-pinterest {
+  --fa: "";
+}
+
+.fa-square-pinterest, .fa-pinterest-square {
+  --fa: "";
+}
+
+.fa-square-google-plus, .fa-google-plus-square {
+  --fa: "";
+}
+
+.fa-google-plus-g {
+  --fa: "";
+}
+
+.fa-linkedin-in {
+  --fa: "";
+}
+
+.fa-github-alt {
+  --fa: "";
+}
+
+.fa-maxcdn {
+  --fa: "";
+}
+
+.fa-html5 {
+  --fa: "";
+}
+
+.fa-css3 {
+  --fa: "";
+}
+
+.fa-btc {
+  --fa: "";
+}
+
+.fa-youtube {
+  --fa: "";
+}
+
+.fa-xing {
+  --fa: "";
+}
+
+.fa-square-xing, .fa-xing-square {
+  --fa: "";
+}
+
+.fa-dropbox {
+  --fa: "";
+}
+
+.fa-stack-overflow {
+  --fa: "";
+}
+
+.fa-instagram {
+  --fa: "";
+}
+
+.fa-flickr {
+  --fa: "";
+}
+
+.fa-adn {
+  --fa: "";
+}
+
+.fa-bitbucket {
+  --fa: "";
+}
+
+.fa-tumblr {
+  --fa: "";
+}
+
+.fa-square-tumblr, .fa-tumblr-square {
+  --fa: "";
+}
+
+.fa-apple {
+  --fa: "";
+}
+
+.fa-windows {
+  --fa: "";
+}
+
+.fa-android {
+  --fa: "";
+}
+
+.fa-linux {
+  --fa: "";
+}
+
+.fa-dribbble {
+  --fa: "";
+}
+
+.fa-skype {
+  --fa: "";
+}
+
+.fa-foursquare {
+  --fa: "";
+}
+
+.fa-trello {
+  --fa: "";
+}
+
+.fa-gratipay {
+  --fa: "";
+}
+
+.fa-vk {
+  --fa: "";
+}
+
+.fa-weibo {
+  --fa: "";
+}
+
+.fa-renren {
+  --fa: "";
+}
+
+.fa-pagelines {
+  --fa: "";
+}
+
+.fa-stack-exchange {
+  --fa: "";
+}
+
+.fa-square-vimeo, .fa-vimeo-square {
+  --fa: "";
+}
+
+.fa-slack, .fa-slack-hash {
+  --fa: "";
+}
+
+.fa-wordpress {
+  --fa: "";
+}
+
+.fa-openid {
+  --fa: "";
+}
+
+.fa-yahoo {
+  --fa: "";
+}
+
+.fa-google {
+  --fa: "";
+}
+
+.fa-reddit {
+  --fa: "";
+}
+
+.fa-square-reddit, .fa-reddit-square {
+  --fa: "";
+}
+
+.fa-stumbleupon-circle {
+  --fa: "";
+}
+
+.fa-stumbleupon {
+  --fa: "";
+}
+
+.fa-delicious {
+  --fa: "";
+}
+
+.fa-digg {
+  --fa: "";
+}
+
+.fa-pied-piper-pp {
+  --fa: "";
+}
+
+.fa-pied-piper-alt {
+  --fa: "";
+}
+
+.fa-drupal {
+  --fa: "";
+}
+
+.fa-joomla {
+  --fa: "";
+}
+
+.fa-behance {
+  --fa: "";
+}
+
+.fa-square-behance, .fa-behance-square {
+  --fa: "";
+}
+
+.fa-steam {
+  --fa: "";
+}
+
+.fa-square-steam, .fa-steam-square {
+  --fa: "";
+}
+
+.fa-spotify {
+  --fa: "";
+}
+
+.fa-deviantart {
+  --fa: "";
+}
+
+.fa-soundcloud {
+  --fa: "";
+}
+
+.fa-vine {
+  --fa: "";
+}
+
+.fa-codepen {
+  --fa: "";
+}
+
+.fa-jsfiddle {
+  --fa: "";
+}
+
+.fa-rebel {
+  --fa: "";
+}
+
+.fa-empire {
+  --fa: "";
+}
+
+.fa-square-git, .fa-git-square {
+  --fa: "";
+}
+
+.fa-git {
+  --fa: "";
+}
+
+.fa-hacker-news {
+  --fa: "";
+}
+
+.fa-tencent-weibo {
+  --fa: "";
+}
+
+.fa-qq {
+  --fa: "";
+}
+
+.fa-weixin {
+  --fa: "";
+}
+
+.fa-slideshare {
+  --fa: "";
+}
+
+.fa-twitch {
+  --fa: "";
+}
+
+.fa-yelp {
+  --fa: "";
+}
+
+.fa-paypal {
+  --fa: "";
+}
+
+.fa-google-wallet {
+  --fa: "";
+}
+
+.fa-cc-visa {
+  --fa: "";
+}
+
+.fa-cc-mastercard {
+  --fa: "";
+}
+
+.fa-cc-discover {
+  --fa: "";
+}
+
+.fa-cc-amex {
+  --fa: "";
+}
+
+.fa-cc-paypal {
+  --fa: "";
+}
+
+.fa-cc-stripe {
+  --fa: "";
+}
+
+.fa-lastfm {
+  --fa: "";
+}
+
+.fa-square-lastfm, .fa-lastfm-square {
+  --fa: "";
+}
+
+.fa-ioxhost {
+  --fa: "";
+}
+
+.fa-angellist {
+  --fa: "";
+}
+
+.fa-buysellads {
+  --fa: "";
+}
+
+.fa-connectdevelop {
+  --fa: "";
+}
+
+.fa-dashcube {
+  --fa: "";
+}
+
+.fa-forumbee {
+  --fa: "";
+}
+
+.fa-leanpub {
+  --fa: "";
+}
+
+.fa-sellsy {
+  --fa: "";
+}
+
+.fa-shirtsinbulk {
+  --fa: "";
+}
+
+.fa-simplybuilt {
+  --fa: "";
+}
+
+.fa-skyatlas {
+  --fa: "";
+}
+
+.fa-pinterest-p {
+  --fa: "";
+}
+
+.fa-whatsapp {
+  --fa: "";
+}
+
+.fa-viacoin {
+  --fa: "";
+}
+
+.fa-medium, .fa-medium-m {
+  --fa: "";
+}
+
+.fa-y-combinator {
+  --fa: "";
+}
+
+.fa-optin-monster {
+  --fa: "";
+}
+
+.fa-opencart {
+  --fa: "";
+}
+
+.fa-expeditedssl {
+  --fa: "";
+}
+
+.fa-cc-jcb {
+  --fa: "";
+}
+
+.fa-cc-diners-club {
+  --fa: "";
+}
+
+.fa-creative-commons {
+  --fa: "";
+}
+
+.fa-gg {
+  --fa: "";
+}
+
+.fa-gg-circle {
+  --fa: "";
+}
+
+.fa-odnoklassniki {
+  --fa: "";
+}
+
+.fa-square-odnoklassniki, .fa-odnoklassniki-square {
+  --fa: "";
+}
+
+.fa-get-pocket {
+  --fa: "";
+}
+
+.fa-wikipedia-w {
+  --fa: "";
+}
+
+.fa-safari {
+  --fa: "";
+}
+
+.fa-chrome {
+  --fa: "";
+}
+
+.fa-firefox {
+  --fa: "";
+}
+
+.fa-opera {
+  --fa: "";
+}
+
+.fa-internet-explorer {
+  --fa: "";
+}
+
+.fa-contao {
+  --fa: "";
+}
+
+.fa-500px {
+  --fa: "";
+}
+
+.fa-amazon {
+  --fa: "";
+}
+
+.fa-houzz {
+  --fa: "";
+}
+
+.fa-vimeo-v {
+  --fa: "";
+}
+
+.fa-black-tie {
+  --fa: "";
+}
+
+.fa-fonticons {
+  --fa: "";
+}
+
+.fa-reddit-alien {
+  --fa: "";
+}
+
+.fa-edge {
+  --fa: "";
+}
+
+.fa-codiepie {
+  --fa: "";
+}
+
+.fa-modx {
+  --fa: "";
+}
+
+.fa-fort-awesome {
+  --fa: "";
+}
+
+.fa-usb {
+  --fa: "";
+}
+
+.fa-product-hunt {
+  --fa: "";
+}
+
+.fa-mixcloud {
+  --fa: "";
+}
+
+.fa-scribd {
+  --fa: "";
+}
+
+.fa-bluetooth {
+  --fa: "";
+}
+
+.fa-bluetooth-b {
+  --fa: "";
+}
+
+.fa-gitlab {
+  --fa: "";
+}
+
+.fa-wpbeginner {
+  --fa: "";
+}
+
+.fa-wpforms {
+  --fa: "";
+}
+
+.fa-envira {
+  --fa: "";
+}
+
+.fa-glide {
+  --fa: "";
+}
+
+.fa-glide-g {
+  --fa: "";
+}
+
+.fa-viadeo {
+  --fa: "";
+}
+
+.fa-square-viadeo, .fa-viadeo-square {
+  --fa: "";
+}
+
+.fa-snapchat, .fa-snapchat-ghost {
+  --fa: "";
+}
+
+.fa-square-snapchat, .fa-snapchat-square {
+  --fa: "";
+}
+
+.fa-pied-piper {
+  --fa: "";
+}
+
+.fa-first-order {
+  --fa: "";
+}
+
+.fa-yoast {
+  --fa: "";
+}
+
+.fa-themeisle {
+  --fa: "";
+}
+
+.fa-google-plus {
+  --fa: "";
+}
+
+.fa-font-awesome, .fa-font-awesome-flag, .fa-font-awesome-logo-full {
+  --fa: "";
+}
+
+.fa-linode {
+  --fa: "";
+}
+
+.fa-quora {
+  --fa: "";
+}
+
+.fa-free-code-camp {
+  --fa: "";
+}
+
+.fa-telegram, .fa-telegram-plane {
+  --fa: "";
+}
+
+.fa-bandcamp {
+  --fa: "";
+}
+
+.fa-grav {
+  --fa: "";
+}
+
+.fa-etsy {
+  --fa: "";
+}
+
+.fa-imdb {
+  --fa: "";
+}
+
+.fa-ravelry {
+  --fa: "";
+}
+
+.fa-sellcast {
+  --fa: "";
+}
+
+.fa-superpowers {
+  --fa: "";
+}
+
+.fa-wpexplorer {
+  --fa: "";
+}
+
+.fa-meetup {
+  --fa: "";
+}
+
+.fa-square-font-awesome-stroke, .fa-font-awesome-alt {
+  --fa: "";
+}
+
+.fa-accessible-icon {
+  --fa: "";
+}
+
+.fa-accusoft {
+  --fa: "";
+}
+
+.fa-adversal {
+  --fa: "";
+}
+
+.fa-affiliatetheme {
+  --fa: "";
+}
+
+.fa-algolia {
+  --fa: "";
+}
+
+.fa-amilia {
+  --fa: "";
+}
+
+.fa-angrycreative {
+  --fa: "";
+}
+
+.fa-app-store {
+  --fa: "";
+}
+
+.fa-app-store-ios {
+  --fa: "";
+}
+
+.fa-apper {
+  --fa: "";
+}
+
+.fa-asymmetrik {
+  --fa: "";
+}
+
+.fa-audible {
+  --fa: "";
+}
+
+.fa-avianex {
+  --fa: "";
+}
+
+.fa-aws {
+  --fa: "";
+}
+
+.fa-bimobject {
+  --fa: "";
+}
+
+.fa-bitcoin {
+  --fa: "";
+}
+
+.fa-bity {
+  --fa: "";
+}
+
+.fa-blackberry {
+  --fa: "";
+}
+
+.fa-blogger {
+  --fa: "";
+}
+
+.fa-blogger-b {
+  --fa: "";
+}
+
+.fa-buromobelexperte {
+  --fa: "";
+}
+
+.fa-centercode {
+  --fa: "";
+}
+
+.fa-cloudscale {
+  --fa: "";
+}
+
+.fa-cloudsmith {
+  --fa: "";
+}
+
+.fa-cloudversify {
+  --fa: "";
+}
+
+.fa-cpanel {
+  --fa: "";
+}
+
+.fa-css3-alt {
+  --fa: "";
+}
+
+.fa-cuttlefish {
+  --fa: "";
+}
+
+.fa-d-and-d {
+  --fa: "";
+}
+
+.fa-deploydog {
+  --fa: "";
+}
+
+.fa-deskpro {
+  --fa: "";
+}
+
+.fa-digital-ocean {
+  --fa: "";
+}
+
+.fa-discord {
+  --fa: "";
+}
+
+.fa-discourse {
+  --fa: "";
+}
+
+.fa-dochub {
+  --fa: "";
+}
+
+.fa-docker {
+  --fa: "";
+}
+
+.fa-draft2digital {
+  --fa: "";
+}
+
+.fa-square-dribbble, .fa-dribbble-square {
+  --fa: "";
+}
+
+.fa-dyalog {
+  --fa: "";
+}
+
+.fa-earlybirds {
+  --fa: "";
+}
+
+.fa-erlang {
+  --fa: "";
+}
+
+.fa-facebook-f {
+  --fa: "";
+}
+
+.fa-facebook-messenger {
+  --fa: "";
+}
+
+.fa-firstdraft {
+  --fa: "";
+}
+
+.fa-fonticons-fi {
+  --fa: "";
+}
+
+.fa-fort-awesome-alt {
+  --fa: "";
+}
+
+.fa-freebsd {
+  --fa: "";
+}
+
+.fa-gitkraken {
+  --fa: "";
+}
+
+.fa-gofore {
+  --fa: "";
+}
+
+.fa-goodreads {
+  --fa: "";
+}
+
+.fa-goodreads-g {
+  --fa: "";
+}
+
+.fa-google-drive {
+  --fa: "";
+}
+
+.fa-google-play {
+  --fa: "";
+}
+
+.fa-gripfire {
+  --fa: "";
+}
+
+.fa-grunt {
+  --fa: "";
+}
+
+.fa-gulp {
+  --fa: "";
+}
+
+.fa-square-hacker-news, .fa-hacker-news-square {
+  --fa: "";
+}
+
+.fa-hire-a-helper {
+  --fa: "";
+}
+
+.fa-hotjar {
+  --fa: "";
+}
+
+.fa-hubspot {
+  --fa: "";
+}
+
+.fa-itunes {
+  --fa: "";
+}
+
+.fa-itunes-note {
+  --fa: "";
+}
+
+.fa-jenkins {
+  --fa: "";
+}
+
+.fa-joget {
+  --fa: "";
+}
+
+.fa-js {
+  --fa: "";
+}
+
+.fa-square-js, .fa-js-square {
+  --fa: "";
+}
+
+.fa-keycdn {
+  --fa: "";
+}
+
+.fa-kickstarter, .fa-square-kickstarter {
+  --fa: "";
+}
+
+.fa-kickstarter-k {
+  --fa: "";
+}
+
+.fa-laravel {
+  --fa: "";
+}
+
+.fa-line {
+  --fa: "";
+}
+
+.fa-lyft {
+  --fa: "";
+}
+
+.fa-magento {
+  --fa: "";
+}
+
+.fa-medapps {
+  --fa: "";
+}
+
+.fa-medrt {
+  --fa: "";
+}
+
+.fa-microsoft {
+  --fa: "";
+}
+
+.fa-mix {
+  --fa: "";
+}
+
+.fa-mizuni {
+  --fa: "";
+}
+
+.fa-monero {
+  --fa: "";
+}
+
+.fa-napster {
+  --fa: "";
+}
+
+.fa-node-js {
+  --fa: "";
+}
+
+.fa-npm {
+  --fa: "";
+}
+
+.fa-ns8 {
+  --fa: "";
+}
+
+.fa-nutritionix {
+  --fa: "";
+}
+
+.fa-page4 {
+  --fa: "";
+}
+
+.fa-palfed {
+  --fa: "";
+}
+
+.fa-patreon {
+  --fa: "";
+}
+
+.fa-periscope {
+  --fa: "";
+}
+
+.fa-phabricator {
+  --fa: "";
+}
+
+.fa-phoenix-framework {
+  --fa: "";
+}
+
+.fa-playstation {
+  --fa: "";
+}
+
+.fa-pushed {
+  --fa: "";
+}
+
+.fa-python {
+  --fa: "";
+}
+
+.fa-red-river {
+  --fa: "";
+}
+
+.fa-wpressr, .fa-rendact {
+  --fa: "";
+}
+
+.fa-replyd {
+  --fa: "";
+}
+
+.fa-resolving {
+  --fa: "";
+}
+
+.fa-rocketchat {
+  --fa: "";
+}
+
+.fa-rockrms {
+  --fa: "";
+}
+
+.fa-schlix {
+  --fa: "";
+}
+
+.fa-searchengin {
+  --fa: "";
+}
+
+.fa-servicestack {
+  --fa: "";
+}
+
+.fa-sistrix {
+  --fa: "";
+}
+
+.fa-speakap {
+  --fa: "";
+}
+
+.fa-staylinked {
+  --fa: "";
+}
+
+.fa-steam-symbol {
+  --fa: "";
+}
+
+.fa-sticker-mule {
+  --fa: "";
+}
+
+.fa-studiovinari {
+  --fa: "";
+}
+
+.fa-supple {
+  --fa: "";
+}
+
+.fa-uber {
+  --fa: "";
+}
+
+.fa-uikit {
+  --fa: "";
+}
+
+.fa-uniregistry {
+  --fa: "";
+}
+
+.fa-untappd {
+  --fa: "";
+}
+
+.fa-ussunnah {
+  --fa: "";
+}
+
+.fa-vaadin {
+  --fa: "";
+}
+
+.fa-viber {
+  --fa: "";
+}
+
+.fa-vimeo {
+  --fa: "";
+}
+
+.fa-vnv {
+  --fa: "";
+}
+
+.fa-square-whatsapp, .fa-whatsapp-square {
+  --fa: "";
+}
+
+.fa-whmcs {
+  --fa: "";
+}
+
+.fa-wordpress-simple {
+  --fa: "";
+}
+
+.fa-xbox {
+  --fa: "";
+}
+
+.fa-yandex {
+  --fa: "";
+}
+
+.fa-yandex-international {
+  --fa: "";
+}
+
+.fa-apple-pay {
+  --fa: "";
+}
+
+.fa-cc-apple-pay {
+  --fa: "";
+}
+
+.fa-fly {
+  --fa: "";
+}
+
+.fa-node {
+  --fa: "";
+}
+
+.fa-osi {
+  --fa: "";
+}
+
+.fa-react {
+  --fa: "";
+}
+
+.fa-autoprefixer {
+  --fa: "";
+}
+
+.fa-less {
+  --fa: "";
+}
+
+.fa-sass {
+  --fa: "";
+}
+
+.fa-vuejs {
+  --fa: "";
+}
+
+.fa-angular {
+  --fa: "";
+}
+
+.fa-aviato {
+  --fa: "";
+}
+
+.fa-ember {
+  --fa: "";
+}
+
+.fa-gitter {
+  --fa: "";
+}
+
+.fa-hooli {
+  --fa: "";
+}
+
+.fa-strava {
+  --fa: "";
+}
+
+.fa-stripe {
+  --fa: "";
+}
+
+.fa-stripe-s {
+  --fa: "";
+}
+
+.fa-typo3 {
+  --fa: "";
+}
+
+.fa-amazon-pay {
+  --fa: "";
+}
+
+.fa-cc-amazon-pay {
+  --fa: "";
+}
+
+.fa-ethereum {
+  --fa: "";
+}
+
+.fa-korvue {
+  --fa: "";
+}
+
+.fa-elementor {
+  --fa: "";
+}
+
+.fa-square-youtube, .fa-youtube-square {
+  --fa: "";
+}
+
+.fa-flipboard {
+  --fa: "";
+}
+
+.fa-hips {
+  --fa: "";
+}
+
+.fa-php {
+  --fa: "";
+}
+
+.fa-quinscape {
+  --fa: "";
+}
+
+.fa-readme {
+  --fa: "";
+}
+
+.fa-java {
+  --fa: "";
+}
+
+.fa-pied-piper-hat {
+  --fa: "";
+}
+
+.fa-creative-commons-by {
+  --fa: "";
+}
+
+.fa-creative-commons-nc {
+  --fa: "";
+}
+
+.fa-creative-commons-nc-eu {
+  --fa: "";
+}
+
+.fa-creative-commons-nc-jp {
+  --fa: "";
+}
+
+.fa-creative-commons-nd {
+  --fa: "";
+}
+
+.fa-creative-commons-pd {
+  --fa: "";
+}
+
+.fa-creative-commons-pd-alt {
+  --fa: "";
+}
+
+.fa-creative-commons-remix {
+  --fa: "";
+}
+
+.fa-creative-commons-sa {
+  --fa: "";
+}
+
+.fa-creative-commons-sampling {
+  --fa: "";
+}
+
+.fa-creative-commons-sampling-plus {
+  --fa: "";
+}
+
+.fa-creative-commons-share {
+  --fa: "";
+}
+
+.fa-creative-commons-zero {
+  --fa: "";
+}
+
+.fa-ebay {
+  --fa: "";
+}
+
+.fa-keybase {
+  --fa: "";
+}
+
+.fa-mastodon {
+  --fa: "";
+}
+
+.fa-r-project {
+  --fa: "";
+}
+
+.fa-researchgate {
+  --fa: "";
+}
+
+.fa-teamspeak {
+  --fa: "";
+}
+
+.fa-first-order-alt {
+  --fa: "";
+}
+
+.fa-fulcrum {
+  --fa: "";
+}
+
+.fa-galactic-republic {
+  --fa: "";
+}
+
+.fa-galactic-senate {
+  --fa: "";
+}
+
+.fa-jedi-order {
+  --fa: "";
+}
+
+.fa-mandalorian {
+  --fa: "";
+}
+
+.fa-old-republic {
+  --fa: "";
+}
+
+.fa-phoenix-squadron {
+  --fa: "";
+}
+
+.fa-sith {
+  --fa: "";
+}
+
+.fa-trade-federation {
+  --fa: "";
+}
+
+.fa-wolf-pack-battalion {
+  --fa: "";
+}
+
+.fa-hornbill {
+  --fa: "";
+}
+
+.fa-mailchimp {
+  --fa: "";
+}
+
+.fa-megaport {
+  --fa: "";
+}
+
+.fa-nimblr {
+  --fa: "";
+}
+
+.fa-rev {
+  --fa: "";
+}
+
+.fa-shopware {
+  --fa: "";
+}
+
+.fa-squarespace {
+  --fa: "";
+}
+
+.fa-themeco {
+  --fa: "";
+}
+
+.fa-weebly {
+  --fa: "";
+}
+
+.fa-wix {
+  --fa: "";
+}
+
+.fa-ello {
+  --fa: "";
+}
+
+.fa-hackerrank {
+  --fa: "";
+}
+
+.fa-kaggle {
+  --fa: "";
+}
+
+.fa-markdown {
+  --fa: "";
+}
+
+.fa-neos {
+  --fa: "";
+}
+
+.fa-zhihu {
+  --fa: "";
+}
+
+.fa-alipay {
+  --fa: "";
+}
+
+.fa-the-red-yeti {
+  --fa: "";
+}
+
+.fa-critical-role {
+  --fa: "";
+}
+
+.fa-d-and-d-beyond {
+  --fa: "";
+}
+
+.fa-dev {
+  --fa: "";
+}
+
+.fa-fantasy-flight-games {
+  --fa: "";
+}
+
+.fa-wizards-of-the-coast {
+  --fa: "";
+}
+
+.fa-think-peaks {
+  --fa: "";
+}
+
+.fa-reacteurope {
+  --fa: "";
+}
+
+.fa-artstation {
+  --fa: "";
+}
+
+.fa-atlassian {
+  --fa: "";
+}
+
+.fa-canadian-maple-leaf {
+  --fa: "";
+}
+
+.fa-centos {
+  --fa: "";
+}
+
+.fa-confluence {
+  --fa: "";
+}
+
+.fa-dhl {
+  --fa: "";
+}
+
+.fa-diaspora {
+  --fa: "";
+}
+
+.fa-fedex {
+  --fa: "";
+}
+
+.fa-fedora {
+  --fa: "";
+}
+
+.fa-figma {
+  --fa: "";
+}
+
+.fa-intercom {
+  --fa: "";
+}
+
+.fa-invision {
+  --fa: "";
+}
+
+.fa-jira {
+  --fa: "";
+}
+
+.fa-mendeley {
+  --fa: "";
+}
+
+.fa-raspberry-pi {
+  --fa: "";
+}
+
+.fa-redhat {
+  --fa: "";
+}
+
+.fa-sketch {
+  --fa: "";
+}
+
+.fa-sourcetree {
+  --fa: "";
+}
+
+.fa-suse {
+  --fa: "";
+}
+
+.fa-ubuntu {
+  --fa: "";
+}
+
+.fa-ups {
+  --fa: "";
+}
+
+.fa-usps {
+  --fa: "";
+}
+
+.fa-yarn {
+  --fa: "";
+}
+
+.fa-airbnb {
+  --fa: "";
+}
+
+.fa-battle-net {
+  --fa: "";
+}
+
+.fa-bootstrap {
+  --fa: "";
+}
+
+.fa-buffer {
+  --fa: "";
+}
+
+.fa-chromecast {
+  --fa: "";
+}
+
+.fa-evernote {
+  --fa: "";
+}
+
+.fa-itch-io {
+  --fa: "";
+}
+
+.fa-salesforce {
+  --fa: "";
+}
+
+.fa-speaker-deck {
+  --fa: "";
+}
+
+.fa-symfony {
+  --fa: "";
+}
+
+.fa-waze {
+  --fa: "";
+}
+
+.fa-yammer {
+  --fa: "";
+}
+
+.fa-git-alt {
+  --fa: "";
+}
+
+.fa-stackpath {
+  --fa: "";
+}
+
+.fa-cotton-bureau {
+  --fa: "";
+}
+
+.fa-buy-n-large {
+  --fa: "";
+}
+
+.fa-mdb {
+  --fa: "";
+}
+
+.fa-orcid {
+  --fa: "";
+}
+
+.fa-swift {
+  --fa: "";
+}
+
+.fa-umbraco {
+  --fa: "";
+}
+
+:root, :host {
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-font-regular: normal 400 1em / 1 var(--fa-family-classic);
+  --fa-style-family-classic: var(--fa-family-classic);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../media/fa-regular-400.e8b53370.woff2");
+}
+
+.far {
+  --fa-family: var(--fa-family-classic);
+  --fa-style: 400;
+}
+
+.fa-regular {
+  --fa-style: 400;
+}
+
+:root, :host {
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-font-solid: normal 900 1em / 1 var(--fa-family-classic);
+  --fa-style-family-classic: var(--fa-family-classic);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../media/fa-solid-900.9b2c34cd.woff2");
+}
+
+.fas {
+  --fa-family: var(--fa-family-classic);
+  --fa-style: 900;
+}
+
+.fa-classic {
+  --fa-family: var(--fa-family-classic);
+}
+
+.fa-solid {
+  --fa-style: 900;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-display: block;
+  font-weight: 400;
+  src: url("../media/fa-brands-400.e580dcb3.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 900;
+  src: url("../media/fa-solid-900.9b2c34cd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-display: block;
+  font-weight: 400;
+  src: url("../media/fa-regular-400.e8b53370.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: FontAwesome;
+  font-display: block;
+  src: url("../media/fa-solid-900.9b2c34cd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: FontAwesome;
+  font-display: block;
+  src: url("../media/fa-brands-400.e580dcb3.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: FontAwesome;
+  font-display: block;
+  src: url("../media/fa-regular-400.e8b53370.woff2") format("woff2");
+  unicode-range: U+F003, U+F006, U+F014, U+F016-F017, U+F01A-F01B, U+F01D, U+F022, U+F03E, U+F044, U+F046, U+F05C-F05D, U+F06E, U+F070, U+F087-F088, U+F08A, U+F094, U+F096-F097, U+F09D, U+F0A0, U+F0A2, U+F0A4-F0A7, U+F0C5, U+F0C7, U+F0E5-F0E6, U+F0EB, U+F0F6-F0F8, U+F10C, U+F114-F115, U+F118-F11A, U+F11C-F11D, U+F133, U+F147, U+F14E, U+F150-F152, U+F185-F186, U+F18E, U+F190-F192, U+F196, U+F1C1-F1C9, U+F1D9, U+F1DB, U+F1E3, U+F1EA, U+F1F7, U+F1F9, U+F20A, U+F247-F248, U+F24A, U+F24D, U+F255-F25B, U+F25D, U+F271-F274, U+F278, U+F27B, U+F28C, U+F28E, U+F29C, U+F2B5, U+F2B7, U+F2BA, U+F2BC, U+F2BE, U+F2C0-F2C1, U+F2C3, U+F2D0, U+F2D2, U+F2D4, U+F2DC;
+}
+
+@font-face {
+  font-family: FontAwesome;
+  font-display: block;
+  src: url("../media/fa-v4compatibility.ef18d905.woff2") format("woff2");
+  unicode-range: U+F041, U+F047, U+F065-F066, U+F07D-F07E, U+F080, U+F08B, U+F08E, U+F090, U+F09A, U+F0AC, U+F0AE, U+F0B2, U+F0D0, U+F0D6, U+F0E4, U+F0EC, U+F10A-F10B, U+F123, U+F13E, U+F148-F149, U+F14C, U+F156, U+F15E, U+F160-F161, U+F163, U+F175-F178, U+F195, U+F1F8, U+F219, U+F27A;
+}
+
+/* [project]/src/components/2_React_Firebase/components/Auth/account.module.css [client] (css) */
+.account-module__5DbHFW__account_2 {
+  color: #1d1d1d;
+  place-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: grid;
+}
+
+.account-module__5DbHFW__account_2 h1 {
+  margin-bottom: .8rem;
+  position: relative;
+}
+
+.account-module__5DbHFW__account_2 h1 span {
+  font-size: 42%;
+  position: absolute;
+  bottom: -.5rem;
+  left: 4rem;
+}
+
+.account-module__5DbHFW__userAuth {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 320px;
+  max-width: 320px;
+  padding: 3rem;
+}
+
+.account-module__5DbHFW__account_2 button {
+  margin-top: 2rem;
+}
+
+.account-module__5DbHFW__login, .account-module__5DbHFW__signup {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 320px;
+  max-width: 320px;
+  padding: 3rem;
+}
+
+.account-module__5DbHFW__account_2 form {
+  flex-direction: column;
+  display: flex;
+}
+
+.account-module__5DbHFW__account_2 form label {
+  text-align: left;
+}
+
+.account-module__5DbHFW__account_2 form input {
+  border: 1px solid #333;
+  margin-bottom: 1rem;
+}
+
+.account-module__5DbHFW__account_2 .account-module__5DbHFW__form__error {
+  color: red;
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+/* [project]/src/components/2_React_Firebase/components/Header/header.module.css [client] (css) */
+.header-module__T0Tnia__header {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.header-module__T0Tnia__header__title {
+  letter-spacing: 2px;
+}
+
+.header-module__T0Tnia__header__title h1 {
+  position: relative;
+}
+
+.header-module__T0Tnia__header__title h1 span {
+  font-size: 42%;
+  position: absolute;
+  bottom: -.8rem;
+  left: .1rem;
+}
+
+.header-module__T0Tnia__header__balance {
+  background-color: var(--grey);
+  color: var(--light);
+  border-radius: 15px;
+  align-self: flex-start;
+  padding: .7rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .header-module__T0Tnia__header__title h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-module__T0Tnia__header__balance {
+    font-size: 1.5rem;
+  }
+}
+
+/* [project]/src/components/2_React_Firebase/components/Input/input.module.css [client] (css) */
+.input-module__A__J_G__input form {
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.input-module__A__J_G__input input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #fff;
+  background-color: #0000 !important;
+}
+
+.input-module__A__J_G__input input[type="text"] {
+  border-radius: 8px 0 0 8px;
+  flex: 100%;
+}
+
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-module__A__J_G__input input[type="date"] {
+  border-radius: 0;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.input-module__A__J_G__input input[type="submit"] {
+  cursor: pointer;
+  color: var(--dark);
+  text-transform: uppercase;
+  background-color: var(--primary);
+  border-radius: 0 8px 8px 0;
+  margin-left: 20px;
+  font-weight: 600;
+  transition: all .4s;
+}
+
+.input-module__A__J_G__input input[type="submit"]:hover {
+  color: #fff;
+}
+
+.input-module__A__J_G__input label {
+  color: gray;
+  font-size: 18px;
+}
+
+.input-module__A__J_G__input div {
+  min-width: max-content;
+}
+
+@media (max-width: 991px) {
+  .input-module__A__J_G__input form {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+  }
+
+  .input-module__A__J_G__input div {
+    margin-left: .7rem;
+  }
+
+  .input-module__A__J_G__input input[type="submit"] {
+    margin-left: .8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .input-module__A__J_G__input input, .input-module__A__J_G__input label, .input-module__A__J_G__input input[type="submit"] {
+    font-size: 16px;
+  }
+
+  .input-module__A__J_G__input input {
+    padding: 8px 12px;
+  }
+
+  .input-module__A__J_G__input select {
+    margin-bottom: .5rem;
+    margin-left: .7rem;
+  }
+}
+
+/* [project]/src/components/2_React_Firebase/components/Item/item.module.css [client] (css) */
+.item-module__ZSD2Xq__item {
+  border-bottom: 2px solid var(--grey);
+  justify-content: space-between;
+  width: 100%;
+  padding: .8rem 5rem;
+  display: flex;
+  position: relative;
+}
+
+.item-module__ZSD2Xq__item .item-module__ZSD2Xq__income {
+  color: green;
+}
+
+.item-module__ZSD2Xq__item .item-module__ZSD2Xq__expense {
+  color: red;
+}
+
+.item-module__ZSD2Xq__item__info {
+  align-items: center;
+  display: flex;
+}
+
+.item-module__ZSD2Xq__item__info p {
+  padding-right: 3rem;
+  font-size: 1.1rem;
+}
+
+.item-module__ZSD2Xq__item__title {
+  font-size: 1.2rem;
+}
+
+.item-module__ZSD2Xq__item__delete {
+  color: var(--alert);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .9rem;
+  transition: all .4s;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 786px) {
+  .item-module__ZSD2Xq__item {
+    padding: .6rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-module__ZSD2Xq__item__title {
+    font-size: 1.1rem;
+  }
+
+  .item-module__ZSD2Xq__item__info p {
+    font-size: 1rem;
+  }
+
+  .item-module__ZSD2Xq__item__delete {
+    font-size: .8rem;
+  }
+}
+
+/* [project]/src/components/2_React_Firebase/components/Item List/itemList.module.css [client] (css) */
+.itemList-module__a_ZrOG__item-list {
+  width: 90%;
+  height: inherit;
+  margin: 3rem auto 0;
+  overflow: auto;
+}
+
+@media (max-width: 786px) {
+  .itemList-module__a_ZrOG__item-list {
+    width: 88%;
+  }
+}
+
+/* [project]/src/components/2_React_Firebase/components/Navbar/navbar.module.css [client] (css) */
+.navbar-module__nCYhGG__nav_2 {
+  background-color: #82eac6;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: .5rem 1.5rem;
+  display: flex;
+}
+
+.navbar-module__nCYhGG__nav_2 a {
+  color: #333;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-module__nCYhGG__nav_2 h2 {
+  margin-right: 30rem;
+}
+
+/* [project]/src/components/2_React_Firebase/components/Photo Grid/photoGrid.module.css [client] (css) */
+:root {
+  --light: #fffffc;
+  --dark: #202c59;
+  --grey: #4c5b5c;
+  --primary: #ff7f11;
+  --alert: #ff1e2d;
+}
+
+.photoGrid-module__wjNG-G__App {
+  text-align: center;
+}
+
+.photoGrid-module__wjNG-G__App-header {
+  align-items: center;
+  justify-content: baseline;
+  min-height: 100vh;
+  color: var(--dark);
+  flex-flow: column wrap;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.photoGrid-module__wjNG-G__App-header h1 {
+  position: relative;
+}
+
+.photoGrid-module__wjNG-G__App-header h1 span {
+  font-size: 40%;
+  position: absolute;
+  bottom: -.8rem;
+  left: .2rem;
+}
+
+.photoGrid-module__wjNG-G__App-header progress {
+  border-radius: 21rem;
+  margin: .5rem 0;
+}
+
+.photoGrid-module__wjNG-G__App-header .photoGrid-module__wjNG-G__chooserBox {
+  align-items: center;
+  margin: .35rem 0 1.5rem;
+  display: flex;
+}
+
+.photoGrid-module__wjNG-G__App-header .photoGrid-module__wjNG-G__photo-grid {
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+  width: 90%;
+  display: grid;
+}
+
+.photoGrid-module__wjNG-G__App-header img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* [project]/src/components/FullComponentPopupModal.module.css [client] (css) */
+.FullComponentPopupModal-module__h_tFdq__overlay {
+  z-index: 1000;
+  background-color: #f5f7fbe6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.FullComponentPopupModal-module__h_tFdq__modal {
+  background-color: #fff;
+  border: 1px solid #282c3429;
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 16px 40px #282c341f;
+}
+
+.FullComponentPopupModal-module__h_tFdq__header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+.FullComponentPopupModal-module__h_tFdq__title {
+  color: #282c34;
+  width: 70vw;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.FullComponentPopupModal-module__h_tFdq__close {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.FullComponentPopupModal-module__h_tFdq__tabs {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  width: 70vw;
+  padding: 0 30px;
+  display: flex;
+}
+
+.FullComponentPopupModal-module__h_tFdq__tab {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #0000;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FullComponentPopupModal-module__h_tFdq__activeTab {
+  color: #282c34;
+  cursor: pointer;
+  background: #61dafb;
+  border: none;
+  border-bottom: 3px solid #282c34;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FullComponentPopupModal-module__h_tFdq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  width: 72vw;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  overflow: auto;
+}
+
+/* [project]/src/components/OrganismsCards.module.css [client] (css) */
+.OrganismsCards-module__ijFBLa__container {
+  color: #282c34;
+}
+
+.OrganismsCards-module__ijFBLa__grid {
+  flex-flow: wrap;
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.OrganismsCards-module__ijFBLa__card {
+  background-color: #fff;
+  border: 1px solid #282c341f;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #282c3414;
+}
+
+.OrganismsCards-module__ijFBLa__cardFull {
+  width: 100% !important;
+}
+
+.OrganismsCards-module__ijFBLa__cardNotFull {
+  width: calc(33.3333% - 21.6667px) !important;
+}
+
+@media screen and (max-width: 820px) {
+  .OrganismsCards-module__ijFBLa__cardNotFull {
+    width: calc(50% - 16.25px) !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .OrganismsCards-module__ijFBLa__cardNotFull {
+    width: 100% !important;
+  }
+}
+
+.OrganismsCards-module__ijFBLa__card:hover {
+  background-color: #fafbfc;
+  box-shadow: 0 4px 16px #282c341f;
+}
+
+.OrganismsCards-module__ijFBLa__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  overflow: auto;
+}
+
+.OrganismsCards-module__ijFBLa__body {
+  padding: 20px;
+}
+
+.OrganismsCards-module__ijFBLa__title {
+  color: #282c34;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  width: fit-content !important;
+}
+
+.OrganismsCards-module__ijFBLa__titleSmall, .OrganismsCards-module__ijFBLa__codeButton {
+  background-color: #282c34;
+  border-radius: 4px;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b9caec !important;
+  width: fit-content !important;
+  padding: 2px 6px !important;
+}
+
+.OrganismsCards-module__ijFBLa__titleSmall {
+  margin: 8px 0 0;
+}
+
+.OrganismsCards-module__ijFBLa__codeButton {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=_afba20ca._.css.map*/

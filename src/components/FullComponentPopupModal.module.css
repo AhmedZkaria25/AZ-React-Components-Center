@@ -1,0 +1,117 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(245, 247, 251, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  border: 1px solid rgba(40, 44, 52, 0.16);
+  box-shadow: 0 16px 40px rgba(40, 44, 52, 0.12);
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 20px 30px;
+  border-bottom: 1px solid rgba(40, 44, 52, 0.12);
+  background-color: #f7f7f7;
+  width: 70vw;
+}
+
+.title {
+  margin: 0;
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  color: #282c34;
+  width: 70vw;
+}
+
+.close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #282c34;
+  padding: 5px;
+}
+
+.tabs {
+  display: flex;
+  padding: 0 30px;
+  border-bottom: 1px solid rgba(40, 44, 52, 0.12);
+  background-color: #f7f7f7;
+  width: 70vw;
+}
+
+.tab {
+  padding: 15px 25px;
+  border: none;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+}
+
+.activeTab {
+  padding: 15px 25px;
+  border: none;
+  background: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 3px solid #282c34;
+}
+
+.preview {
+  width: 72vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  overflow: auto;
+}
+
+/* 
+.body {
+  padding: 30px;
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #0d1117;
+  overflow: auto;
+}
+
+.pre {
+  margin: 0;
+  padding: 5px;
+  white-space: pre-wrap;
+  border-radius: 6px 12px 12px 6px;
+}
+
+.code {
+  font-family: sans-serif;
+}
+
+.body.jsCode .code{
+  color: #cbcb41;
+}
+
+.body.cssCode .code{
+  color: #cf1666;
+} */

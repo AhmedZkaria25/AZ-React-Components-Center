@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import './item.module.css'
+import styles from './item.module.css'
 import useFireStore from '../../Firebase/useFireStore'
 
 function Item({item}) {
@@ -9,17 +9,17 @@ function Item({item}) {
     // }
     const dltRef = useRef();
     return (
-        <div className={'item'} key={item.id}
+        <div className={styles.item} key={item.id}
             onMouseEnter={ () => dltRef.current.style.display = 'block' }
             onMouseLeave={ () => dltRef.current.style.display = 'none' }
         >
-            <div className={'item__title'}><h3>{item.title}</h3></div>
-            <div className={'item__info'}>
+            <div className={styles.item__title}><h3>{item.title}</h3></div>
+            <div className={styles.item__info}>
                 {/* <p>{item.amount}</p> */}
                 {/* condition class & remove - char */}
-                <p className={item.amount < 0 ? 'expense' : 'income'}>${ Math.abs(item.amount) }</p>
+                <p className={item.amount < 0 ? styles.expense : styles.income}>${ Math.abs(item.amount) }</p>
                 <p>{item.date}</p>
-                <button className={'item__delete'} onClick={ () => deleteItem(item.id) } ref={dltRef}>Delete</button>                
+                <button className={styles.item__delete} onClick={ () => deleteItem(item.id) } ref={dltRef}>Delete</button>                
             </div>
         </div>
     )

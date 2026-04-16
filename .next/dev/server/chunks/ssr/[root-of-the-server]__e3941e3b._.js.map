@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///E:/Developer/React/Projects/A-Liberary/AZ-React-Components-Center/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app'\r\nimport { BrowserRouter } from 'react-router'\r\n \r\nexport default function App({ Component, pageProps }: AppProps) {\r\n  return <BrowserRouter>\r\n    <Component {...pageProps} />\r\n  </BrowserRouter>\r\n}"],"names":[],"mappings":";;;;;AACA;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAC5D,qBAAO,qKAAC,8LAAa;kBACnB,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAE5B"}}]
+}

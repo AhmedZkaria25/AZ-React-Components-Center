@@ -12,7 +12,7 @@
 .PopupModal-module__H8slma__modal {
   background-color: #fff;
   border: 1px solid #282c3429;
-  width: 90%;
+  width: 85vw;
   max-width: 700px;
   max-height: 90%;
   overflow: auto;
@@ -75,8 +75,7 @@
 }
 
 .PopupModal-module__H8slma__body {
-  color: #282c34;
-  background-color: #f7f7f7;
+  background-color: #0d1117;
   padding: 30px;
   font-family: Monaco, Menlo, Ubuntu Mono, monospace;
   font-size: 14px;
@@ -86,11 +85,21 @@
 
 .PopupModal-module__H8slma__pre {
   white-space: pre-wrap;
+  border-radius: 6px 12px 12px 6px;
   margin: 0;
+  padding: 5px;
 }
 
 .PopupModal-module__H8slma__code {
-  color: #282c34;
+  font-family: sans-serif;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__jsCode .PopupModal-module__H8slma__code {
+  color: #cbcb41;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__cssCode .PopupModal-module__H8slma__code {
+  color: #cf1666;
 }
 
 /* [project]/src/components/GridCards.module.css [client] (css) */

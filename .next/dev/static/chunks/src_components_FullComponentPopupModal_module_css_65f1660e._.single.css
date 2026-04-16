@@ -1,0 +1,91 @@
+/* [project]/src/components/FullComponentPopupModal.module.css [client] (css) */
+.FullComponentPopupModal-module__h_tFdq__overlay {
+  z-index: 1000;
+  background-color: #f5f7fbe6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.FullComponentPopupModal-module__h_tFdq__modal {
+  background-color: #fff;
+  border: 1px solid #282c3429;
+  width: 85vw;
+  max-width: 700px;
+  max-height: 90%;
+  overflow: auto;
+  box-shadow: 0 16px 40px #282c341f;
+}
+
+.FullComponentPopupModal-module__h_tFdq__header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  padding: 30px 30px 20px;
+  display: flex;
+}
+
+.FullComponentPopupModal-module__h_tFdq__title {
+  color: #282c34;
+  width: 70vw;
+  margin: 0;
+  font-family: Monaco, Menlo, Ubuntu Mono, monospace;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.FullComponentPopupModal-module__h_tFdq__close {
+  cursor: pointer;
+  color: #282c34;
+  background: none;
+  border: none;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.FullComponentPopupModal-module__h_tFdq__tabs {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #282c341f;
+  width: 70vw;
+  padding: 0 30px;
+  display: flex;
+}
+
+.FullComponentPopupModal-module__h_tFdq__tab {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #0000;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FullComponentPopupModal-module__h_tFdq__activeTab {
+  color: #282c34;
+  cursor: pointer;
+  background: #61dafb;
+  border: none;
+  border-bottom: 3px solid #282c34;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FullComponentPopupModal-module__h_tFdq__preview {
+  background-color: #f7f7f7;
+  justify-content: center;
+  align-items: center;
+  width: 72vw;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  overflow: auto;
+}
+
+/*# sourceMappingURL=src_components_FullComponentPopupModal_module_css_65f1660e._.single.css.map*/

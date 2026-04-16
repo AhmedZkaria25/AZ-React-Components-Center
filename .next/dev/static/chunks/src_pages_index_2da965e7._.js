@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/[root-of-the-server]__f8b3c754._.js",
+  "static/chunks/[root-of-the-server]__86f74d06._.js",
   "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",
   "static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js",
   "static/chunks/node_modules_next_dist_client_5a8a528e._.js",
@@ -12,7 +12,7 @@
   "static/chunks/node_modules_@firebase_storage_dist_index_esm_c28a6df1.js",
   "static/chunks/node_modules_@firebase_auth_dist_auth_esm_0516dbd6.js",
   "static/chunks/node_modules_d7b98161._.js",
-  "static/chunks/_60cf504a._.css"
+  "static/chunks/_afba20ca._.css"
 ],
     source: "entry"
 });

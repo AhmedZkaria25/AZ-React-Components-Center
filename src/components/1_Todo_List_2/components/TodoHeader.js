@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../styles/Todo.module.css';
+import styles from '../styles/Todo.module.css';
 
 function TodoHeader(props) {
     const {items, addItem } = props;
@@ -44,7 +44,7 @@ function TodoHeader(props) {
 
 
     return (
-        <div className="no1_Todo_List_2">
+        <div className={styles['no1_Todo_List_2']}>
               <h1>My Todos</h1>  
               <section id="TodoInsert">
                 <div>

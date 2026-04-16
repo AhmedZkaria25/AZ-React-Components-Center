@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import GridCards from './GridCards';
 import TemplatesCards from './TemplatesCards';
 import styles from './TabsPage.module.css';
+import OrganismsCards from './OrganismsCards';
 
 const TabsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'atoms' | 'molecules' | 'organisms' | 'templates' | 'pages' | 'form' | 'list' | 'cards'>('form');
@@ -67,6 +68,12 @@ const TabsPage: React.FC = () => {
         {activeTab === 'templates' && (
           <section className={styles.section}>
             <TemplatesCards />
+          </section>
+        )}
+        
+        {activeTab === 'organisms' && (
+          <section className={styles.section}>
+            <OrganismsCards />
           </section>
         )}
 

@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/", [
-  "static/chunks/[root-of-the-server]__f8b3c754._.js",
+  "static/chunks/[root-of-the-server]__86f74d06._.js",
   "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",
   "static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js",
   "static/chunks/node_modules_next_dist_client_5a8a528e._.js",
@@ -10,7 +10,7 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/node_modules_@firebase_storage_dist_index_esm_c28a6df1.js",
   "static/chunks/node_modules_@firebase_auth_dist_auth_esm_0516dbd6.js",
   "static/chunks/node_modules_d7b98161._.js",
-  "static/chunks/_60cf504a._.css",
+  "static/chunks/_afba20ca._.css",
   "static/chunks/src_pages_index_2da965e7._.js",
-  "static/chunks/turbopack-src_pages_index_d1030a2e._.js"
+  "static/chunks/turbopack-src_pages_index_eedd0266._.js"
 ])

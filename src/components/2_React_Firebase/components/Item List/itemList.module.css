@@ -1,7 +1,9 @@
 .item-list {
     margin: 0 auto;
     margin-top: 3rem;
-    width: 70%;
+    width: 90%;
+    height: inherit;
+    overflow: auto;
 }
 
 @media (max-width: 786px){

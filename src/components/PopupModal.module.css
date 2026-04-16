@@ -78,16 +78,25 @@
   font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
   font-size: 14px;
   line-height: 1.5;
-  background-color: #f7f7f7;
-  color: #282c34;
+  background-color: #0d1117;
   overflow: auto;
 }
 
 .pre {
   margin: 0;
+  padding: 5px;
   white-space: pre-wrap;
+  border-radius: 6px 12px 12px 6px;
 }
 
 .code {
-  color: #282c34;
+  font-family: sans-serif;
+}
+
+.body.jsCode .code{
+  color: #cbcb41;
+}
+
+.body.cssCode .code{
+  color: #cf1666;
 }

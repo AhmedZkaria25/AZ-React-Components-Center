@@ -6,7 +6,7 @@ export interface Card {
 //   component: React.ReactNode | Function ;
   // component?: React.ReactNode | (() => React.ReactNode) | () => {};
   // component?: () => {}|Function;
-  // component?: Element | ElementType | React.ReactNode | (() => React.ReactNode) | any;
+  component?: Element | ElementType | React.ReactNode | (() => React.ReactNode) | any;
   // component?: any;
   code: string;
   style: string|ReactElement|ReactNode|any;

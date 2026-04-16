@@ -75,8 +75,7 @@
 }
 
 .PopupModal-module__H8slma__body {
-  color: #282c34;
-  background-color: #f7f7f7;
+  background-color: #0d1117;
   padding: 30px;
   font-family: Monaco, Menlo, Ubuntu Mono, monospace;
   font-size: 14px;
@@ -86,11 +85,21 @@
 
 .PopupModal-module__H8slma__pre {
   white-space: pre-wrap;
+  border-radius: 6px 12px 12px 6px;
   margin: 0;
+  padding: 5px;
 }
 
 .PopupModal-module__H8slma__code {
-  color: #282c34;
+  font-family: sans-serif;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__jsCode .PopupModal-module__H8slma__code {
+  color: #cbcb41;
+}
+
+.PopupModal-module__H8slma__body.PopupModal-module__H8slma__cssCode .PopupModal-module__H8slma__code {
+  color: #cf1666;
 }
 
 /* [project]/src/components/GridCards.module.css [client] (css) */
@@ -160,19 +169,12 @@
 }
 
 /* [project]/src/components/1_Todo_List_2/styles/Todo.module.css [client] (css) */
-.Todo-module__oGceqG__no1_Todo_List_2 {
-  background-color: #4a536b;
-  border-radius: 1rem;
-  margin: 2.5rem;
-  overflow: auto;
-}
-
-.Todo-module__oGceqG__no1_Todo_List_2h1 {
+.Todo-module__oGceqG__no1_Todo_List_2 h1 {
   color: #ff9a8d;
   text-align: center;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert {
   background-color: #aed6dc;
   border-radius: .5rem;
   margin: 0 3.5rem .5rem;
@@ -181,32 +183,32 @@
   overflow: auto;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div {
   float: left;
   display: inline-block;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div:first-of-type {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div:first-of-type {
   margin-right: .5rem;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div p {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div p {
   color: #4a536b;
   margin: .4rem 0;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div input {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input {
   border: none;
   padding: .2rem;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div input:focus {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: none;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert button {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert button {
   float: right;
   color: #ff9a8d;
   clear: none;
@@ -217,7 +219,7 @@
   font-weight: 900;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
   color: #4a536b;
   cursor: default;
   background-color: #eee;
@@ -230,14 +232,14 @@
   left: .8rem;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
+.Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
   cursor: pointer;
   margin: -.1rem 0 0 .3rem;
   padding: 0 .5rem;
   font-size: 1em;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems {
   background-color: #aed6dc;
   border-radius: .5rem;
   margin: 0 4rem .8rem;
@@ -245,22 +247,22 @@
   overflow: auto;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems div {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div {
   float: left;
   width: 82%;
   display: inline-block;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems div h1 {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div h1 {
   text-align: left;
   margin: .5rem 0;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems div p {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div p {
   margin: .25rem 0;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button {
   float: right;
   background-color: #0000;
   border: none;
@@ -270,7 +272,7 @@
   position: relative;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button:before {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button:before {
   -webkit-font-smoothing: antialiased;
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
@@ -286,27 +288,27 @@
   left: .38rem;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt {
   color: red;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt:before {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__dlt:before {
   content: "";
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp {
   color: green;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp:before {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__comp:before {
   content: "";
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und {
   color: orange;
 }
 
-.Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und:before {
+.Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button.Todo-module__oGceqG__und:before {
   content: "";
 }
 
@@ -315,41 +317,41 @@
     margin: 2.5rem 1rem;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert {
     background-color: #0000;
     margin: 0 0 .5rem;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div {
     float: none;
     display: block;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div:first-of-type {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div:first-of-type {
     margin-right: 0;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div p {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div p {
     float: left;
     clear: left;
     color: #aed6dc;
     margin-right: 1%;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div input {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input {
     float: right;
     width: 78%;
     margin-top: .2rem;
     padding: .3rem .2rem;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert div input:focus {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert div input:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert button {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert button {
     clear: both;
     cursor: pointer;
     background-color: #aed6dc;
@@ -359,26 +361,26 @@
     display: block;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span {
     width: 90%;
     height: 2rem;
     padding: 3.5% 1.5%;
     top: 1rem;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2#Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
+  .Todo-module__oGceqG__no1_Todo_List_2 #Todo-module__oGceqG__TodoInsert .Todo-module__oGceqG__TodoInsert__span button {
     background-color: #0000;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems {
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems {
     margin: 0 2rem .8rem;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems div {
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems div {
     width: 100%;
   }
 
-  .Todo-module__oGceqG__no1_Todo_List_2.Todo-module__oGceqG__TodoItems button {
+  .Todo-module__oGceqG__no1_Todo_List_2 .Todo-module__oGceqG__TodoItems button {
     margin: .5rem;
   }
 }
@@ -8784,7 +8786,7 @@
 }
 
 /* [project]/src/components/2_React_Firebase/components/Auth/account.module.css [client] (css) */
-#account-module__5DbHFW__account {
+.account-module__5DbHFW__account_2 {
   color: #1d1d1d;
   place-content: center;
   height: 100vh;
@@ -8793,12 +8795,12 @@
   display: grid;
 }
 
-#account-module__5DbHFW__account h1 {
+.account-module__5DbHFW__account_2 h1 {
   margin-bottom: .8rem;
   position: relative;
 }
 
-#account-module__5DbHFW__account h1 span {
+.account-module__5DbHFW__account_2 h1 span {
   font-size: 42%;
   position: absolute;
   bottom: -.5rem;
@@ -8814,7 +8816,7 @@
   padding: 3rem;
 }
 
-#account-module__5DbHFW__account button {
+.account-module__5DbHFW__account_2 button {
   margin-top: 2rem;
 }
 
@@ -8827,21 +8829,21 @@
   padding: 3rem;
 }
 
-#account-module__5DbHFW__account form {
+.account-module__5DbHFW__account_2 form {
   flex-direction: column;
   display: flex;
 }
 
-#account-module__5DbHFW__account form label {
+.account-module__5DbHFW__account_2 form label {
   text-align: left;
 }
 
-#account-module__5DbHFW__account form input {
+.account-module__5DbHFW__account_2 form input {
   border: 1px solid #333;
   margin-bottom: 1rem;
 }
 
-#account-module__5DbHFW__account .account-module__5DbHFW__form__error {
+.account-module__5DbHFW__account_2 .account-module__5DbHFW__form__error {
   color: red;
   font-size: .8rem;
   font-weight: 300;
@@ -9054,8 +9056,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* [project]/src/components/2_React_Firebase/components/Item List/itemList.module.css [client] (css) */
 .itemList-module__a_ZrOG__item-list {
-  width: 70%;
+  width: 90%;
+  height: inherit;
   margin: 3rem auto 0;
+  overflow: auto;
 }
 
 @media (max-width: 786px) {
@@ -9065,7 +9069,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 /* [project]/src/components/2_React_Firebase/components/Navbar/navbar.module.css [client] (css) */
-#navbar-module__nCYhGG__nav {
+.navbar-module__nCYhGG__nav_2 {
   background-color: #82eac6;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -9075,13 +9079,13 @@ input[type="number"]::-webkit-inner-spin-button {
   display: flex;
 }
 
-#navbar-module__nCYhGG__nav a {
+.navbar-module__nCYhGG__nav_2 a {
   color: #333;
   margin-right: 1.5rem;
   text-decoration: none;
 }
 
-#navbar-module__nCYhGG__nav h2 {
+.navbar-module__nCYhGG__nav_2 h2 {
   margin-right: 30rem;
 }
 
@@ -9149,20 +9153,39 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .TemplatesCards-module__RtTiLq__grid {
+  flex-flow: wrap;
   gap: 30px;
   max-width: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr !important;
+  display: flex;
 }
 
 .TemplatesCards-module__RtTiLq__card {
-  cursor: pointer;
   background-color: #fff;
   border: 1px solid #282c341f;
   transition: all .2s;
   overflow: hidden;
   box-shadow: 0 2px 8px #282c3414;
+}
+
+.TemplatesCards-module__RtTiLq__cardFull {
+  width: 100% !important;
+}
+
+.TemplatesCards-module__RtTiLq__cardNotFull {
+  width: calc(33.3333% - 21.6667px) !important;
+}
+
+@media screen and (max-width: 820px) {
+  .TemplatesCards-module__RtTiLq__cardNotFull {
+    width: calc(50% - 16.25px) !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .TemplatesCards-module__RtTiLq__cardNotFull {
+    width: 100% !important;
+  }
 }
 
 .TemplatesCards-module__RtTiLq__card:hover {
@@ -9177,6 +9200,7 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 200px;
   padding: 20px;
   display: flex;
+  overflow: auto;
 }
 
 .TemplatesCards-module__RtTiLq__body {
@@ -9185,22 +9209,34 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .TemplatesCards-module__RtTiLq__title {
   color: #282c34;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
   margin: 0;
   font-family: Monaco, Menlo, Ubuntu Mono, monospace;
   font-size: 18px;
   font-weight: 500;
+  display: flex;
+  width: fit-content !important;
 }
 
-.TemplatesCards-module__RtTiLq__titleSmall {
+.TemplatesCards-module__RtTiLq__titleSmall, .TemplatesCards-module__RtTiLq__codeButton {
   background-color: #282c34;
   border-radius: 4px;
-  margin: 8px 0 0;
   font-family: Monaco, Menlo, Ubuntu Mono, monospace;
   font-size: 14px;
   font-weight: 500;
   color: #b9caec !important;
   width: fit-content !important;
   padding: 2px 6px !important;
+}
+
+.TemplatesCards-module__RtTiLq__titleSmall {
+  margin: 8px 0 0;
+}
+
+.TemplatesCards-module__RtTiLq__codeButton {
+  cursor: pointer;
 }
 
 /* [project]/src/components/TabsPage.module.css [client] (css) */

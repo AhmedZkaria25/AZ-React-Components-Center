@@ -1,5 +1,5 @@
 /* [project]/src/components/2_React_Firebase/components/Navbar/navbar.module.css [client] (css) */
-#navbar-module__nCYhGG__nav {
+.navbar-module__nCYhGG__nav_2 {
   background-color: #82eac6;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -9,13 +9,13 @@
   display: flex;
 }
 
-#navbar-module__nCYhGG__nav a {
+.navbar-module__nCYhGG__nav_2 a {
   color: #333;
   margin-right: 1.5rem;
   text-decoration: none;
 }
 
-#navbar-module__nCYhGG__nav h2 {
+.navbar-module__nCYhGG__nav_2 h2 {
   margin-right: 30rem;
 }
 

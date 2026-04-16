@@ -9,9 +9,9 @@ export const AuthProvider = ({children}) =>{
 
     useEffect(() => {
         const unSubscribe = auth.onAuthStateChanged(user => {
-            setUser(user);
+            setUser(user ?? null);
             setLoading(false);
-            console.log(user);
+            console.log(user ?? null);
         })
 
         return unSubscribe;
@@ -21,7 +21,7 @@ export const AuthProvider = ({children}) =>{
     if(loading){ return <p>Loading ....</p> }
 
     return(
-        <AuthContext.Provider value={ {user} }>
+        <AuthContext.Provider value={ {user: user ?? null} }>
             {children}
         </AuthContext.Provider>
     )

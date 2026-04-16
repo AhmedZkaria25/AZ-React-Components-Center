@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/Developer/React/Projects/A-Liberary/AZ-React-Components-Center/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app'\r\nimport { useEffect, useState } from 'react';\r\nimport { BrowserRouter } from 'react-router-dom'\r\n \r\nexport default function App({ Component, pageProps }: AppProps) {\r\n  \r\n  const [isClient, setIsClient] = useState(false);\r\n\r\n  useEffect(() => {\r\n    setIsClient(true); // This only runs in the browser\r\n  }, []);\r\n\r\n  if (!isClient) return null; // Or a loading spinner\r\n\r\n  return <BrowserRouter>\r\n    <Component {...pageProps} />\r\n  </BrowserRouter>\r\n}"],"names":[],"mappings":";;;;;AACA;AACA;;;;AAEe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAE5D,MAAM,CAAC,UAAU,YAAY,GAAG,IAAA,+GAAQ,EAAC;IAEzC,IAAA,gHAAS,EAAC;QACR,YAAY,OAAO,gCAAgC;IACrD,GAAG,EAAE;IAEL,IAAI,CAAC,UAAU,OAAO,MAAM,uBAAuB;IAEnD,qBAAO,qKAAC,mNAAa;kBACnB,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAE5B"}}]
+}

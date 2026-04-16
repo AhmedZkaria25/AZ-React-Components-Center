@@ -1702,9 +1702,9 @@ const AuthProvider = ({ children })=>{
         "AuthProvider.useEffect": ()=>{
             const unSubscribe = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$2_React_Firebase$2f$Firebase$2f$Firebase$2e$js__$5b$client$5d$__$28$ecmascript$29$__["auth"].onAuthStateChanged({
                 "AuthProvider.useEffect.unSubscribe": (user)=>{
-                    setUser(user);
+                    setUser(user ?? null);
                     setLoading(false);
-                    console.log(user);
+                    console.log(user ?? null);
                 }
             }["AuthProvider.useEffect.unSubscribe"]);
             return unSubscribe;
@@ -1722,7 +1722,7 @@ const AuthProvider = ({ children })=>{
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AuthContext.Provider, {
         value: {
-            user
+            user: user ?? null
         },
         children: children
     }, void 0, false, {
@@ -1792,7 +1792,7 @@ const UserAuth = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                         children: [
                             "Welcome ",
-                            user.email
+                            user?.email
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/2_React_Firebase/components/Auth/UserAuth.js",

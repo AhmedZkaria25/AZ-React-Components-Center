@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 // import { Link, useHistory } from 'react-router';
 import { Link } from 'react-router';
 import { auth } from '../../Firebase/Firebase';
-import './account.module.css'
+import styles from './account.module.css'
 
 const initialState = { email: '', password: '' };
 
@@ -34,36 +34,36 @@ const Login = () => {
   };
 
   return (
-    <div id="account">
+    <div className={styles.account_2}>
       <h1>User Account <span>using firebase authentication</span></h1>
-    <div className="login">
-      <h1>Login Page</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input
-          type="text"
-          value={input.email}
-          autoComplete="off"
-          onChange={handleChange}
-          name="email"
-        />
-        
-        <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          value={input.password}
-          autoComplete="off"
-          onChange={handleChange}
-          name="password"
-        />
-        
-        <button type="submit">Submit</button>
-        <p className="form__error">{error}</p>
-      </form>
-      <p>
-        Not a user? <Link to="/signup">Sign Up</Link>
-      </p>      
-    </div>
+      <div className={styles.login}>
+        <h1>Login Page</h1>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="email">Email</label>
+          <input
+            type="text"
+            value={input.email}
+            autoComplete="off"
+            onChange={handleChange}
+            name="email"
+          />
+          
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            value={input.password}
+            autoComplete="off"
+            onChange={handleChange}
+            name="password"
+          />
+          
+          <button type="submit">Submit</button>
+          <p className="form__error">{error}</p>
+        </form>
+        <p>
+          Not a user? <Link to="/signup">Sign Up</Link>
+        </p>      
+      </div>
     </div>
   );
 };
