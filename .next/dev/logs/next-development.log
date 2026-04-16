@@ -741,3 +741,4 @@ Import traces:
 [03:01:54.232] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
 [03:06:15.068] Server  LOG     ✓ Compiled in 125ms
 [03:11:32.520] Server  LOG     ✓ Compiled in 1355ms
+[05:58:05.357] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
